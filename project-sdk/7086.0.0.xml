@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="58f831168f75a73d14a879ed7af5a375628d3ae2">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/master" sync-j="8"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromium/tools/depot_tools" revision="b6795643ec0305ba2ff862fcd0f450756aa5e58c"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/chromite" path="chromite" revision="1e9abd704f20861326aea46d934afdf45f5f104b" upstream="refs/heads/master">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="552262cb45b481fc64b2a49f0b975467be48e74a" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="3ed0187efd91c99569ffc56b7662791243a7a4b5" sync-c="true" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="5399573f44f799aec90b24fc8f64844ee0b43e06" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="96b8ae66a3cc792487fd4dfb616e05f047afd132" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="a47fa86828c44832f2f4386ebaf7b51963275272" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="aa15f14811bd43612c8d486e6bd271b7c5305812" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="d4eac3b66d933bcf59d743aa5f60ca4315e29033" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory" path="src/platform/factory" revision="2d222486289267def236ce85944b947f5e972314" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="d40bf94d7bbbfbf124817288d85f16701c0ba246" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="de8efea4fb9b7342eb6d4cd5773c487e19633cae" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+    <annotation name="branch-mode" value="pin"/>
+  </project>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/master-0.22"/>
+  <project groups="project_sdk" name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="033b4ab154a94d9d99046914a467ce3475e605a7" upstream="refs/heads/master-0.3.13"/>
+  <project groups="minilayout,project_sdk,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" revision="27f03da8d26f0be8ab26fb39847d1d456681936b"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>

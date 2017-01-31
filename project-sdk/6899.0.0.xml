@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="7426ff945efe6700ec2bd2442f3707ec4e41f8b4">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/master" sync-j="8"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromium/tools/depot_tools" revision="b6795643ec0305ba2ff862fcd0f450756aa5e58c"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/chromite" path="chromite" revision="5de4494b485c25ec7bc7aff111f3a426eb854126">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="95b393a4dcd7d0433953df2512dbaa1a74c3c71f"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="a6d13dd96c1ab53e9b954d77a9e2414ab3bdb4f0" sync-c="true"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="b1dc0ce90889f657cc286caca9102cbf375b3c0a"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="616e9e4195d1ebe6d13fca9aeb4a74db087e9450"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="680a4f074d8222b99d15d84fc78537b7e9684663"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="ce3587ce5a9b6b57423a545feabc142e7ec94aea"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="896c6d82652b7617ce18e6b771d2ccab72d4e03d"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory" path="src/platform/factory" revision="a3c29786d75b2418eb1f30ad023c250144826e1f"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="d40bf94d7bbbfbf124817288d85f16701c0ba246"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="3554bc95db1401f8cf0e94a9991700d28b4b1f2f"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="6e6fb2c10ceb6c18283328f214d2efb1ea50aa8d"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.4" revision="2622f09316ab4fa2f979a22bc351bc56e0b73a92"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="7659a8fb803b55f2b21fd191605d28edbaa8325a"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="6a5bd0e81b6bfc3a578c8ba422fafa275f40273c"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="96b27c117496dc8ec885e4cbff39346e7aa57a6e"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/v3.18-experiment" revision="b2776bf7149bddd1f4161f14f79520f17fc1d71d"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae"/>
+  <project groups="project_sdk" name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c"/>
+  <project groups="project_sdk" name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="01be6f54a8f93e45c5b3940efea880791e6859d0"/>
+  <project groups="minilayout,project_sdk,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" revision="27f03da8d26f0be8ab26fb39847d1d456681936b"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>

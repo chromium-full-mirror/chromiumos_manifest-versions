@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="7426ff945efe6700ec2bd2442f3707ec4e41f8b4">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/master" sync-j="8"/>
+  <project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" revision="c2eb27ec410105b44c278e3cae517f9c01e8d9c2" upstream="refs/heads/master"/>
+  <project name="chromium/src/components/metrics" revision="98a769a9a70b2ff0dbcf4962c5d79b29a60c8860"/>
+  <project name="chromium/src/third_party/hwcplus" revision="e66a31e54e12906e86dc59f95b458889f025c505" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromium/tools/depot_tools" revision="b6795643ec0305ba2ff862fcd0f450756aa5e58c"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/chromite" path="chromite" revision="67120a486d0111c9e9a322010c0947b006079b52" upstream="refs/heads/master">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project name="chromiumos/manifest" path="manifest" revision="59047477885166a3814368b3763f568565aa940a" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="6945d2165e6dbd3aa6bcf67ade6fb3817e12a547" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="4f38f76dd85d83d1b000c51aaab7db1d3122716d" sync-c="true" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="b1dc0ce90889f657cc286caca9102cbf375b3c0a" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="616e9e4195d1ebe6d13fca9aeb4a74db087e9450" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/assets" path="src/platform/assets" revision="ebb6e7be73b5d91d2ec4fa00df1e14ae096d7f80" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="98d53174639518ccb46055b5e3b539725d516f77" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="790f0977da667ef1e643d4c99b29624de03d9184" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="1b65449a647c99556511df30b8ab660b98acce7f" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="be82d37234adba890d41ad8c20665592c23bcbe3" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="05ce8d3c59a2d8e765b3beb2e1a69e7fcf59e5ba" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="680a4f074d8222b99d15d84fc78537b7e9684663" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="ce3587ce5a9b6b57423a545feabc142e7ec94aea" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="c49ce427be0a0383dfae1fd25ce347a971cbd960" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="896c6d82652b7617ce18e6b771d2ccab72d4e03d" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="95226da21f91c20853a47d30e86c38e93db55977" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="2c3cf4d1a9d6ed732985ea495e8ebfe1d09a916b" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory" path="src/platform/factory" revision="a3c29786d75b2418eb1f30ad023c250144826e1f" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="d40bf94d7bbbfbf124817288d85f16701c0ba246" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="fa2645445f324bd08be73472339a5cd7e21e7574" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="13616515b15f84ee51dca21cf3ab0ae7efe01527" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="567f000731a273702087830a14d2100f2ba3b429" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/glbench/images" path="src/platform2/glbench/images" revision="5fd5ce655833f65d46b1950bec4eedeb4e96959b" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="02dfbb4ebfe9a01be464fb342277d198c59e86ce" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="95590fd95124f635579927b23db69a5551dd1678" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="2582f80597cd1bc08cbc0987147e59c5fe7e5cb9" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="5ee665e7c68856d3b6ce8bb0f610d43503e603af" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="4f5d5054d09d98b823556988bd1690ec3a4bee5e" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="39885d0ba23b341649e75e09747a194e891aa757" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="de93efd0efdb76808a7a53f3cfb629e61de87149" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="e0ad79b91dda165300bca3b6d7cddf4dcc4b56bb" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="d3a744b658e439df308373b92b03cae56bafd581" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="0a390ded3be8ca325afb7cbcd72694462111718b" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="a48d1f674b53deac8b486c1acf2dd8b9ffd830c2" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="296a635279101d8e5b36335f9b0c6f32759d5186" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="173396cf8bffdf78b868b78370115b3f6eab3a08" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="317cfa3b9ef48a8e95c56d88f19af6e9d3b36368" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="ed4e9acf51021763f8723e6a8d6e798ada8fc914" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="0e6edcb104cb024d32fbcee052925ca98bde5bf8" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="502bd6f7be115a091b5947871f08c20741a78c87" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="4ba5bdf1e97f196fb0f68e5f824bab6d13c5dde1" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/master"/>
+  <project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="f80ceeb432b880ad8af8bcd1f4fa07f03ee4a8e6" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="527e62d72a805fabbdd4727b608d508c623fa5f2" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="19193561e2eacde9fb4424d074960d7d6984efd2" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="4f2fd0fa141da89db12608c45fa370a3d1711fcf" upstream="refs/heads/master"/>
+  <project name="chromiumos/platform2" path="src/platform2" revision="384bc55ddfe9bfa3666b0bda26e9adf47569c336" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="3554bc95db1401f8cf0e94a9991700d28b4b1f2f" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="58ce2f4836f725ab16a122bfad83e156869f9654" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="chromeos"/>
+  <project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/master"/>
+  <project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="e89cb2523b3761820ea271cd7a42417117cfa6b3" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="058f3488e0d69e1a5004cd89c9be7c9c6e3f2060" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="3f55ded95cd8b9153801e31d91251a0903021fa0" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="3ca0174e93ad131309ad07187c95c1e84c7d4fc5" upstream="refs/heads/chromeos-2013.04"/>
+  <project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty" revision="5f33d05693f14d13a532b465ac01bfcc6134cb61" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="3182aa85c087446e4358370549adc45db21ec124" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="f140c0aa430e1db1c0f31d23d3eb2397d47f209e" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="cb7c4b234dfde7666c168fb5836d87150904ca68" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="6e6fb2c10ceb6c18283328f214d2efb1ea50aa8d" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/chromeos-2014.04"/>
+  <project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="aaaf66654dba797f152066df4d1dc4144b492c66" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="04ca1179d5a9e1d94fe6b50384f06549c3ce4a47" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="9dd69ae57a42413499bad5159bb77c55302d94e6" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="bb7254e8928e88ae3b19f6bf45b2cf22a9e8c3cb" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="88126a88e240ab18730163ea0f5d0b775247ac23" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/hwcplus-drm" path="src/third_party/hwcplus-drm" revision="7376a8da1c961115a61d7a3cb23bb13e4153583d" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.4" revision="2622f09316ab4fa2f979a22bc351bc56e0b73a92" upstream="refs/heads/chromeos-3.4"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="7659a8fb803b55f2b21fd191605d28edbaa8325a" upstream="refs/heads/chromeos-3.8"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="6a5bd0e81b6bfc3a578c8ba422fafa275f40273c" upstream="refs/heads/chromeos-3.10"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="96b27c117496dc8ec885e4cbff39346e7aa57a6e" upstream="refs/heads/chromeos-3.14"/>
+  <project groups="project_sdk" name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/v3.18-experiment" revision="b2776bf7149bddd1f4161f14f79520f17fc1d71d" upstream="refs/heads/chromeos-3.18-experiment"/>
+  <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="9bbcbaccf771c4bc2fe66459af40b0e7414d8674" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="116e1e258eff0616b2a4f72f1323ef28399e2bfb" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="ca4fa834b39887f4172b0c389c4547c8a2b4c9b2" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="c47545dc1b9cde67e87606321306422056183807" upstream="refs/heads/chromeos"/>
+  <project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/chromeos"/>
+  <project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="8a110ab1ea46d89d36a610e4249fe1eabed27757" upstream="refs/heads/chromeos"/>
+  <project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="f6e383a6523772e70ee3e6f615872940652fc882" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="ffe421f6035b8886d01d7bd7ae755c5c2daf61f2" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="4290bd545748cae9e3abad8113dcf4f6dc82e840" upstream="refs/heads/chromeos-20150119"/>
+  <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="aa22c073d4688ba08c0bd31d9803217db25687bc" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/mesa-img"/>
+  <project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="eb1cd019c6ad425633a509ab3578e59d5c9ebbc5" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="051d75133313369f1962d2a984da05469b069e74" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="7d5367e2a8618718e90274ae920bc6f406b59b9e" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/master-0.22"/>
+  <project groups="project_sdk" name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/chromeos-2014.11.03"/>
+  <project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="5175004c2560dc3955abe45e442180fd1df0d720" upstream="refs/heads/master"/>
+  <project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/master"/>
+  <project groups="project_sdk" name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="01be6f54a8f93e45c5b3940efea880791e6859d0" upstream="refs/heads/master-0.3.13"/>
+  <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="285735121461f2375769303bb9c72cb5f3b70d62" upstream="refs/heads/chromeos-v2013.06"/>
+  <project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="30370e9dbf7ba0e457ee7de297d2ad6c269a00be" upstream="refs/heads/master"/>
+  <project groups="minilayout,project_sdk,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" revision="27f03da8d26f0be8ab26fb39847d1d456681936b"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+<pending_commit branch="master" change_id="I162758e3738dd41acd803a1720bce994b0958c61" commit="4287c8e18f1fcde73f616863d829bee3a5f2c055" fail_count="0" gerrit_number="261180" owner_email="dpursell@chromium.org" pass_count="0" patch_number="5" project="chromiumos/chromite" project_url="https://chromium-review.googlesource.com/chromiumos/chromite" ref="refs/changes/80/261180/5" remote="cros" total_fail_count="0"/><pending_commit branch="master" change_id="Ie9dc29585810206eed0e386fa056ceffdf9289a3" commit="bcbfeae1c2c9f24476328b476e7824726d8dd547" fail_count="0" gerrit_number="261181" owner_email="dpursell@chromium.org" pass_count="0" patch_number="5" project="chromiumos/chromite" project_url="https://chromium-review.googlesource.com/chromiumos/chromite" ref="refs/changes/81/261181/5" remote="cros" total_fail_count="0"/><pending_commit branch="master" change_id="I91bf24cce6f706736ecc2441bc005c8c1cd4c2b3" commit="90b79bcabc57aa2e32be4125f02041d7f525ba50" fail_count="0" gerrit_number="261182" owner_email="dpursell@chromium.org" pass_count="0" patch_number="5" project="chromiumos/chromite" project_url="https://chromium-review.googlesource.com/chromiumos/chromite" ref="refs/changes/82/261182/5" remote="cros" total_fail_count="0"/><pending_commit branch="master" change_id="I70c783f40e207090c5babf7ac149543613c8817e" commit="d7b277534291c7f1052928a13d8a4ba035917ac5" fail_count="0" gerrit_number="261183" owner_email="dpursell@chromium.org" pass_count="0" patch_number="7" project="chromiumos/chromite" project_url="https://chromium-review.googlesource.com/chromiumos/chromite" ref="refs/changes/83/261183/7" remote="cros" total_fail_count="0"/><lkgm version="6903.0.0-rc6"/></manifest>
