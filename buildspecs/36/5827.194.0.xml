@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="12f4ab64f44f227f2cf34efcc78a7d743ec0490b">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/firmware-mccloud-5827.B" sync-j="8"/>
+  <project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="40240d6f1c1560d1851c217cecada93050e2db0e"/>
+  <project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="9ec50ead1b4b8c5f2efd7e1f4ed03d2f9bc60355" upstream="refs/heads/firmware-mccloud-5827.B">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project name="chromiumos/manifest" path="manifest" revision="a14058857c9c0762ed78ff9ff80d69eb1ce6250c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="6738c648bdd90b346d42cc082ff508ade59fccd2" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="54bca1170035b044b0c7162caabd095d267e365c" sync-c="true" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="64fbfcc143822fb2ceea9a075752291ba35fa7de" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="c33861df9379f6ab1aaf36275c095eeba250d496" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/assets" path="src/platform/assets" revision="5e9e6ccef8a74341dae53b342cc8afb968490b92" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="1c55a4d3426758ffeef1cbd5abceefdb9bc3e4de" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/autox" path="src/platform/autox" revision="0e87afb2d4f6cef2b5ecca593e21117a5e9379a0" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/bootstat" path="src/platform/bootstat" revision="46c9cb748c3819f56e46c32ef1ac852542cf1395" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="06c4626e7b09e70876c3d4bb917bc75cc5d39639" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="c029a2b974e8927b0b450fadafbedae9253e847b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/chaps" path="src/platform/chaps" revision="67013883b3465c684f60f7714499020441ad003e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="f91b983c430f2e7ce125fda8704d094616d24a0c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/chromiumos-wide-profiling" path="src/platform/chromiumos-wide-profiling" revision="b66806ed4765c22021c0c4fbd8c41617969cf9d3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/common-mk" path="src/platform/common-mk" revision="1b159c95938f22b90f0c7179bdbad5590ab45e54" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/crash-reporter" path="src/platform/crash-reporter" revision="5ad23f815666f395819b44db1aef8fce2e03dc4b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/cromo" path="src/platform/cromo" revision="3762643003521f67d77de190d2fe112c1877f452" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/cros-disks" path="src/platform/cros-disks" revision="6115d30087a40a543b4660f7f3916aadbf13836a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/cros_boot_mode" path="src/platform/cros_boot_mode" revision="febdced869b7b5fd5d9d19ff41e9548f5268673f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/crosh" path="src/platform/crosh" revision="d2c3d70b17f4e4abc86c540bbfbc9063c64063a3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="ca15bda5f1aaca7e02f22d7d881326424469e884" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="706e842c783590fdb8dadbdee719a04937c1c98e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/cryptohome" path="src/platform/cryptohome" revision="c75ba409aa711c9a863e3a8f3f69b29d1050ee6c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/debugd" path="src/platform/debugd" revision="e3d233f3703de32a529a4fd45fe757726db82da2" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="9f94f9fb52d3027edb23142e67efb9abcdd7eaf3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="accb2e5a52756926fdebf33be6f7275e5f53fa88" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/disk_updater" path="src/platform/disk_updater" revision="25a759faa5bb60fe7c141d17d26ea27ba5216eca" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="91c81fcf0eb8be225ffb77e05d5442b151228f40" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="b0d1d116556244732752c9c3653560047dd5b28a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/factory" path="src/platform/factory" revision="43256aa186e40ff7ca5b84e1adc7d183aeaa22ed" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="f2e4d8c1e0753c385f34d7be8b3f4ceb3ab17abe" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="fc195c4e5b63b0e61a201bb29163dc2f8646159a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/factory_test_init" path="src/platform/factory_test_init" revision="e55b2252689330c9532ba9ec345c61b4d1766223" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="f172121ee12b58eb286cd4f101a0d838f5eb787f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="7be46d67af3cf06208d6d65ec215e6baabc9b63a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/gobi-cromo-plugin" path="src/platform/gobi-cromo-plugin" revision="9bb302b1da3c59b625ca0229634f337dcb3c795c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="53d08cee9c5c1eb4dd0be8f0b0e6819c764bce4e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/image-burner" path="src/platform/image-burner" revision="47e52cfdc5d5c89dc141d9d3efce66ca487b2a5f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/init" path="src/platform/init" revision="655189a755d09e3071a3ba41f8fecf92ffef5a8c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="34bbf8f66b2d4d090d755cfd6388ff0330470fd8" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="0fd600ecbefe664a302b84f8a568129edae3ad72" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout" name="chromiumos/platform/installer" path="src/platform/installer" revision="006a172e49438ff4e789027f57384c9fce31f47a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="961a02f35b555ebc85192650a5f3fb9aa782e204" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/libchromeos" path="src/platform/libchromeos" revision="4b1b4c2d61e7b93cdfd48d309fcfe62246281710" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="8cb858aa11ea203f4c3affa6ee635aefe0d1c3e4" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/login_manager" path="src/platform/login_manager" revision="09162abb3f30fde4679c98ae806f4fca1d1c83a7" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/lorgnette" path="src/platform/lorgnette" revision="eb1a6ee2bfeeaf79f739c9a9e819b29a4df0e10f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="ff9fa939470a3c94f79381ad0002b1fc132eeb7b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/metrics" path="src/platform/metrics" revision="56089eada41554793fbcb2980900f760058f5fb1" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="18d1eba3361767fa24ffdb696eca8643faa71816" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/mist" path="src/platform/mist" revision="94c4eee41b8539cc35d0f97cf83911e3d62012a7" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/modem-utilities" path="src/platform/modem-utilities" revision="599fccb17f675dca6a3a14b347b765de482908ea" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="2c0d3f202e119b259da4a8825cca3acb2ade2fe6" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="be27eec2765fccbef46de2648f55bc8f34f74d57" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="3347d5f0b49b44e335e90129e983997d69d04a49" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/p2p" path="src/platform/p2p" revision="23bfff5d7249fe5429fa9fba4dc0f39ba4d9d791" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/permission_broker" path="src/platform/permission_broker" revision="879ba9a669b416c7b9be06f255aa0b18e2cf237e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/power_manager" path="src/platform/power_manager" revision="7477e8063c5cc5fa87120322e7d20d1186165ef4" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="94a3092ca5930258306898bb96a87fc57521e24d" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/salsa" path="src/platform/salsa" revision="c0baaffe08439b3a1068154ac97aa23e1c13415e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/shill" path="src/platform/shill" revision="62e4001cd9696285371eea795c689d9b62357fe2" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/smogcheck" path="src/platform/smogcheck" revision="a3633b1f3ba298fc09e64baa64037b62c2918c31" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/speech_synthesis" path="src/platform/speech_synthesis" revision="4f71f3ea09e27358a7f0fa911d0b84a3f81f9ffe" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/spigots" path="src/platform/spigots" revision="00e0bfe49470d3e6344dd9fc18123b6f1df086b1" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/suggest" path="src/platform/suggest" revision="175a1aac77e00370dcb77406d5ac3ab70b269ba6" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="081f38e473bd7f00ef0696a5c3abdf519b5f2f3a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/theme" path="src/platform/theme" revision="2953d00e3ade5dcf756f93dd3b12875cdf0b5f02" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="4612bbe8f128591fe9c2b08280e91802227c0957" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="786593c9d77481e06e091daac62cb121e6732671" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="b2ebcb6cce916da1593135933ac88bb5bea73455" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="75faadd84ad65d82d84905c95b41825786462e79" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="873e06da4015d0c0bfcb2565f4d5890a3d832145" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/update_engine" path="src/platform/update_engine" revision="7e8ac06833aba4d851257fe287b38c98af4e226b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/userfeedback" path="src/platform/userfeedback" revision="e322cf5393d49209ff6f03765dd8200e19b39e95" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="850b74fa19f6eadd1d3221f484c738f41f993653" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="fe84138c901532302177d028436992ba36d5fa94" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/vpn-manager" path="src/platform/vpn-manager" revision="a190ef1968f6069f0b4fab97c289ddd6817bb78f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/wimax_manager" path="src/platform/wimax_manager" revision="2b93164aa95a8c6084eaa276875cf70044824dc1" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="ab60eb6f913a1fb594ecbcb6c28006de345fe8b0" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="c8b0b19946970ac85581fcc2c4ebbd6411e73f68" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/xnu_quick_test" path="src/platform/xnu_quick_test" revision="5d49db0d1e627a60c3d7de8982281fe5a28272f8" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="ee854b446c8ea55781218db99400fb97318681a6" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/platform2" path="src/platform2" revision="cdc19574b4aa78b5e4039213a472ea162c9a367b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="0e8fc7fbb3c40ee3b0c400c2dd2904518954b410" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="65fa8353f37f8c58ab37f938f34d07696d1b2825" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="cee4a160e3fbd0cb960eada7b93a357946916b96" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="965d52bc3caa2ac91d609e123e7051435980dfff" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="65bfee792f55936c4d4a967cc8d964da9524e2f3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty" revision="b5a8ca7e5cac7c4559cc928abc02db3cb8799946" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="9c023cf430f680093f64c5946021c04f9c4d40f4" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="604df69ed3e7a528be9a91ca7be0fa2b9b180166" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="d0771404e5c1118c95a175b9a0927189669e6235" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="699e98cf6f69f1b516f07ed45c2b942074775ccc" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="9b1ab4798a7285c56ba8089de786eb6c5a74f0b9" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="38c6bf0e11e5b987cd0a3cdd00089ffae86c32e0" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/glibc-ports" path="src/third_party/glibc-ports" revision="8a70b2dcabbfaae8e027f8aacb3168ffbfcba5d5" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="612090b4d856bda80d5879aa244069fe622d5c56" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="48dc9007124682e7d2b5dd3d34f21c1915825560" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="c9882ebb18a26b45d6f895941f068d4b019a9ca5" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/files" revision="d4d4a9db244c71f1aa08286765e4618af7279bc3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel-next" revision="1a8e6ba6591c8999ace3de9a6a8439957a4fe71f" upstream="refs/heads/firmware-mccloud-5827.B-chromeos-3.8"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/3.10" revision="988fb908137baa8cb21ae8b88b7ee5691385a724" upstream="refs/heads/firmware-mccloud-5827.B-chromeos-3.10"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/3.14" revision="f69ca73b721613aba4bc9bf926c947f34f17fa58" upstream="refs/heads/firmware-mccloud-5827.B-chromeos-3.14-experiment"/>
+  <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="b0f9be2cdea655b75d9cadab22f04333ebaf5e9e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="52d09bd25a02b3866aba1bb492f36a2d851d6472" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="3d77530aec0e03d7559aa66d31a65fbbe5d84e73" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="0d38dd20e8217282604401ff9c12ac04ad6e41ec" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="8282722799dc97f0d240c28e510b6add4fc5f530" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="9b1c4c76af823c5e624078582f032854179a3ef8" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="e42244c434bdd05b734432d589b379a48ee26706" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="8287262d208c079d21c196d250eb8b193063c18e" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="cbecd958a7e36736a4447ebe65e5017e5c0ea4a0" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="9d57aa75ad972660e36d37431dc27da7193f6caa" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/mobile-broadband-provider-info" path="src/third_party/mobile-broadband-provider-info" revision="384113babd5589719d0e47a4535ce66ce9e55fbf" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="1b599950e5bf22c762180ab74d805f7ee858c588" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="03cdddd3e6603b1b2b834ee8ecbe428684ed4d93" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="dc7812ea479304c309456c08c0f50e26d0e83f6c" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="7d9288a0745aa50dbcb0bb692241f0eee679254b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="ef0e0b54568a8af29c07b868afe1fe4c772c210a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="3db1d4182ee5a1dc191453d0e019ef773bfaf28b" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="fdfa9d7449b6797dc995ac028dd5b9d73fc65e51" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="ddde3e9dd09057f94bab30f8872cd6a351e69570" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="8e3148b4071d4c37c77bf47ac1ac148067bec8ee" upstream="refs/heads/firmware-mccloud-5827.B"/>
+  <project groups="minilayout,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="27f03da8d26f0be8ab26fb39847d1d456681936b"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
