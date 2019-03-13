@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="294e01fc50fc22a68d60a1a2074aad63395dff1f">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/factory-rambi-5517.B" sync-j="8"/>
+  <project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="4f4fad584e9c2735af5131f15b697376a3327de5" upstream="refs/heads/master"/>
+  <project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="63f988536e18cb7298645a472233e7c9d6433ca8" upstream="refs/heads/factory-rambi-5517.B">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="0cf3b03b604a10ad9f58878b456443f63be96d44" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="4bc58d96f29dc082c5f08ef9f1f93f6ad7388457" sync-c="true" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="845d9e4686645c75dc0f4b1b98bfac5c2c60b6c8" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="9884186ed254e373a7d9a077d18df70b991073f7" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/assets" path="src/platform/assets" revision="f8b04dc427a13df9d3017f911cd9487c5d0e51ee" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="1c55a4d3426758ffeef1cbd5abceefdb9bc3e4de" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/autox" path="src/platform/autox" revision="0e87afb2d4f6cef2b5ecca593e21117a5e9379a0" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/bootstat" path="src/platform/bootstat" revision="b88028ab64c435d23f18729925889a61bd17b9c2" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="ffa6f74a0edae215fb69981804e2480f493d2969" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/chaps" path="src/platform/chaps" revision="734d8c2da5927c2551c6355757273bb851d139c9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="f91b983c430f2e7ce125fda8704d094616d24a0c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/chromiumos-wide-profiling" path="src/platform/chromiumos-wide-profiling" revision="7d20530b4c0b068bb4eca2e6bcbf1f4e81643f38" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/common-mk" path="src/platform/common-mk" revision="24bda776327465dfc2e223bb83cbd8a14e3379d0" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/crash-reporter" path="src/platform/crash-reporter" revision="26096ac69251054ba5000b1e4b849aeb746b7e00" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/cromo" path="src/platform/cromo" revision="dda99cbd50c40c15e11bd270c955c44cafa3c70c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/cros-disks" path="src/platform/cros-disks" revision="344417eda5adda1c2efde884e94368a7a4c77034" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/cros_boot_mode" path="src/platform/cros_boot_mode" revision="febdced869b7b5fd5d9d19ff41e9548f5268673f" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/crosh" path="src/platform/crosh" revision="adf11927032d1a11d8dc401263695f5740b540eb" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="b933bfc13d6f80c1bb2ac2853ce92924e757fa6f" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="6dc4ed30b909cf28bab68dfcdf5f55ef0d93c1ed" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/cryptohome" path="src/platform/cryptohome" revision="736b1c81503d35cdb22f04d4b5882ccc1c14ad0b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/dbusfuzz" path="src/platform/dbusfuzz" revision="8335ee2a68070cb19d714cfb4dbd973f4a3e12fa" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/debugd" path="src/platform/debugd" revision="585970fe68907afdfa3280c01e1a9889e2b9ddc7" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="5b6ef73f27fff5ebe2adb7132acc9b3a3374edc4" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="7de05f71cfc09472fc130b3fee968feb666ba228" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/disk_updater" path="src/platform/disk_updater" revision="16def367c4cacda23d61bd7ebe786642297e5084" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="91c81fcf0eb8be225ffb77e05d5442b151228f40" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="d778fabaaa143580f582c184eba0ef348a22a8d2" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/factory" path="src/platform/factory" revision="6def1c381637826dd17d2e22563c4bf5c713176a" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="48cc327c314dcf0778a10fec75682f3f82b1dfdf" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="dda11cb39d43ea2788972ad404b13972c72eb319" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/factory_test_init" path="src/platform/factory_test_init" revision="62389179a09d15127728024b82a74ccf07db3dfe" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="9aeacf24ef86fb68e40933a26baad93bcf772e91" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="f5fda7de67472b5c40aab3f0192b2a0d43ba9c93" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/gobi-cromo-plugin" path="src/platform/gobi-cromo-plugin" revision="b30b6bb96e8a200d698b84504956b8c31ab7ef83" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="9b11ede1673333f334cda7692b2d418632a86e0b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/image-burner" path="src/platform/image-burner" revision="47e52cfdc5d5c89dc141d9d3efce66ca487b2a5f" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/init" path="src/platform/init" revision="f0297d3c4fe19eaf2328a67711aa794105ddd412" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="7a5dc2effb7098575201826efaa3be0a9fa90f7e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="e66ffaf049688befe244e4768a5c6ac2e9c2345e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout" name="chromiumos/platform/installer" path="src/platform/installer" revision="2624a4a25049b4a7c2f97663e9235ee5b50dc321" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="961a02f35b555ebc85192650a5f3fb9aa782e204" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/libchromeos" path="src/platform/libchromeos" revision="dd7079c6133155d3d899be0cab1a40ffce807d26" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="d6ae1673217d5c4fae2cd91f8141e56c479b2850" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/login_manager" path="src/platform/login_manager" revision="c720eb0d55440a97f3bb3a97d4505030519dc763" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/lorgnette" path="src/platform/lorgnette" revision="eaa81ea8ccfd0425985fe2e267ed96e09517d7ef" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="ff9fa939470a3c94f79381ad0002b1fc132eeb7b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/metrics" path="src/platform/metrics" revision="ec561030909ad98328989fefaebc13039f333e16" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="4b2d5ee95f01fc971c35ff903132e11d55048461" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/mist" path="src/platform/mist" revision="a3e9d654b36a39998df82daa166cd6428eb85fca" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/modem-utilities" path="src/platform/modem-utilities" revision="9bc1faa85e42fa9a3694a9f8586133f983d82978" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="834c1c16e32038b1dee9bc715f941a2738dbc7a0" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="d78269f82a24be84c0cf5aa3478e268a78e1bdd9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="e8dcacfbec9ccee22b520bba19260930db69d0b7" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="0dfd14caf4aec61b68ff6c4477914199dfd9bc51" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/p2p" path="src/platform/p2p" revision="e7b650a78599d0b8314fe687507b640be67d6045" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/permission_broker" path="src/platform/permission_broker" revision="879ba9a669b416c7b9be06f255aa0b18e2cf237e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/power_manager" path="src/platform/power_manager" revision="0834d7a05d501aaa550b51b1b0c007ac886582fb" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="9b0b97771af89c9e5bcdd985284a08929e7a2b92" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/pydevi2c" path="src/platform/pydevi2c" revision="066f96845ee36e8ea9f9ffa7c554c5c5044aea5b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/salsa" path="src/platform/salsa" revision="22074a59ff0c214818befe64208359445b2b2a85" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/shill" path="src/platform/shill" revision="5f0d41ce51dda78a8c3b8e55f093470a0b873d55" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/smogcheck" path="src/platform/smogcheck" revision="a3633b1f3ba298fc09e64baa64037b62c2918c31" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/speech_synthesis" path="src/platform/speech_synthesis" revision="4f71f3ea09e27358a7f0fa911d0b84a3f81f9ffe" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/spigots" path="src/platform/spigots" revision="00e0bfe49470d3e6344dd9fc18123b6f1df086b1" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/suggest" path="src/platform/suggest" revision="175a1aac77e00370dcb77406d5ac3ab70b269ba6" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="096d48842a57dbb7c8043201576424f34eb5609c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/theme" path="src/platform/theme" revision="2953d00e3ade5dcf756f93dd3b12875cdf0b5f02" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="4612bbe8f128591fe9c2b08280e91802227c0957" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="e26d153df2f4ebe116ff10a2096a62efcc79acbb" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="54656e3f3a7099a4e7bad918d93f882abeadeb27" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="a5fee548a7146396cc09bfb3ba1a92404d218e81" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/tpmd" path="src/platform/tpmd" revision="bed4a930f60860e63d1e51ed941aaa2a4139ca79" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="873e06da4015d0c0bfcb2565f4d5890a3d832145" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/update_engine" path="src/platform/update_engine" revision="23949d4e086ca984ca2ce07efb6d4ae2bc5daf42" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/userfeedback" path="src/platform/userfeedback" revision="d870a9e49fdc4279c12e3ad61e7afb2b6dfe1901" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="4ff446b493e8a74804fd00082119681f768d366a" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="9a759c11aad47c8742996a785120f91be5ed7764" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/vpn-manager" path="src/platform/vpn-manager" revision="e29ecba0cbcab175867c4b7ec91561aba687bfcb" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/wimax_manager" path="src/platform/wimax_manager" revision="816850684ebf1cbe6b815bd0b05270375f437ece" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="435c7d9540f2e9c6b8ce2eea6e237bafc7eea483" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="dfe53f69fa65ded16abbebd828cc2f2e273a08f0" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="da59dc3399db4dc64d8828a6e62f95c159411a15" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/xnu_quick_test" path="src/platform/xnu_quick_test" revision="5d49db0d1e627a60c3d7de8982281fe5a28272f8" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="b3eefedab1d3d090f980ebc71f9707b877e65bbc" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/platform2" path="src/platform2" revision="3321e731ad20f6f8ffe727b5f0fef855e3dcb15b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="111a82ef47f8650204273ae6960b9b9bd150dce3" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="8a28873cac40c9aa066b30573b96af10430ff247" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="d7a6244b5939566662226d6171f2433539d47c23" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="9c1580ea72a5a3b15d90a9baf82c2f7707b793c4" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="947c7f1cb9cfae523ad0f07a1be1df439f12d78b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty" revision="3a6ec2be5bb4869962ae4793416173bcc9dca831" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="9c023cf430f680093f64c5946021c04f9c4d40f4" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="e4120532bbf3ca9f743b0be1f539381a54d16867" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="88d6d481f413e996206ee8fba06ed27292481495" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="699e98cf6f69f1b516f07ed45c2b942074775ccc" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="1c88de810e5d23c9a9fe06c38d6d84bc6fa4e96c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="feea904905b865434fbbabb6d3c7a409144ad242" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="37c9bc3b1a988450c831e788aae25ce6e66b5005" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/glibc-ports" path="src/third_party/glibc-ports" revision="8a70b2dcabbfaae8e027f8aacb3168ffbfcba5d5" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="612090b4d856bda80d5879aa244069fe622d5c56" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="49dc879dc7c6926ed8c429dc88293260b4e824b8" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="f674629aa9e6598dc1ec75253ad3036be171e3c9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/files" revision="64d8fb841f66673ceafba1e91a3063ab298c0305" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel-next" revision="a1732fba4151d4efc4f29f7536e210be9161a467" upstream="refs/heads/factory-rambi-5517.B-chromeos-3.8"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/3.10" revision="383d6f62ae6e96ab00cdc340b1271683f392a502" upstream="refs/heads/factory-rambi-5517.B-chromeos-3.10"/>
+  <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="b0f9be2cdea655b75d9cadab22f04333ebaf5e9e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="52d09bd25a02b3866aba1bb492f36a2d851d6472" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="3d77530aec0e03d7559aa66d31a65fbbe5d84e73" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="f753ff1b9271342abd3f58dbac13174b936406f3" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="136de7a1658550943331ae2870b0da60fcb41f1e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="726ba6fea1b749db1c747138b2a5e221754b9aa3" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="508c6919bdb5e7ecec2753542d5d761c2e01749c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="cebabb9e94fe2b3196b63205fb7b5a56d2feb582" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="ee619829050e9a4a3dfab709c515541b9312a13e" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="cbecd958a7e36736a4447ebe65e5017e5c0ea4a0" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="23b80a84d7707b2a5584d392a6c87a12936f53a9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/mobile-broadband-provider-info" path="src/third_party/mobile-broadband-provider-info" revision="da1dd23395d9693db17339ba71cafead04527edb" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="ff6a8ceae25f8f38f008858f3a84134f7c3c8362" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="81eee0ad7b54385f9598a90cbe5e722d6ca77da9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="dc7812ea479304c309456c08c0f50e26d0e83f6c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="515197db4f204bf942b4d4f57bd994cc2e7e9c0c" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="09693bcbd087c8e0bd4ac33833cfc11323b9f633" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="c8d367010678e1939c1a8fc513df8b299c522d6a" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="c9c7cd50640c2d8882a04f59f1bcb383a88b19e9" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="7a32f995ba6f49a082f0b69c715dcade17578928" upstream="refs/heads/factory-rambi-5517.B"/>
+  <project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="3f2fc2d5625a8238d2bd1e9fc6ba8b61190ffbd7" upstream="refs/heads/factory-rambi-5517.B"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
