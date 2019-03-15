@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="d0824508006f2af77009cc8d36ea28e5b998d5a1">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/firmware-falco_peppy-4389.B" sync-j="8"/>
+  <project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="4f4fad584e9c2735af5131f15b697376a3327de5" upstream="refs/heads/master"/>
+  <project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="844903813a51cf22e8d678a98e15b7940e575e19" upstream="refs/heads/firmware-falco_peppy-4389.B">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project name="chromiumos/manifest" path="manifest" revision="4151f9c3b53f633d970849ad075bcf07e880d204" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="e2d6a6cfe57dafeebddbda97afff1502e6e7d8ce" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="e09db06b1bab70a4b02e11ea67cb4742c4f05e24" sync-c="true" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="b724c7f007db31bb06f5f1e9759cee823a3b9fa8" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/assets" path="src/platform/assets" revision="766af803b57fbeed9ee1387b22263e9a400ae97e" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="0685187790551170442ba9afe699757aae6ac283" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/autox" path="src/platform/autox" revision="0e87afb2d4f6cef2b5ecca593e21117a5e9379a0" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="77bbd6bb17ef926dbc3465a697be527a8c6e0941" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/bootstat" path="src/platform/bootstat" revision="6bd4cc56d8060900acdfeb28cd4d9cb65fbd56ed" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/chaps" path="src/platform/chaps" revision="2ed7e6748279a2b0a4b11f690541d2ab47fee50a" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="f91b983c430f2e7ce125fda8704d094616d24a0c" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/chromiumos-wide-profiling" path="src/platform/chromiumos-wide-profiling" revision="6855cd208ab4cc1e0402bfa55a30fdd46d99093c" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/common-mk" path="src/platform/common-mk" revision="d9f9981406b6b7790630e5ad1d0196f8d40abd62" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/crash-reporter" path="src/platform/crash-reporter" revision="1cc92179ed145733428334538af0474c37c0bcf0" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/cromo" path="src/platform/cromo" revision="26b40326498f58b842e6e11a75e511d5c36d34ef" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/cros-disks" path="src/platform/cros-disks" revision="986a3d9d626430591a883911ce3a47f101fc9da3" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/cros_boot_mode" path="src/platform/cros_boot_mode" revision="a7cc78a3a46f49549ab6d7cbd68f3469692fd580" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/crosh" path="src/platform/crosh" revision="20cd9ee99b0d89d58a54c0f2788e1cabca60f2d2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="b8c2af54d3fbd9f5497e4a205e90ba89da939869" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="0ae653d9fb929b0c7f8c3037a9eb5e3c67431636" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/cryptohome" path="src/platform/cryptohome" revision="75e3d7eec03ef16fb4a9ab454ec31f15fcca21f1" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/dbusfuzz" path="src/platform/dbusfuzz" revision="8335ee2a68070cb19d714cfb4dbd973f4a3e12fa" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/debugd" path="src/platform/debugd" revision="5df1465c1b17b1822615676bebab276c46bd0bdb" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="386857e3c5d90be4a722a0f6fbf424301c3a37a2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="bc5d0fa57da902db0bac7c09ac9a11c059ba7d99" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="658d35ef6f15cb7763ce4bdd03161837452de7cd" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="1814585157e6089560000d81f22656e65fcec5a7" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="90783754da3219bbb642204b4d84db1d395655e2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/factory" path="src/platform/factory" revision="2f59480b3bdfc14a695231710f45342e0b530f48" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="c759366a1dd3d733b12bb2edc3bae9868d38ee5b" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="c1f3c7ed9f42d7d1c0463d8f720edcb7cb2168ff" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/factory_test_init" path="src/platform/factory_test_init" revision="62389179a09d15127728024b82a74ccf07db3dfe" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="011ef66b12eddf27c11ac560680906527cd84d17" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="7e678b3794348ae02e14d7c0ddcbbcb6f2d60a68" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/gobi-cromo-plugin" path="src/platform/gobi-cromo-plugin" revision="d7171ac70e660e8b08234143e298cb97b2b7e87d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="f1f5090c82314f281c6934d10494f1d0a66bc8a7" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/image-burner" path="src/platform/image-burner" revision="c2efb5999f97d5719a6f098ed68ab71c691bf663" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/init" path="src/platform/init" revision="2a767ce4533b9802d02d3e45c52f03ce8380dfab" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="44389e77a337ec07a8864917793021c0f0456cd7" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ceeb062015f5abe27696d86f2f1b74b6c896e0a9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout" name="chromiumos/platform/installer" path="src/platform/installer" revision="013579ea30bc5977feecee8d8d7f972c5f730abb" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/libchromeos" path="src/platform/libchromeos" revision="4f268f4f387a6c1d86c84cf474b9e83f8385a1f6" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="53af0890aeff90b9e1a4ba1bdaed93266766b42a" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/login_manager" path="src/platform/login_manager" revision="3ff57f7aeb0ee000e4f39d55779b702a6b5c0cfe" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/lorgnette" path="src/platform/lorgnette" revision="eaa81ea8ccfd0425985fe2e267ed96e09517d7ef" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="8b5bc501aff6e23c3b59727e72c74b5c978ea358" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/metrics" path="src/platform/metrics" revision="fdb57781dec84a04da25425e5019fb6cc90cee5f" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="c420a26f8fcab8877398ef557c42dac7b8b586ee" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/mist" path="src/platform/mist" revision="2d766d2390a43be7c7586321ca40c5e87163ff14" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/modem-utilities" path="src/platform/modem-utilities" revision="d6289fbfc0a917adf9b62c8bbf404e66b2cd08ef" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="dcc2b22ea74ebb98a6cd099ad4e38030ca2d1eb4" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="5be739c938a0a229ba9479b00b180e1f9c843e81" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="18125b556c0197ae696894b9558f08d0b69c584c" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="41b3ddd4c27f353fc11cff49e0469645109931fe" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/p2p" path="src/platform/p2p" revision="d7e6ad76df98664138b5535dce05627d23f70e62" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/permission_broker" path="src/platform/permission_broker" revision="7c3c70fb083c4ca073b45ac8ba31e157da96239b" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/power_manager" path="src/platform/power_manager" revision="27ad7b16067529ebea8b0f21d1182b8f518f206f" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="a54aec4ee7032c1c4ff3c235b93b06f22da5f643" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/pydevi2c" path="src/platform/pydevi2c" revision="411733a9a324adcf19cef556ec6d66d6d28d4daa" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/rollog" path="src/platform/rollog" revision="aab2759cb2a7689bf9248a5fb4a1f1be55bf9121" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/saft" path="src/platform/saft" revision="58a9879010fef161d9ec8711da589e2881bd94bf" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/salsa" path="src/platform/salsa" revision="97a4dd5197f838b4c58583b5412654f8cbd612c9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/shill" path="src/platform/shill" revision="5db19692534f5ce992c5b28cacb00c3189045273" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/smogcheck" path="src/platform/smogcheck" revision="a3633b1f3ba298fc09e64baa64037b62c2918c31" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/speech_synthesis" path="src/platform/speech_synthesis" revision="4f71f3ea09e27358a7f0fa911d0b84a3f81f9ffe" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/spigots" path="src/platform/spigots" revision="00e0bfe49470d3e6344dd9fc18123b6f1df086b1" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="a084ab462d2c6ba7f21541d04e624aadd910cacb" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/theme" path="src/platform/theme" revision="2953d00e3ade5dcf756f93dd3b12875cdf0b5f02" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="148d5507c4fd1475ea98bb29e92d3a46bf22000d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="6a17c478462ba5ad1208f10e5ef13f444931d388" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="84276ed254a162c9bedc900df4611af3b3ffea42" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="aad2bbb2d51212901bb5836aa378898d57f3c257" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/tpmd" path="src/platform/tpmd" revision="4dd018ce02598b69012f7499042a9d2770ef8af6" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="c6e0f53b604c65cb63b47047f55c7e49a510fdf2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/update_engine" path="src/platform/update_engine" revision="efb7c4c605440fdc6297deed8fa9d1aecb77235e" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/userfeedback" path="src/platform/userfeedback" revision="b6037f2de227fc22c848a9d6a52f57f603808b09" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="fde2d02463c1a4e1ad7ed3c10eb480d5c21e3b80" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="f7884b05f10e841303e0f0a10727e929ec915867" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/vpn-manager" path="src/platform/vpn-manager" revision="bcb9fc2d7336fc36166e3ef6ceff1ad97a1576d9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/wimax_manager" path="src/platform/wimax_manager" revision="6290f5e7670fe38d0c616fcfe8fd46050c9c5c75" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="c514fb91d5a2f6d9ed07761eef0c096de91b0031" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="65da5ce91d34b372261d77601afe146690ab45e4" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/xnu_quick_test" path="src/platform/xnu_quick_test" revision="507f1fd9564549ecb62a2b130065fed7f4e0679d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="7db8b5b7b6e4c35c0ee60f130a3edfb0bf01e8bb" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="42b8a05d633b69d3d134ca1bfa57bda1d8d612ec" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="29b418afbe347e21bf01e29c235919ed5d3035db" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="c201b9fdc1efc1ad33dbd5843edc2fe80c907108" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="9c1580ea72a5a3b15d90a9baf82c2f7707b793c4" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="095ae1ea878daf745948926cc8ecbb2ee2ab4ba5" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="c6c46cff30fdf458f66ed720b5be25f6b71d6605" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="5a70d590af8ae7211ab0a3ce69433cb3d9ffa144" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="a20d30476e9815adae5f5cc1c66c6cc7ed77f3d1" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="05dc5658ce5a1787d7b9122bc40c9ece7c044c35" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="7034c4e0c467efbccc9d3af1591d184db44af4bc" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/dtc" path="src/third_party/dtc" revision="414f31046a3ab709edf6e26604c932fd0de22df9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="699e98cf6f69f1b516f07ed45c2b942074775ccc" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="cf253a7a834a56ec1c3b03b19872db321946c066" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="c8f69e0d74aa93b8ecf5e2620b91b1f65e92dde3" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="839561cb7ebbc613879336d5b3221825aedc6765" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/glibc-ports" path="src/third_party/glibc-ports" revision="8a70b2dcabbfaae8e027f8aacb3168ffbfcba5d5" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/glmark2" path="src/third_party/glmark2" revision="5b1ea6f9c4bfc9e22c62eb3a5e6ec1dd379d03e8" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="9866f9750a38a175849ca04439922ac1ffe8a0e7" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="e7ad39617d4f959d7c4a3b5ea1cff88e45a768b9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="f5fb0532cf276eb6c7a8e47c7103687339ba3d90" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/files" revision="26c0bb4ea3eb28d791ed5af382abb5fd9425ce23" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel-next" revision="10465ccab3f1bc5b580e5b7a1fd6b81ffc2412bb" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="b0f9be2cdea655b75d9cadab22f04333ebaf5e9e" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="c1ea6a1873fb28c64afa2eb56391fe11d6eedb65" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="fd1218ceec51a67b42921c2a0fe4da08bd7f1a90" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="f753ff1b9271342abd3f58dbac13174b936406f3" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="d20e41ca6a90e335b89b7fcc386426f8d21ed259" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="14aa089adeff08ddf912d51c02f69b88ccc5e6be" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="f066d84315733cbcc02e51e85c4bfc2b28868112" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="642c3d2b708da81283d227df19673af6f3f24ac1" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="1415a1884c59aff37d0f1a53447ef389dd9f9b39" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/mobile-broadband-provider-info" path="src/third_party/mobile-broadband-provider-info" revision="7c52123d63a28c1eb96d4e69f09e98c21359e599" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="39a51d49ecbde60a2d48f64459b1d87f56ba297d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="a8cef4ae1b31664c9f59c509f6e79c1fc03f4bc4" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/openssl" path="src/third_party/openssl" revision="1c7606ce1b8c853047f1718b8201ac4af488c279" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="ce88f9230b2f1f1634a608da72086304f3afe423" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="dc7812ea479304c309456c08c0f50e26d0e83f6c" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="c9880282b115a0127c948d16f4ab3c6cadcbfcd2" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="8b4d4598046543821784abcabe5db2c04a7343ed" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="8dbe89e0e08d5e5adeb4f414e8f284dbf0c17b80" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="c9c7cd50640c2d8882a04f59f1bcb383a88b19e9" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="8db76f7338504c91b221a71a1a85db5a79aac89a" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/wayland" path="src/third_party/wayland" revision="eae3bcb4ccb80ef1c4dcd2f71987c1187aeb9e73" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/wayland-demos" path="src/third_party/wayland-demos" revision="f033a7b6e6cb5e9c24897f63a0eeaf4db345d112" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="183a07b3039d3e678528effde6490c92fe5a728d" upstream="refs/heads/firmware-falco_peppy-4389.B"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
