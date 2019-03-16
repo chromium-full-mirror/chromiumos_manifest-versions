@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="a600b068dcd01d36812ecb2b30931ce3c359ee12">
+  <notice>Your sources have been sync'd successfully.</notice>
+  <remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+  <remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+  <default remote="cros" revision="refs/heads/firmware-panther-4920.24.B" sync-j="8"/>
+  <project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="40240d6f1c1560d1851c217cecada93050e2db0e" upstream="refs/heads/release-R32-4920.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="c1f487bc2f4cbe02d00edb80680c30335fe31f7f" upstream="refs/heads/firmware-panther-4920.24.B">
+    <copyfile dest="AUTHORS" src="AUTHORS"/>
+    <copyfile dest="LICENSE" src="LICENSE"/>
+  </project>
+  <project name="chromiumos/manifest" path="manifest" revision="44486df2281b165fe17b6d7e481f069f84c776ca" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="44caacc8270039fd79d3f0343e6e8ff708d0d457" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="ccd6c08b0d8123125108e00d9638bb46b02efa1d" sync-c="true" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="dfeb71383d4f293b6a4fd18def0a9eeb1b853579" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/assets" path="src/platform/assets" revision="9ac77bfbfe51c50a8d14718692db053e8ebd1bb6" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="1c55a4d3426758ffeef1cbd5abceefdb9bc3e4de" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/autox" path="src/platform/autox" revision="0e87afb2d4f6cef2b5ecca593e21117a5e9379a0" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/bootstat" path="src/platform/bootstat" revision="8e05e0de29e20e5d3b19acc37eb3a947ccb4eff4" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="fc5a3f747da3bf6296497c9f2c424ea7db9f51af" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/chaps" path="src/platform/chaps" revision="d30919761626cf26fa1e3347ea0867defdf5a8d3" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="f91b983c430f2e7ce125fda8704d094616d24a0c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/chromiumos-wide-profiling" path="src/platform/chromiumos-wide-profiling" revision="9126631518b9406e15ee117dd2cf916dabdfb6c1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/common-mk" path="src/platform/common-mk" revision="4e6383183f8f2918232165a770a94dd73cb9f157" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/crash-reporter" path="src/platform/crash-reporter" revision="790c56f4379959e6a422cbe5b1c7fdcb3d5b1168" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/cromo" path="src/platform/cromo" revision="9900adce2c17b436b3f3bcbfef0453bd72619036" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/cros-disks" path="src/platform/cros-disks" revision="3a63d01476c0bf179aec0d8c5fedddf28359f852" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/cros_boot_mode" path="src/platform/cros_boot_mode" revision="7994ee5410793ec67e5c5b9dc5c323f1d2bb5927" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/crosh" path="src/platform/crosh" revision="e73d8ef547567bb7cf4b7f48112c530d2f152654" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="5d8d47f72f6686d0d9885d8d5ab0a4be5439ab56" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="3c192bd027dd5f69a64ea6cc347187e337208ebb" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/cryptohome" path="src/platform/cryptohome" revision="8ccd24c30bc11f3dae7735a10dcced1a6a5c216c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/dbusfuzz" path="src/platform/dbusfuzz" revision="8335ee2a68070cb19d714cfb4dbd973f4a3e12fa" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/debugd" path="src/platform/debugd" revision="1b93254ef462edf807124fbb6b8ef134cc590d1b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="ef374d25b622a2fea1e176f55e17eed60dcab6f3" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="fa358253c57503f1b72e6d48f93e74df3e0c076c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="91c81fcf0eb8be225ffb77e05d5442b151228f40" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/ec" path="src/platform/ec" revision="48dfd8c5ee5679c13b3931cac843b4e3dc1f9ed4" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/factory" path="src/platform/factory" revision="942a6f78b7c2a58565ccc90fef66e38bae10aa73" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="48cc327c314dcf0778a10fec75682f3f82b1dfdf" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="c813feb2959ca487cc10360237e11a454222468f" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/factory_test_init" path="src/platform/factory_test_init" revision="62389179a09d15127728024b82a74ccf07db3dfe" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="9aeacf24ef86fb68e40933a26baad93bcf772e91" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="be0f89026734138fa5040b0494de1739f2f561c5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/gobi-cromo-plugin" path="src/platform/gobi-cromo-plugin" revision="fb2addad49c6e5ab5b0287e36c17a269f2933be6" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="4cb4be1b9faf43446d08aef7eeb6fad7291ef2aa" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/image-burner" path="src/platform/image-burner" revision="e9c2f9569d80ffe6392a492ce848ae3dff751f8c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/init" path="src/platform/init" revision="974b4e2bbae53b090cfd87522dcaa70845c44479" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="74b0711d3cc6f551c27fee71638db4435dd7139d" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="f49112b81b7eab005a8a3a948ba2d791da0aa1db" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout" name="chromiumos/platform/installer" path="src/platform/installer" revision="e188261f28ea756fa2b07ca1202b94fe5a38bd11" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="961a02f35b555ebc85192650a5f3fb9aa782e204" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/libchromeos" path="src/platform/libchromeos" revision="0ae670566b9c6a3dc4417929110c869e75e934ed" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="7a3b32cfee6e05df12ad37879f418b243c5ab5cd" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/login_manager" path="src/platform/login_manager" revision="b5188769026e2e0885f0826f168f9d7687a9135d" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/lorgnette" path="src/platform/lorgnette" revision="eaa81ea8ccfd0425985fe2e267ed96e09517d7ef" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="541de09c71f6d9ae5c87670abd93344bb20870ce" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/metrics" path="src/platform/metrics" revision="de8d6d5b2e2853469d84f4c3b767c7608af5c4a6" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="fccb4c99597b7c20568e4d468004c9ab192e695a" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/mist" path="src/platform/mist" revision="8cbd49915f7f1d61843d60c7c0519137d739bba4" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/modem-utilities" path="src/platform/modem-utilities" revision="9bc1faa85e42fa9a3694a9f8586133f983d82978" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="793ddfab4b42dc90e162b040cb4dde911e5f3aa1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="7d36302b1d8ff0d7899d77325551f27d3902fe24" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="18125b556c0197ae696894b9558f08d0b69c584c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="ef036700b04a8c0921e88ae388698c2f5076fce9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/p2p" path="src/platform/p2p" revision="e7b650a78599d0b8314fe687507b640be67d6045" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/permission_broker" path="src/platform/permission_broker" revision="93daee5798e790408904543311b673a9a9376687" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/power_manager" path="src/platform/power_manager" revision="cc0149808450c759f5aa129c2aacbd03e9cef2f2" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="9b0b97771af89c9e5bcdd985284a08929e7a2b92" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/pydevi2c" path="src/platform/pydevi2c" revision="066f96845ee36e8ea9f9ffa7c554c5c5044aea5b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/rollog" path="src/platform/rollog" revision="05b32937528f68cfa52996c382c03678f3a5026a" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/salsa" path="src/platform/salsa" revision="22074a59ff0c214818befe64208359445b2b2a85" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/shill" path="src/platform/shill" revision="b93ef3cbe91a923d6ad0363baa507ab85c5210a5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/smogcheck" path="src/platform/smogcheck" revision="a3633b1f3ba298fc09e64baa64037b62c2918c31" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/speech_synthesis" path="src/platform/speech_synthesis" revision="4f71f3ea09e27358a7f0fa911d0b84a3f81f9ffe" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/spigots" path="src/platform/spigots" revision="00e0bfe49470d3e6344dd9fc18123b6f1df086b1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="99bce39f55240926a75454bb70998ab9f5ce9f13" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/theme" path="src/platform/theme" revision="2953d00e3ade5dcf756f93dd3b12875cdf0b5f02" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="148d5507c4fd1475ea98bb29e92d3a46bf22000d" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="6a17c478462ba5ad1208f10e5ef13f444931d388" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="5953b4cdfc239f83f889b8ece2532fbccb649fc1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="f88f528a6a55ce740e10c5157ec23afb9768132e" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/tpmd" path="src/platform/tpmd" revision="bed4a930f60860e63d1e51ed941aaa2a4139ca79" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="873e06da4015d0c0bfcb2565f4d5890a3d832145" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/update_engine" path="src/platform/update_engine" revision="c2e9f5fc70df4a3adf424bdbbdb33a0ee5a41c01" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/userfeedback" path="src/platform/userfeedback" revision="966ff403cf3a8b6be2b0a5e4f4086789050b3d34" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="c17d19bcc84dca215498960797c8ce7ccaebb4f7" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="0e307b1a9c9b1d20e1c68b48b986ed517a85fe17" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/vpn-manager" path="src/platform/vpn-manager" revision="cec39e1291db95ac5cd8132a6d391a04d87877d5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/wimax_manager" path="src/platform/wimax_manager" revision="c91cecf93b645eae3f3b2e9d7edf85cd64d16aa5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="9306b188076474bc6e6dfb1266d29c54eac5ceea" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="82b0ff22e7e036afbb0967b95a7df0b2072e52bc" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="65da5ce91d34b372261d77601afe146690ab45e4" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/xnu_quick_test" path="src/platform/xnu_quick_test" revision="5d49db0d1e627a60c3d7de8982281fe5a28272f8" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="c5b30be5ed0f8320fbd53a3eca66d6a8abbc7b37" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="2edd90094fbc9dd629641b3deb2b6cf64c8646ea" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="4011d12231c1b1267e0837d29a02d2214f87ed0c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="207af07eb1cb9fc76dd76748366899a507144ad5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="9c1580ea72a5a3b15d90a9baf82c2f7707b793c4" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="5328a7a0ed03748f6325e07026390bcaa99627f9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="a20d30476e9815adae5f5cc1c66c6cc7ed77f3d1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="05dc5658ce5a1787d7b9122bc40c9ece7c044c35" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="92fe21c3feb87e0a09ee27db105075407b29c126" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/dtc" path="src/third_party/dtc" revision="414f31046a3ab709edf6e26604c932fd0de22df9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="699e98cf6f69f1b516f07ed45c2b942074775ccc" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="d02ee0f04409a40d118c78deed838300cca97799" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="c8f69e0d74aa93b8ecf5e2620b91b1f65e92dde3" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="37c9bc3b1a988450c831e788aae25ce6e66b5005" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/glibc-ports" path="src/third_party/glibc-ports" revision="8a70b2dcabbfaae8e027f8aacb3168ffbfcba5d5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/glmark2" path="src/third_party/glmark2" revision="5b1ea6f9c4bfc9e22c62eb3a5e6ec1dd379d03e8" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="612090b4d856bda80d5879aa244069fe622d5c56" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="00ea0118c8afaeae5f5d15dbfef2243937a11638" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="0647c9b1355b5e6a810d1028d10fb8e893d0fb0f" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/kernel" path="src/third_party/kernel/files" revision="6ec4bc459d750d8b8bb7d5f8218cdc5e6b4cf564" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel-next" revision="a0b2f4b74c58fbac4d19dc1db3ff26b30c0c1025" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="b0f9be2cdea655b75d9cadab22f04333ebaf5e9e" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="52d09bd25a02b3866aba1bb492f36a2d851d6472" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="117f7a31c15e13937d01cebbf593d3a862a99214" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="f753ff1b9271342abd3f58dbac13174b936406f3" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="f5b21aa783a23155e1e09ad437fac0b4928d76af" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="401826248937ffc93b2a5f468235e0b8b5247747" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="3fe01af27849c45c36c4c88eab8e24ddfeae307e" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="cebabb9e94fe2b3196b63205fb7b5a56d2feb582" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="2960e699fb19f392077400c8885c36bde849fff8" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="6659131be3bde0505a85e3a7d27382b273822bee" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/mobile-broadband-provider-info" path="src/third_party/mobile-broadband-provider-info" revision="25719277f826fbc5014b32817238333dc15924e5" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="9224ef269375dc6851367c348542ea39a169d8b9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/openssl" path="src/third_party/openssl" revision="35ae2093b3be78810b48681e3f06d46433f68877" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="81eee0ad7b54385f9598a90cbe5e722d6ca77da9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="dc7812ea479304c309456c08c0f50e26d0e83f6c" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="15141a9e18d299ca1f13f5dd414b78499b59407b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="a83f3fb49cd242ce98b083dc31b005e83432fb56" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="c8d367010678e1939c1a8fc513df8b299c522d6a" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="c9c7cd50640c2d8882a04f59f1bcb383a88b19e9" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="de8e77dd95d274cb4a7f498b4d5f9210dac0863b" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="22c16ba1800f5d34c9ca3dfb8fdecfb563b72fbf" upstream="refs/heads/firmware-panther-4920.24.B"/>
+  <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
