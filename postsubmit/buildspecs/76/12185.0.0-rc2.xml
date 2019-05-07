@@ -17,7 +17,7 @@
   <project name="chromium/src/third_party/Python-Markdown" path="src/chromium/src/third_party/Python-Markdown" remote="chromium" revision="b08af21eb795e522e1b972cb85bff59edb1ae209" upstream="refs/heads/master"/>
   <project name="chromium/src/tools/md_browser" path="src/chromium/src/tools/md_browser" remote="chromium" revision="e9462696241f3ca832890473173e03e7bcfe6adc" upstream="refs/heads/master"/>
   <project groups="minilayout,firmware,buildtools,labtools" name="chromium/tools/depot_tools" remote="chromium" revision="80a1cf66b83c394c911b14312274b26dba888ae0"/>
-  <project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/chromite" path="chromite" revision="83679a3cd6a73cbfd645e1e2e2eb9b6a58e10955" upstream="refs/heads/master">
+  <project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/chromite" path="chromite" revision="a41b430df52b60f2aa7907ec004f5b535362ada3" upstream="refs/heads/master">
     <copyfile dest="AUTHORS" src="AUTHORS"/>
     <copyfile dest="LICENSE" src="LICENSE"/>
   </project>
@@ -36,7 +36,7 @@
   <project name="chromiumos/infra/proto" path="chromite/infra/proto" revision="61912010970ed9d4860f0e1f4db048819e1eb48a" upstream="refs/heads/master">
     <annotation name="branch-mode" value="tot"/>
   </project>
-  <project groups="chromeos-admin" name="chromiumos/infra/recipes" path="infra/recipes" revision="245acfefc8f573b82400226b550a68d57c44d0b2" upstream="refs/heads/master">
+  <project groups="chromeos-admin" name="chromiumos/infra/recipes" path="infra/recipes" revision="44505b16e5418cf39ddb9dfb815ed97892bfbb16" upstream="refs/heads/master">
     <annotation name="branch-mode" value="tot"/>
   </project>
   <project groups="chromeos-admin,labtools" name="chromiumos/infra/skylab_inventory" path="infra/skylab_inventory" revision="47a7495453815b77df3f2af6d716fbeff41f308b" upstream="refs/heads/master"/>
@@ -44,8 +44,8 @@
   <project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="7b0a71303075b11ce506fe6c34477a139c02236e" upstream="refs/heads/master"/>
   <project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="bd33427afb37ec05127792091ffc87bfefb48121" upstream="refs/heads/master"/>
   <project name="chromiumos/manifest" path="manifest" revision="5525205cd33a982e009409fd29b32c72419a9175" upstream="refs/heads/master"/>
-  <project groups="minilayout,firmware" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="8d54af59600076668826a890346231fc8367f872" upstream="refs/heads/master"/>
-  <project groups="minilayout,firmware,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="87d4915a1f214bb099faa59fb978670c18220e68" sync-c="true" upstream="refs/heads/master"/>
+  <project groups="minilayout,firmware" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="3a2a59aeb87b187bc6c4029eeed7620a259d377d" upstream="refs/heads/master"/>
+  <project groups="minilayout,firmware,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="1be350687c491f6a0646f9d5148f2cc9a88f2e6d" sync-c="true" upstream="refs/heads/master"/>
   <project groups="minilayout,firmware,labtools" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="e75a23adc41e9f8fd0baba3e74fc2e21350b184b" upstream="refs/heads/master"/>
   <project groups="minilayout,firmware,labtools" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="bc8649f5010b349bead7f94346a96b4975642227" upstream="refs/heads/master"/>
   <project name="chromiumos/platform/assets" path="src/platform/assets" revision="dc9655335e74b8b4d546598e83501be4237fdc12" upstream="refs/heads/master"/>
