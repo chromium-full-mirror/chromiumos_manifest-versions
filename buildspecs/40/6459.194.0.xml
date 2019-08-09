@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="f731af2fa324cc74c79bc21debc6075e80a7ebef">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/factory-auron-6459.B" sync-j="8"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="da683c668bbc54471d9aa037833d4840e2bf7879"/>
+<project name="chromium/src/third_party/hwcplus" remote="chromium" revision="e66a31e54e12906e86dc59f95b458889f025c505"/>
+<project groups="minilayout,buildtools" name="chromium/tools/depot_tools" revision="782570c484bb169c04a0bdb512275c1e7d1e119c"/>
+<project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="a6aac831817c8e1df44349afb70b5e72a8aebca0" upstream="refs/heads/factory-auron-6459.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/manifest" path="manifest" revision="b827ce42f33c864a2e6d239a314131d867aa8e88" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="111ece8945a697c5d95deb82ca2c1c79412ccb7e" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="45e785b798abca89daf571ade4a3337ac3642d69" sync-c="true" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="4385f8536c4b82aa6ca0199cb5195a0def46b974" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="f183b2e5c958f14bf06c9fdee98824c5eefbf6bb" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="f683f57479d84229d5f772e82e19cede09d0b561" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="98d53174639518ccb46055b5e3b539725d516f77" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="06c4626e7b09e70876c3d4bb917bc75cc5d39639" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="ed11fc3e54ff2097241172ed04425061410ed8eb" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="05ce8d3c59a2d8e765b3beb2e1a69e7fcf59e5ba" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="2f15c39e1b96187471e27bce9fd99a275a9b57d5" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="94ea93078efe75b56f0ac33e2988325e6eef31b4" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="d2dfb52f34b03df92f73d94cc3c120ba81fdb21d" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="8e3aaacd9afbbdb2fdecd9c4d0fe76cee31eff4c" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="91c81fcf0eb8be225ffb77e05d5442b151228f40" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="e78bdcd3f0290f0baf29b0d06d24a55cf4a88a15" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="cf774548fd36a647709569f235b53466ff84ffb2" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="f2e4d8c1e0753c385f34d7be8b3f4ceb3ab17abe" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="44026118970d5d87111cf42065bd040d654bc726" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="64f453a8e15c1c0b185746cf49a6547599fa7909" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="66399139085d656712fa8db8c93734b02d3fa050" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="b7ab9a19517f864843c2cf295710a3b69f57a898" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="fd347a3a7e64bf537bfbe83ec99c33bfb3190649" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="9f92df165d96a6507358d177035d4192dc9423ca" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="06750300dd466c100ebec6046abcdfb565de8ae2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="5ee665e7c68856d3b6ce8bb0f610d43503e603af" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="15ecd0cbe5ba833df9ec38bb40929ae0d9c1ef99" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="c424702a362d0db6487551eac3456eeb45dfbb35" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="5bb6adcaf525eef335fb178e48a4dd62e65d5de8" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="b699c85d06afd44b29aedd1905cef9ff422a1d45" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="5f17a00766c6d9e5dbfced73d1e5baa1bb088247" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="d5ef45a7da64339b3be2a4404378b308c07f18c7" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="a48d1f674b53deac8b486c1acf2dd8b9ffd830c2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="91f0e64c62b1ad42380b3a4de7f77ea4741e180c" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="4612bbe8f128591fe9c2b08280e91802227c0957" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="05058a40538401ba43ced504240121749e20a6ff" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="669bf1c4a853a7ae109707544bfea5da75bcb98c" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="2b5767b00f8229c4eeadd5e11623c1e5de24a5ad" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="fe9956300b1aa0ec69f29e8a10ad2cc932000765" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="fe21172cc315b6249e78ee8bc17d1470e8b6b02b" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="5a21253a7b34b1dd64f3987651cb2242a814e45e" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="19193561e2eacde9fb4424d074960d7d6984efd2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="2cf85f3922b60393245386f253b3bd15c1c2758f" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="2fd37c5e26c4ddbeaf101ecb110720558f8ba7fb" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="420528579dde37cab3e62ff426a5b9c9bbf810f6" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="758d082628ad36a975d44b49e037460041d42105" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="09528947d86ba6fca4cd3fc8493e0cfed3f432b9" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="05f165c16923b2850830938ef17d46f488a22631" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="33dbadf2b0b1bc747bbd36eb38669988abb74ee3" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty" revision="b5a8ca7e5cac7c4559cc928abc02db3cb8799946" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="3182aa85c087446e4358370549adc45db21ec124" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="f140c0aa430e1db1c0f31d23d3eb2397d47f209e" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="32775e2ae03bfd20253287f52c4f7d0e47b04aac" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="aaaf66654dba797f152066df4d1dc4144b492c66" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="69c31b873cc3739301152b1c855300273641dc8f" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="7af1e530468a03dd5bbe86a4351b507477006db9" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="54cf6f40324ddcd402188e135427cd23cb72f198" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="1db626aab020923a66ba71114cbf3f6b4c79d1b3" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/hwcplus-drm" path="src/third_party/hwcplus-drm" revision="7376a8da1c961115a61d7a3cb23bb13e4153583d" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/3.4" revision="c9c68c16ce9814cf431e1ddb7d83e4b5874631ed" upstream="refs/heads/factory-auron-6459.B-chromeos-3.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/3.8" revision="7bce32219a941dbb98f81a3a7b1ad8463e3b0119" upstream="refs/heads/factory-auron-6459.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/3.14" revision="a689bd82a8fd4f43daa41d105cfde83f661f752d" upstream="refs/heads/factory-auron-6459.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/3.10" revision="87923f6936c30056f72a623fc7df0ef2c7a02d39" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="507ea5cf5ea4c77624d954f11ee9bb0a32005353" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="52d09bd25a02b3866aba1bb492f36a2d851d6472" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="f216400e702a51c900f2ce0285fdd6a21d3dd87b" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="9b8aa0fd839efc76da8ca0624feabda837b54ea2" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="433b06235f00e6a7236a2f54ea9e83e7856f2b44" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="3f2cd87f36fa8bb6fddc4ace7a6c9571e7c2309d" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="d75c85291a61a6d83386de95cff6ad279e853ebd" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="34cfd419098c5a9dc32270308c5e55e9c6893e91" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="58be50ca8de16f45a41ae32f4b35e73f4ad900b0" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="3d9f8fbbab13850e59fc22bc9c08dec891a0c920" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="e42244c434bdd05b734432d589b379a48ee26706" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="1412e6847062516220c444f1f722904bd6ed28c0" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="68627235f2a0589a1fd0dddad78f705387cea8d3" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="0f757347024b34237b867b43fa6faf87d502ec87" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="4031dc495093ccd24b977df6b7be0f0c94ce9937" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="a43b37f1f99e96f5e6366e13e4ffb0d4b05a2dab" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="7d9288a0745aa50dbcb0bb692241f0eee679254b" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="57508fa62600aa1c8dc96c05746c73449673d820" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="5175004c2560dc3955abe45e442180fd1df0d720" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="2bb0f13ac760eab16e4e524f7083ce03dbf01d35" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="1eced1c13bf359ed29b32a1248b29cc1e5d8e286" upstream="refs/heads/factory-auron-6459.B"/>
+<project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="536771c8ef84a6afe1f99b8d5f8126f84a0afc39" upstream="refs/heads/factory-auron-6459.B"/>
+<project groups="minilayout,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="27f03da8d26f0be8ab26fb39847d1d456681936b"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
