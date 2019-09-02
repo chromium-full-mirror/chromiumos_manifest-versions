@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="478457a93720993a4931134779ff0c2f0781a083">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/firmware-nami-10775.108.B" sync-j="8"/>
+<project name="aosp/platform/external/libbrillo" path="src/aosp/external/libbrillo" revision="aeb7bb4b05662d0ccd8a6104414dbc5af71f6ad5"/>
+<project name="aosp/platform/external/libchrome" path="src/aosp/external/libchrome" revision="913f89fda814b25f6ae0be970e455042b0d34d05"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c"/>
+<project name="aosp/platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" revision="cfb28dac24de032626f5288955200e53cf14c281"/>
+<project name="aosp/platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" revision="e27dbfc67d43430fc937ab795df2719a40db5b26"/>
+<project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="f4f4387b6bf2387efbcfd1453af4892e8982faf6"/>
+<project groups="devserver" name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="8af23dfa874cf98a5ebbfc86c7783431002949c4"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="8d522a8a180fee7eb5d8a1db16b6a4ad0f2e346f">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project groups="minilayout,buildtools,labtools" name="chromium/buildtools" path="chromium/src/buildtools" remote="chromium" revision="6f4dae280c6a542acacd8db281decc5c0b2a9823"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="a9c7333ec45588e0e6c2a26d21a8a474df1f53b6"/>
+<project groups="minilayout,buildtools,labtools" name="chromium/llvm-project/cfe/tools/clang-format" path="chromium/src/buildtools/clang_format/script" remote="chromium" revision="7822084a27865e185d561dd44632c761d8c1bec8"/>
+<project name="chromium/src/third_party/Python-Markdown" remote="chromium" revision="b08af21eb795e522e1b972cb85bff59edb1ae209"/>
+<project name="chromium/src/tools/md_browser" remote="chromium" revision="e9462696241f3ca832890473173e03e7bcfe6adc"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromium/tools/depot_tools" remote="chromium" revision="5888d6f676722fdac3f65e673c0232667309296c"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/chromite" path="chromite" revision="332d4c16814de1be69cd58a6e7659002db17d239" upstream="refs/heads/firmware-nami-10775.108.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/docs" path="docs" revision="2665ea1bc90a63fe9ecad51ef3433a8e6cca4ecf" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/graphyte" path="src/platform/graphyte" revision="5042b8cf876294f36b721bde1d71e32f1a9c45cd" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/bad_cl_detector" path="infra/bad_cl_detector" revision="a6bade48153992dc3d91697c45db9d36231e3bfc" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="chromeos-admin" name="chromiumos/infra/ci_results_archiver" path="infra/ci_results_archiver" revision="f960281389e1d96e05d5d47f7f93402c50aa601d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/cl_exonerator" path="infra/cl_exonerator" revision="55604ba5f4656c70f961b3f7b2a70f5237e7f524" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/cl_status_viewer" path="infra/cl_status_viewer" revision="34e08efb0d563250219a4013cfdd9a732a43281c" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/distfiles_updater" path="infra/distfiles_updater" revision="2d1aa33972b2028d19a288baaacee9b2cd8644f7" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/dummies/general-sandbox" path="infra/dummies/general-sandbox" revision="ab009ffebb68a58f37779bddfba5f1a08ef174ae" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/dummies/merge-sandbox" path="infra/dummies/merge-sandbox" revision="651c1f3b89c112222f5dae2f79091421543dd4ee" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/lucifer" path="infra/lucifer" revision="0403930179cebb654399e09d55a0065ff2ea694e" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="chromeos-admin,labtools" name="chromiumos/infra/skylab_inventory" path="infra/skylab_inventory" revision="b442f4f79e0a51ccfee3ba2c23b03fddc772584e" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="da71cc01a0aea0f132956fe3a793a15e63c82ede" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="7b0a71303075b11ce506fe6c34477a139c02236e" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="bd33427afb37ec05127792091ffc87bfefb48121" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/manifest" path="manifest" revision="192fbe0a8b3936560263dac4e46a5c71b1531c08" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="938e615c90d9f34cb0efa0d34822c8c219f0570f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="64deb48eed2bf495ca6390dfbf9fa5416243473a" sync-c="true" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="f56a9356751f42ddc9421e3394a9b3242778ef61" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="5adcf857ff9ff2d981dfc7d7d2a5252dc89e5a76" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/arc-camera" path="src/platform/arc-camera" revision="a07b8addd62474da79a8950525c4e0cfaf3d41a9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="9ae666e38eaa9c955d547204ee14a1e0e0fef7ba" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="f15c830081b498ba8c4130de95d51ece8f8ef2e7" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="acb6efd5d9db5903b462aea03fde2e8391068cf9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="7d2154c31e59daa6f0f817575b4182ddef4c92af" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="300354e5d74418c8e03737ca9029c64d9297a28d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/cfm-device-monitor" path="src/platform/cfm-device-monitor" revision="244ca971853491aad1f045b478f9853d4e2d97d6" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="0d6e32de70e44e7a0e492b7bdc73c6822b5cd071" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="67152c2a669e8ddcf03b57b7625ad574227a8d2a" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/cobble" path="src/platform/cobble" revision="85e6e13ae4e3ba22f1970ebfe66610866e89132d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="518c8e2fe6a188c555f0eebcb07a923f05f7f385" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="9e658a9550baf51993f54d96f37473866c58b17f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="5f787217cc48e526c6244cd39db4f944fadfcd88" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="744a7da7cc2646af376c097547c840254386b7e4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools,devserver" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="d03b49e05421c019e69ca44589cd98c3704e1bf4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="0a59878032d4bda0c4a7c13b2086c59283df63f1" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="9a187d45f371a3f7d4a965095657403dbb91c9df" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/platform/ec" path="src/platform/ec" revision="e13064a49978e994a4a47c8707ad301b1da26abc" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="bcc00ca58726d9cf774c56005715a5ee330da045" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="48ba125a4e9e67c74403a55c2bf7bccb5cc29445" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="1c428ba510cdd30cafbf97bdd3510aa29a8279b4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/platform/firmware" path="src/platform/firmware" revision="b168a20180bfbfe98e580aee51b9fc28a9c09276" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="f6d4ab0388806d23ec5f25c592b8e3b57f0bb574" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="2233f714ef80f48b92991662f96b5e19e65d72aa" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="613458c0e3c589e52e7f093288ef1d2ba57a9ff7" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="7b3afa9258e58a57ffbeb395d445811f92616ae9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="093fd2ce7aef034aa98b5e7234e79b6b067d45c4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="8826acba1c4e13b6318ae6d1d4b49633d1b55aba" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="8830911158ae632b7626d0ebe33248e66ffaeef3" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="23f8ea74685ea0a03be8649ca33d5664bc789393" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="518003bc070970f25b9ab97c0560d762846c5e65" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="abe44f62208cfaf1b329703d9043b1004baffb44" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/moblab" path="src/platform/moblab" revision="d6e0c978da39d91766e0ea23874d0c7e6274dca1" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="419eb67ef197327c7e18b03ed036a85da9e51c84" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="0d2d0c4445ac6f9233aa4e297e0d2c031469225b" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/newblue" path="src/platform/newblue" revision="5adb4cbed85ae97bdcf40d82bd0fdd8e77b896a4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="d7a0dfc44989ca1ac59d04b303c089bbfc993191" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/tast" path="src/platform/tast" revision="efb83b2a535cd5315e30ade2be25db3dd25d2c99" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="ef130564ca35f8531462dbf5fb10c6f912e75636" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="bafba938ff65099158b04ca718b1e77a0e43c5c4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="f1eb895f7ea70ad99bbe60508fda825923c35af6" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="4e7f703f9526a75e4c62196cfe6554f9c9c23545" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="9546ffbb37d5fef191ad1607eeb0b76a6f3a9872" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="ba07736e4444b0d2c265f2e72dff9d3c7e0f0baa" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware,buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="e21e46dfc68596e3495c68cfc49c7442fec2942a" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="1c1806d8df4bb5976eed71a2e2bf156c36ccdce2" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="df7bb0d01d48578d1c123327540615e072d2885c" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="5b5d5489811aa33f1a74e477096b90eb1f451094" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromiumos/repohooks" path="src/repohooks" revision="bb06fc9c260c32080f29cf6146cc3ab4f815e68e" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="47fd361b8d9180cc0781618138c674d6e97cd230" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="10787b0519afce1e887a935789b2d624849856a9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/atrusctl" path="src/third_party/atrusctl" revision="0853cc78d0a39aa6c457c61aecaf9a4bc614cb78" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="buildtools,labtools,devserver" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="efa44bb1499a1d11929604efdd535fe8b71ed976" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/aver-updater" path="src/third_party/aver-updater" revision="c2dc0bdb6d5b2ded5c4233aa62e92e2ad415e9f9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="d738bf1f0c8bdac66ae595e7c64c83c8700773ca" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="dfa94059d27c6bf86c0eb91b57737fdc2cea04fa" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="8e9f99b3e60d0ffe8b67cc93ea4ab1b9ed191e45" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/cros-adapta" path="src/third_party/cros-adapta" revision="c104445a77dfebd9044651aa4668f7466219a246" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="6283eeeaf5ccebcca982d5318b36d49e7b32cb6d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="5f4302621d8e011edbd83858b0c3183e29f842b5" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="907f6244dc1c4c3f58a809147d348eccbb932631" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/displaylink-updater" path="src/third_party/displaylink-updater" revision="a52808b5995fe2ed481269c8f089358d4b451d5c" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project groups="firmware" name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="ab586ccd21556108662fbd80ab5a429143eac264" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-2017.08"/>
+<project groups="firmware" name="chromiumos/third_party/edk2" path="src/third_party/fsp/cnl/edk2" revision="f71a70e7a4c93a6143d7bad8ab0220a947679697" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-cnl"/>
+<project groups="firmware" name="chromiumos/third_party/edk2" path="src/third_party/fsp/glk/edk2" revision="f71a70e7a4c93a6143d7bad8ab0220a947679697" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-glk"/>
+<project groups="firmware" name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="9108393752ffd93b133037add1f7b484de09bdbc" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="5503150db8d4650f22763be85d8f17d893068451" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="a2bc87ab8851051e765d60626a6997f63ddfe00e" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="5e5d1a65cbf855609e4d7c9c425615090a834704" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="labtools" name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="ef4b500e37958414572309d85623b5be18b2cc02" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="156cbc7f2f7526747e595497639880c7e3218184" upstream="refs/heads/firmware-nami-10775.108.B-master"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-2.6" revision="7ea51f728bb7470c58f2f1287a706f4fdf5a4ad1" upstream="refs/heads/firmware-nami-10775.108.B-wpa_supplicant-2.6"/>
+<project name="chromiumos/third_party/huddly-updater" path="src/third_party/huddly-updater" revision="eeb79ce39812a393bba8c5e888e3c25f4b30334d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="4f562affea5a1b22f4ecdb9b792552850f5c7a72" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="0a12efcc5739374b46e83a49b9ca8551081bf00b" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="08f27073c9cd648a801a1cac9eb76412bb63453c" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="f8730ab650c2993a716ca445a15ddc361b20ce7f" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="6b90ac17338c38016d09e37417879553ef4cb6ad" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.14" revision="56bfe3c5ade26598388a7aa70c362de0e57e361a" upstream="refs/heads/firmware-nami-10775.108.B-chromeos-4.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/experimental" revision="c70caee3e6bff5abbecd4ebc694d5bb5ed6ebd5a" upstream="refs/heads/firmware-nami-10775.108.B-next/chromeos-experimental"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="f427d0ac31d1878a6e2c9209f63a8f560983b6bf" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/kvmtool" path="src/third_party/kvmtool" revision="1b159b990afd33c0c2e3b47ebda6dd5cc793dd92" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="3c7f95590fc380b52fc31906c146e19adac9dc69" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="56e509680474fe5a8dbce4cc4faba3727222627f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="ac553edec3b2b49f5cdfd274487cdc5248f29a7d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libqrtr" path="src/third_party/libqrtr" revision="238c066146896e9caa9e724ce43080d07ac4fb3f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="5e6034258146af6be973fb6a5bb6b9d6e7489437" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="6805be8aa674709ed870ead0f73dc36438b124a3" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/logitech-updater" path="src/third_party/logitech-updater" revision="f8b050bad1307a836bd67692882919b12214d627" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="7df860dd2389c5c9a5b2ed9ac8a7f1d48d6fed03" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="b5d3741d042bde7941284303712c3790ab4e489d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/arc-mesa" revision="43abc5036a2ff45e9122e3e73929497c046602f6" upstream="refs/heads/firmware-nami-10775.108.B-arc-17.3"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="a2e9d9b4c199ff1b53a625a345e566200016e2d9" upstream="refs/heads/firmware-nami-10775.108.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/firmware-nami-10775.108.B-mesa-img"/>
+<project name="chromiumos/third_party/mimo-updater" path="src/third_party/mimo-updater" revision="f173901a2ce769fe95b85123f7be445ac9a083a5" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="bcc3e2e4246431be511be3959a11cd9733bedd29" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="288802709b92ad6b5ae5e22dee7ce22ef747a73d" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/nfs-ganesha" path="src/third_party/nfs-ganesha" revision="165395bf01548d8a0135357ca4c222b9c0c0acaa" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/ntirpc" path="src/third_party/ntirpc" revision="a9fc54d636fc3e5b5f0918769a2e5343c5f0d823" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="b6da57f1a32837dc71787f1c5d0adba1ea3acb32" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="af64f6c7b19cdb84226161dd3742a13fd7974cc3" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/realtek-updater" path="src/third_party/realtek-updater" revision="7e603e12fbf9d2a8aeb67f1075fe43dbfaf52f7f" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="fc570685c1ca4acb871c706a66d0493b5e92c7c9" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/sis-updater" path="src/third_party/sis-updater" revision="66abe03278f294247471311b7ea4c57b977bf12b" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/sound-open-firmware" path="src/third_party/sound-open-firmware" revision="b3a8ce9a2a63ca4f8dec7500347c711055251f7b" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="41a309aa54156025311b2f3a678281d804a3b615" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/toolchain-utils" path="src/third_party/toolchain-utils" revision="fceaba3af1a2dbb9e965320be39432b1b412e284" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project groups="firmware" name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="f5ddef5e9eb5b41686468053871b5c3dfdd16627" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="2ba9706f576d1a0026ab1da6af9034b311683849" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="1e26ac220258662e911d2471a090c9219566fffe" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/webrtc-apm" path="src/third_party/webrtc-apm" revision="c547affa46e1843508f05eda548178cb22057108" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="chromiumos/third_party/whining" path="src/third_party/whining" revision="c325abd3eff318af433a1a5667f5d2745f893945" upstream="refs/heads/firmware-nami-10775.108.B"/>
+<project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="3805d7e97a9e62993bd6229cc73a50ec7b5fc84b"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin" name="infra/luci/client-py" path="chromite/third_party/swarming.client" remote="chromium" revision="3543e21830b9549e5b70c8c49482c8c28da2ba94"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e6527b0cd469e3ff5764785dadcb39bf7d787154"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="c82a7587b850ae43ba4bdb1d317e697642896215"/>
+<project name="platform/external/libcxx" path="src/aosp/external/libcxx" remote="aosp" revision="bfb1424a250f9a28c9a6033bd6c7f62579e7228d"/>
+<project name="platform/external/libcxxabi" path="src/aosp/external/libcxxabi" remote="aosp" revision="1607e38f339e32d6bcf7bb02531d3bf19f42f5c0"/>
+<project name="platform/external/libmojo" path="src/aosp/external/libmojo" remote="aosp" revision="920588a1acdc4721abb713d8162010e4b85ae53e"/>
+<project name="platform/external/libunwind_llvm" path="src/aosp/external/libunwind_llvm" remote="aosp" revision="2dd29ac655fd62d8ba81208a6d14fd16cfcbbc0c"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="5b184a669f115900125e36f9d6fd5cf3cabcefdb"/>
+<project name="platform/external/puffin" path="src/aosp/external/puffin" remote="aosp" revision="2d51d2b7790c384a5b085040d0be859ecaf51ee5"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="cce69c1b1bfc46de5e1cdd4923f87215c0edb884"/>
+<project name="toolchain/gcc" path="src/aosp/toolchain/gcc" remote="aosp" revision="ac6128e0a17a52f011797f33ac3e7d6273a9368d"/>
+<project name="weave/libweave" path="src/weave/libweave" revision="682a416bd5fe6bb88e267b312bddb786588bdebe"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
