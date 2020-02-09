@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="e15786d3e41a03fdba7ac76b8e84a87162753096">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/firmware-scarlet-10388.B" sync-j="8"/>
+<project name="aosp/platform/external/libbrillo" path="src/aosp/external/libbrillo" revision="c1f7f7c6368b36b6632a9c353673f6a0f9b816bb" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="aosp/platform/external/libchrome" path="src/aosp/external/libchrome" revision="7a71c473304cca1b46fcd3d0ef345b7c22fdcce0" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="aosp/platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" revision="5f43fb626cf8bba55580bc8781beb6234444366c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="aosp/platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" revision="c02a2bd5716fb95ca088115eecf4ea99cc85069d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="f4f4387b6bf2387efbcfd1453af4892e8982faf6" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="devserver" name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="77d7cbcef1ca1afd36720ec7ec74039b5445101e" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="b514dd802d1fcaf246a5456929ea6cb3a5ed77d1">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project groups="minilayout,buildtools,labtools" name="chromium/buildtools" path="chromium/src/buildtools" remote="chromium" revision="2637e7e911524502ea862870f52c36ed2723a25f"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="a9c7333ec45588e0e6c2a26d21a8a474df1f53b6"/>
+<project groups="minilayout,buildtools,labtools" name="chromium/llvm-project/cfe/tools/clang-format" path="chromium/src/buildtools/clang_format/script" remote="chromium" revision="3597d09ff878cea3c89a8776d3b69a765213b3db"/>
+<project name="chromium/src/third_party/Python-Markdown" remote="chromium" revision="b08af21eb795e522e1b972cb85bff59edb1ae209"/>
+<project name="chromium/src/tools/md_browser" remote="chromium" revision="e9462696241f3ca832890473173e03e7bcfe6adc"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromium/tools/depot_tools" remote="chromium" revision="28ef4e7b0851c5d33e42c57de6fdfd3edf6f8e46"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/chromite" path="chromite" revision="e96104bdd4d62e6f5ab0006d2206faa4f53b0ab7" upstream="refs/heads/firmware-scarlet-10388.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/docs" path="docs" revision="3d6115d94a2562806655c3c21b1915b10fe3b7f7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/graphyte" path="src/platform/graphyte" revision="2997e84328ff348ab2daf6e7747fe24c68168c4b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/bad_cl_detector" path="infra/bad_cl_detector" revision="899f13f9936df9c3cd83e8452bea1be4989c62ff" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="chromeos-admin" name="chromiumos/infra/ci_results_archiver" path="infra/ci_results_archiver" revision="dd5cfd07e7802fcac79c20afd66ddb3d0d9316d0" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/cl_exonerator" path="infra/cl_exonerator" revision="29ec8f7c704596b7293e9bd140cacfa09fdd95b1" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/cl_status_viewer" path="infra/cl_status_viewer" revision="8f8fb2b2a07986c26a3d4f9198e1735635678e98" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/distfiles_updater" path="infra/distfiles_updater" revision="2d1aa33972b2028d19a288baaacee9b2cd8644f7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/dummies/general-sandbox" path="infra/dummies/general-sandbox" revision="e996a748f373f1941209c29126f541f1fe1adddd" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/dummies/merge-sandbox" path="infra/dummies/merge-sandbox" revision="651c1f3b89c112222f5dae2f79091421543dd4ee" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/lucifer" path="infra/lucifer" revision="7c5776b884cf20d549d96ac01f8dbc78fc14f9e2" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="de1e25a54344c2683d5204292a5522dbc336b5d4" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="6a40ab440e76fa4aa4e4d47efa377962db3e7411" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/manifest" path="manifest" revision="bc04f75f1c83df282882fb5b8107441d0a7d8e1c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="d29517d23737d57e31aeb0af4c8f2baf83c137af" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="0994cf6f0d7c6772e57c4df9d49be2218f24447f" sync-c="true" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="79a152d42d5b7d83ad864fbb923fd739aed3f426" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,labtools" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="abfd741497a15762e0fb2f69637d4e6f0f9ff161" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/arc-camera" path="src/platform/arc-camera" revision="6af2965cc006feac208b746df1fbc7f2e06723c4" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="adab2563fb71891ee410c570c5eaca96c167c3c9" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="07d6399256002ba8ce499ca702dd1c25e27d3ac0" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="848b1afe6fde210c9c42d268086f4daafebf7c2a" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="dd514e3b200855fb9492d814cf6fa3d679373532" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="300354e5d74418c8e03737ca9029c64d9297a28d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/cfm-device-monitor" path="src/platform/cfm-device-monitor" revision="d38c76b0057636e8765856d5c7e4c8b205fa8161" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="724abe47dd95ab947a566666cac51faa91c84268" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="c72f1bc16319ebd970ad277e76ef10d0b4663461" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="6b10c012a9fa5272ffa2cad15b153a29652664c5" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="8e3381b52a943d9da21c8534c0145714989a3186" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="de01b8b32f1391acfd298c977bcd20a85d020ebb" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="a42090860d628e4048f6afb85a202edfff14187d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools,devserver" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="441bb522121d15a8a638b65ca8b03a60875c5b80" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="0a59878032d4bda0c4a7c13b2086c59283df63f1" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="95c374f24ecb5bb5c64691a5c785f02710986d98" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/platform/ec" path="src/platform/ec" revision="429b5477f39242c39876867db6fa271183ec0a2d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="925176b619bbb1213ec73be61bddbc8f86002bb2" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="4c2eb691e29c36e46a8a5416b53452aa8edb3739" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="4db73b0cd9303d7701d0bf55d3c94df1843314ec" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/platform/firmware" path="src/platform/firmware" revision="3c0497acb562de993243f079cd3a0a99b33cd3c6" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="01c7c05897beb2992dfe49ed493ee8036c245566" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="20c9cb56793f9561a0d599acffa0345ab63853fd" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="613458c0e3c589e52e7f093288ef1d2ba57a9ff7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="9bcfabcaa75750fe01d97351941fb1d45e7e8722" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="a5a7579ec5a163cf3523a1cdae2e29e3ee2b39a7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ae0b15dc322bab9bf6d7c4fcd5f77d488766a275" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="8830911158ae632b7626d0ebe33248e66ffaeef3" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="9f7a1961eb4726211e18abd147d5a11a4ea86744" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="518003bc070970f25b9ab97c0560d762846c5e65" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="2b8f89e45cea5b2b06bc5cc8a3c03e156ee42285" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/moblab" path="src/platform/moblab" revision="de3d94fa2e645a28d4454301f3693d0555cc599f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="b3f119ac2f8dbb79fba8d34c5e471ed2e8d0ef19" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="97d6b3b0c32595b75b053047f02f7789ea8cfe03" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/newblue" path="src/platform/newblue" revision="ff18cd5b774600bc2a05d27a42fdaaa7357e9ce3" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="5ed4b3d3c6ee676a12bf73152871fc8a4dad3129" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/tast" path="src/platform/tast" revision="5eef6ac0b1c2d790f125e95be18b45c5209846ae" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="b911d71124769d6201da19ef08fbf347a59a22cd" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="f2ee184d8e1db088d88527830804164450171f6f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="f1eb895f7ea70ad99bbe60508fda825923c35af6" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="6d9670b363e083d625fab9223e3373b6c96d0c2b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="9546ffbb37d5fef191ad1607eeb0b76a6f3a9872" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="6968cc316dfc639aceb0c00d0844db0cfc1a776a" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware,buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="3483d80714cabbda39bc90b08dd7ffc4b0927a71" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="0a1804831284fb990df34bc3d111fbce5176f281" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="cd33180ac4c80d21eb39d3750bc2b91f6d262a0c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="21ece3ace803f98c50556c1f2d59d29cfbd0e15e" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools,labtools" name="chromiumos/repohooks" path="src/repohooks" revision="948284afa9616a2519fa038624582c0ad2e61995" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="d67885b57e9311c19be24acff1f69a20ebeae0a7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="5d91b1b71462857e27f71ba2f3600d218185ff91" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/atrusctl" path="src/third_party/atrusctl" revision="0ab4e82dbd07ca94126a9c3e88704f559e03f1c8" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="buildtools,labtools,devserver" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="77545a3bff0ee92466f6158855153fb6d40da21d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="4e3623fc60344c6317f9e39f962839e7fd2910b2" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="584ffa9ad9c1f928bd14da8b28cd1b4c485cd4f3" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="8e9f99b3e60d0ffe8b67cc93ea4ab1b9ed191e45" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="6283eeeaf5ccebcca982d5318b36d49e7b32cb6d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="96d9e30fdfb7ab8b0cdc44228359dd0c08d59946" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="ccb37a514aa1d0ea1604dbc9ad290491a1e65832" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/displaylink-updater" path="src/third_party/displaylink-updater" revision="a52808b5995fe2ed481269c8f089358d4b451d5c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project groups="firmware" name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="ab586ccd21556108662fbd80ab5a429143eac264" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="9108393752ffd93b133037add1f7b484de09bdbc" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="d6fca5dd1937a187e6d71b350b6c0f760be7862d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="a2bc87ab8851051e765d60626a6997f63ddfe00e" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="5e5d1a65cbf855609e4d7c9c425615090a834704" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="labtools" name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="ea167e0c74b832516345291239c354e1697eda91" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="cafbd467468a4e6cdf873ea4368fcecf9ff1eca5" upstream="refs/heads/firmware-scarlet-10388.B-master"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-2.6" revision="67df2c8a3ee26e67b2f13008b40277d88e51b938" upstream="refs/heads/firmware-scarlet-10388.B-wpa_supplicant-2.6"/>
+<project name="chromiumos/third_party/huddly-updater" path="src/third_party/huddly-updater" revision="eeb79ce39812a393bba8c5e888e3c25f4b30334d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="7e6d4590f553e9973897af8b347a12337d86f3a4" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="4831859246b26b9cf94c40a06cac1fcb399bc39a" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="ce7f7b1fa15ab01a64d6ecd3102c3734c58a397b" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="fe13f472589a2f2667106ce4741a368e9248ecb2" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="83b47c412633e80e133ad9f00b985d206d97b6ab" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.14" revision="c858bf2c7b25a0696c4342a5b2c52bdf5aacec68" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-4.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/experimental" revision="c70caee3e6bff5abbecd4ebc694d5bb5ed6ebd5a" upstream="refs/heads/firmware-scarlet-10388.B-next/chromeos-experimental"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="bbd199f8f3dc9c2a49cfecfc7956fe7706d9f0e9" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/kvmtool" path="src/third_party/kvmtool" revision="1b159b990afd33c0c2e3b47ebda6dd5cc793dd92" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="a933be0916cd0f06c06e431b9c1b72216dfda9e4" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="fd84e3464b08d1a6ce87489d5a3501cc6f1abe5e" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="334bbca9f7fca2d88a7762a8f92c71d938d8e06c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="cfb9e18bc09d70e46ea8be34510729c005ec6906" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="81a39957a1a6d45b495e4ece2bbb1c48de75a9ab" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/logitech-updater" path="src/third_party/logitech-updater" revision="bcdb037bb33beeb5b9398c655aef29cb2cc3ffc9" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="7df860dd2389c5c9a5b2ed9ac8a7f1d48d6fed03" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="b5d3741d042bde7941284303712c3790ab4e489d" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/arc-mesa" revision="037026e90f3f44b3cf7555abba43f9305bce463d" upstream="refs/heads/firmware-scarlet-10388.B-arc-17.3"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="34838c221260f961140040416b1a84b490448ac1" upstream="refs/heads/firmware-scarlet-10388.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/firmware-scarlet-10388.B-mesa-img"/>
+<project name="chromiumos/third_party/mimo-updater" path="src/third_party/mimo-updater" revision="f173901a2ce769fe95b85123f7be445ac9a083a5" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="bcc3e2e4246431be511be3959a11cd9733bedd29" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="a29226c13cd005e2fcb58c41e96fa6ae7c2a9a5e" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/nfs-ganesha" path="src/third_party/nfs-ganesha" revision="165395bf01548d8a0135357ca4c222b9c0c0acaa" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/ntirpc" path="src/third_party/ntirpc" revision="a9fc54d636fc3e5b5f0918769a2e5343c5f0d823" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="2d106af1ab8026661a35f5b218c67f6f5b485a8c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="minilayout,firmware,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="af64f6c7b19cdb84226161dd3742a13fd7974cc3" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/realtek-updater" path="src/third_party/realtek-updater" revision="7e603e12fbf9d2a8aeb67f1075fe43dbfaf52f7f" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="fc570685c1ca4acb871c706a66d0493b5e92c7c9" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/sis-updater" path="src/third_party/sis-updater" revision="64388ca12cbec5ad5c0c6c6fec7a670dfdaedf82" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/sound-open-firmware" path="src/third_party/sound-open-firmware" revision="b3a8ce9a2a63ca4f8dec7500347c711055251f7b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="c4e7e80a1c601c68a602598a8192da1daf3fea35" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/toolchain-utils" path="src/third_party/toolchain-utils" revision="edcf3d33a602438104cafd76f534fa8007e9de7b" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project groups="firmware" name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="f6187c733f349b9529006f6d1afbc42f150c2bf0" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="7dbf95a52fc51a1af5524fc82897faf392d7e65c" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="1e26ac220258662e911d2471a090c9219566fffe" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-v2017.05"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/next" revision="23d97f8348d640504a58ddf40e9c0ef211be6f1b" upstream="refs/heads/firmware-scarlet-10388.B-chromeos-v2015.07-rc1"/>
+<project name="chromiumos/third_party/whining" path="src/third_party/whining" revision="94432d906408506d6f4c279ea03979037547b849" upstream="refs/heads/firmware-scarlet-10388.B"/>
+<project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="27f7ed634816fb4748bacbf5f00adb21ef10b0cb"/>
+<project groups="minilayout,firmware,buildtools,chromeos-admin" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="715861067a7cc8d20d2d629b6d76d796c004feb4"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e6527b0cd469e3ff5764785dadcb39bf7d787154"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="922cdaab26890dda1247e31f7b3479a645166cc8"/>
+<project name="platform/external/libcxx" path="src/aosp/external/libcxx" remote="aosp" revision="e90ce7b5d60c704be09a8ae458fa72d727ccfe63"/>
+<project name="platform/external/libcxxabi" path="src/aosp/external/libcxxabi" remote="aosp" revision="fd5cfb8557ee5599498a63f08f500ae930a1b53b"/>
+<project name="platform/external/libmojo" path="src/aosp/external/libmojo" remote="aosp" revision="1db26454cf100fc964aa64963e42edda61000cd8"/>
+<project name="platform/external/libunwind_llvm" path="src/aosp/external/libunwind_llvm" remote="aosp" revision="9ca0ad7a15a8b9868f22f67d13fe49a2d02601dc"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="9741372f23e7895a180a535c9bfd7246bb69dd2b"/>
+<project name="platform/external/puffin" path="src/aosp/external/puffin" remote="aosp" revision="d8cc449d220903e3c0e777db8bb191b6cb6ee942"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="3c7a1bd9829e9c535ae0e67d2023ed7be5462836"/>
+<project name="toolchain/gcc" path="src/aosp/toolchain/gcc" remote="aosp" revision="d64d815b3af9d2653d924ea2e1ebb21ee8b043b7"/>
+<project name="weave/libweave" path="src/weave/libweave" revision="fa29d8f43a37aaf4b47fd2f3c76785050d075a7d"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
