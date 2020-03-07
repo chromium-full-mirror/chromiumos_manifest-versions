@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="57ad45b4df390c9adb5bd7b4c4f74ef116a75be4">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<remote fetch="https://weave.googlesource.com" name="weave" review="https://weave-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/factory-oak-8182.B" sync-j="8"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="0680a2d0c4cec58f8163fe115de80cff8852fd8b"/>
+<project name="chromium/src/third_party/hwcplus" remote="chromium" revision="e66a31e54e12906e86dc59f95b458889f025c505"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromium/tools/depot_tools" remote="chromium" revision="3add4b62b8fc420ba5a6cc0c8bddcf152c00a970"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/chromite" path="chromite" revision="49812f854565dbb9031182ac14118ff9c9c05d4a" upstream="refs/heads/factory-oak-8182.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/manifest" path="manifest" revision="9dae1e0b7a7cb91252a08e614e5e0431e5e7f923" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="505cc94b08e0cd180147de30d66c52ebcaa27301" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="e9eed18559413d01171edaf992d9a265d4fca0a6" sync-c="true" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="3a2c975087dbe6aa72ffabf55133d402f85c09e2" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="08b58c257a290a1677eaa1872021f00d2f4faded" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="135c7bd2056cd5773c2074d257c3895dc7a3bfe1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="82278ee760fc1eb19f0719cdef626dca157cd533" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="0b7244bfe44d162445ff70a63e7eae6732bcd752" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="1b65449a647c99556511df30b8ab660b98acce7f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="543612ba7671b052c8eb3e7d36de79e120bbb3c3" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="05ce8d3c59a2d8e765b3beb2e1a69e7fcf59e5ba" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="27afe00632dac8ecfa8b2330b5f88341d80ce85b" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="2c69631aebdb211b8928665a099e8a4c3fefc22b" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="3801174645c880f4cbe977f2d921e7540223a22a" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="9827783d50bb9e8f85ea01cd166312d62f51a72c" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="4991447f825f92a2ec5bbd8c6a8a4087083f0206" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="35e8490a63fda5c0c55cfa1232da6e7b44f191e2" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="project_sdk" name="chromiumos/platform/factory" path="src/platform/factory" revision="a6a01712be8e9959b5fe9f4a51a7a7e9719787a9" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="project_sdk" name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="1ae5a6141c75e1fe5ddcd9db18ca8b7dafda7ca8" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="70f79da7a3bd18c942fa65a6b21fea589bbb5516" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="d4d56278ce9927e2d740fa436c1567bc71b1ed00" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="88ce928bf7e9f1364a140efd7d726026a27cbca1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/glbench/images" path="src/platform2/glbench/images" revision="5fd5ce655833f65d46b1950bec4eedeb4e96959b" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="0280326e5bd212fcfbe3696e113730045debae74" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="139693446b857a6b11e5255d5db23c50061c4226" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="1a710721263b8b93ab49af6a6f749a778483f3df" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ae0b15dc322bab9bf6d7c4fcd5f77d488766a275" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="5ee665e7c68856d3b6ce8bb0f610d43503e603af" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="61f882f395b9f39478d7164209e7134cccdcb72b" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="ffe56d512390cdffbe94cacba7a750b16ae034b4" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="b96ffe1983295492bc4b4f28b22d6f0e78af69ef" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="7cb8f63b046c4c330b7f333e3f4e6cb3ea0d6b26" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="d5b6d854f8bfd775673341e98cbbd476c8fb42e3" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="906f3a0a929968a8725e6a2dae7fe1b5f39f02c4" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="5a230ee17756dc43ff732932dcb52899c06a4d09" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="a887ad7e1a3058bb4f0c8a0e90e498c24ca32d80" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="a9400e80d2577cead7300e926f5ca0715910e9ae" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="6b0aba12a385f4d3a7a47641a3a919018032f6f8" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="d74ef66dae66c2ca3d237ed24bc92d0a940472c2" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="7638006e103c860f7f5a4ebe4c5822759600e793" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="c2217b861b79ce92b053f8d9fe9da6e0a1cd30dc" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="92dbe8c9e7fcf8acf67805fd5e25e85aa371f673" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot" path="src/platform/vboot" revision="2d30a2f5b1c81eb61de4bf82180a910d45f22e81" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="27366ab7a6e7fe95139ea5741734ca215ce9b2d1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="c1d22580a39c175232131ccdb538893fbae056b1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="76475bb60c7fa2c2522c27e2c63c9dbbe5de73d7" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="4cfa67817a9e71385431a20fa721070967ade5a2" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="4026cc61f3948f92f0c933a97ece4375f8672a21" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="7a610e823d287f3a1f796100b2a3d11da83de89e" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="63f31c1973288ec5843c9b6738ebfea423ed9982" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="c29164179588f066c7d07868a5ae3ce7dbc88fca" upstream="refs/heads/factory-oak-8182.B">
+<annotation name="branch-mode" value="create"/>
+</project>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="7279a5a4048858c23e0e2f651da0beb2283cd2b7" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="fce8e296a0ba2439f48ca93d472d2fb7714498d0" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="7bcd0328d0eeef6a0539bd0ba80cd9a545e6cf4a" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="acf6132619167743c0c991b75f0f49c8d0e51ca7" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="9ba07035ed0acb28902cce826ea833cf531d57c1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="3182aa85c087446e4358370549adc45db21ec124" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="f140c0aa430e1db1c0f31d23d3eb2397d47f209e" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="aaaf66654dba797f152066df4d1dc4144b492c66" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="c67d02e023a3301cc24c80e6c400f798a815f74f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="2d511e935a49006ef2e3ce505f0639c49d13f501" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="39464a80d3fa4f082e28d145c3e5d8ccd8925e1f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="dcdd452905f89b7ec077c9b625d813c009f19eea" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/hwcplus-drm" path="src/third_party/hwcplus-drm" revision="7376a8da1c961115a61d7a3cb23bb13e4153583d" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="9c242cb35237f3c6c737b376ed18545fc4e1be0c" upstream="refs/heads/factory-oak-8182.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="004cb7a4dc8e4fd1cf3b67360e406d506520a02f" upstream="refs/heads/factory-oak-8182.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="d6c1b724845f5c276490e567cd8ec11862966cc5" upstream="refs/heads/factory-oak-8182.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="91e1dfdeb1a645b706b62d1c6966725e15c17c56" upstream="refs/heads/factory-oak-8182.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/v4.4-experimental" revision="9436811b90f831e32bedf1351e3ed3ee155ce0b8" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="dceee6ef99b968fd11d9c6058448202db835bc0f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="2c25afb719347a151657f8637ad62a5df42e247e" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="c4e2949edeed01ca3b810729a7af0d265c49629b" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="a436c551cf226af66cdb3dd74ee3971d0b1dae04" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="07f7a81118f74a8a7bc4ef5b81ee651aa12b8adb" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="f5ff92742ee6b148a20466edfb5f593a5a4d93f4" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="4290bd545748cae9e3abad8113dcf4f6dc82e840" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="f3a48ad1a911ce0bc8110279e314d718e2fa54a8" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="339335811580c522d6ff66878bc40e662739c47b" upstream="refs/heads/factory-oak-8182.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/factory-oak-8182.B-mesa-img"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="c2faa3df83d679cb01b553d567b16ecc2299f134" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="73f3de643f78c6644b8577b2690f312d5379a195" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="b67690aeeb4174b2253db18a9c1b19eeb219a4ef" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="6cf4e4cd968bb72ade54e423e2b97eb3a80c6de9" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="project_sdk" name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="ab36a75379f1cfaa7a803cb6f8b33ad31e49fcbf" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="5c18d72e028eb0aa1ad9487589b495889bb3b905" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="project_sdk" name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="416d30f74a9c1dc08b95b907d8b7e81edf6c9db0" upstream="refs/heads/factory-oak-8182.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="020ddef0473ed6bafa1a30d935bcb382bcfd6fb4" upstream="refs/heads/factory-oak-8182.B-chromeos-v2013.06"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/next" revision="b30f38206f17aa73cda0a2fdaf4dc705527315ba" upstream="refs/heads/factory-oak-8182.B-chromeos-v2015.07-rc1"/>
+<project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="30370e9dbf7ba0e457ee7de297d2ad6c269a00be" upstream="refs/heads/factory-oak-8182.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="715861067a7cc8d20d2d629b6d76d796c004feb4"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="9292030109847793f7a6689adac1ddafb412fe14"/>
+<project name="platform/bootable/recovery" path="src/aosp/bootable/recovery" remote="aosp" revision="901f31531ba7b7e40e8a9c915467892997d176da"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="db7f0c891478b726567611468a65453a14f80559"/>
+<project name="platform/external/dbus-binding-generator" path="src/aosp/external/dbus-binding-generator" remote="aosp" revision="ead09adf829d0844607cd906ce909cc1dd459356"/>
+<project name="platform/external/libbrillo" path="src/aosp/external/libbrillo" remote="aosp" revision="8c0f19284a22373b42e16d1422c48988c9ea71dc"/>
+<project name="platform/external/libchrome" path="src/aosp/external/libchrome" remote="aosp" revision="40ac85cc7dabfbaafde73357a900c4a296be09ee"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="9e35c09854e55973731f80dd7cc41b80c20eec42"/>
+<project name="platform/external/modp_b64" path="src/third_party/modp_b64" remote="aosp" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c"/>
+<project name="platform/hardware/libhardware" path="src/platform/libhardware" remote="aosp" revision="8944479e262c942f3d4e351bcb266a8d721466a5"/>
+<project name="platform/system/bt" path="src/platform/bt" remote="aosp" revision="2dfcbda49f694fcf1355955c334926e8641b4dc5"/>
+<project name="platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" remote="aosp" revision="57188eeae6e36334e15f2cec96f68fec330b0f34"/>
+<project name="platform/system/connectivity/dhcp_client" path="src/aosp/system/connectivity/dhcp_client" remote="aosp" revision="702e09977646efecbdc26eb348031a4ed583161a"/>
+<project name="platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" remote="aosp" revision="202ed0d6d748b7b158c93ae92c2c7986e011edf4"/>
+<project name="platform/system/core" path="src/platform/core" remote="aosp" revision="dc727ef1f0dc7fd9e780dfb529d02790a2c85e5a"/>
+<project name="platform/system/firewalld" path="src/aosp/system/firewalld" remote="aosp" revision="a2afc7e310c0fdec7efdc0af325c7d93b53e2ba1"/>
+<project name="platform/system/tpm" path="src/aosp/system/tpm" remote="aosp" revision="5b9043530a04124c6f9a21fe65f88f6f7348abc0"/>
+<project name="platform/system/update_engine" path="src/aosp/system/update_engine" remote="aosp" revision="1514d689d33ffdff88db6f57436d57e737d548cf"/>
+<project name="platform/system/webservd" path="src/aosp/system/webservd" remote="aosp" revision="bce6fbc44bcca5ae6dd6fdf36f08db835a45b2ab"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="78eb6804689b812b374e2e5d248a96977f13ffd1"/>
+<project name="weave/libweave" path="src/weave/libweave" remote="weave" revision="8ee0c1ea94d20719c53712ef05c460e603fa9093"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
