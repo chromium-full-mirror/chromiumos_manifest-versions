@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="b057ba77141d2ac42fe8901c666cbd2c3f68a596">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<remote fetch="https://weave.googlesource.com" name="weave" review="https://weave-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/factory-gru-9017.B" sync-j="8"/>
+<project name="aosp/platform/external/dbus-binding-generator" path="src/aosp/external/dbus-binding-generator" revision="aefc886d79a17c983df42a462e3a32a9175a42a5" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/external/libbrillo" path="src/aosp/external/libbrillo" revision="ce533da748d089c6f1cbd8a0b3b22713a5e229a6" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/external/libchrome" path="src/aosp/external/libchrome" revision="b86156c4a5e2cb10b69a2bccbade9b8d359f3662" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" revision="b606f03ee5a4d7a5f5f78cc980a447f08d94f9df" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" revision="0820a9e45f6c8b808c554b85ef1aae7c3a60787a" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/firewalld" path="src/aosp/system/firewalld" revision="87c3339226126dfdbd70c7e7cd5fd35d599affba" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/tpm" path="src/aosp/system/tpm" revision="2524c8032508c64ba090f674008fb830424c2ba7" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="d63fab316ce21410b9afba0fc8daf817562bb2e5" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="aosp/platform/system/webservd" path="src/aosp/system/webservd" revision="4da81ccb6cbe745c0f4c6e272963082a08eae7ab" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="6cec52ab8e442a4ec35c16907187f4e1a21a286f">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="4a93e2cfc133473ae58f17374c32669eea9a8912"/>
+<project name="chromium/src/third_party/hwcplus" remote="chromium" revision="e66a31e54e12906e86dc59f95b458889f025c505"/>
+<project groups="minilayout,buildtools,labtools" name="chromium/tools/depot_tools" remote="chromium" revision="1c822ade1f731ec35a3d2d3be8805f773df22c4c"/>
+<project groups="minilayout,buildtools,labtools" name="chromiumos/chromite" path="chromite" revision="b12751c3239906c7d59723ef8617f8d3c7bdffa4" upstream="refs/heads/factory-gru-9017.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project groups="minilayout,buildtools" name="chromiumos/chromite/pip_packages" path="chromite/venv/pip_packages" revision="e6f67995422c55319c5f1840bbe06efc7f1b8ade" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/manifest" path="manifest" revision="a92f579bd09b0123aed7505735ffe061dcded6d8" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="37afd7c738942e7b9eb6202678b429c23551b285" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="d7c06043ffe863c890882b23748d92f19e99a2fa" sync-c="true" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="4b7783530bf6becbb364ce5aaaef068dc11c9a56" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="23c5c5522e6694d6cddca4f7d244ff07166302dc" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/arc-camera" path="src/platform/arc-camera" revision="ed99fca1eff914e0ee6ea02b4bc05455af56e561" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="7e8c3dcf851bc8e47d213c1b558ac9b2b86ff2de" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="a2834cbe4e9cb85356e115afd4f4b2398745cf75" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="1c971a6cb97481c7fee41991453a22c552aeead7" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="1b65449a647c99556511df30b8ab660b98acce7f" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="ab747d8fc936f7babf29bd466025bee84ac77a49" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="05ce8d3c59a2d8e765b3beb2e1a69e7fcf59e5ba" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="1084d3a6d20056c9f2bb528a86bc76da4fdd98ba" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools,labtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="ba7dc671f07b50d26b718dc010f38808f4359fbf" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="cdcf79ecf48ac5b62534e5cf3f884934546f5747" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="e3a2c1adfd178eb3f69616eca60b8b68c2a51069" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="5d5faf68cdb05e477f0637f517f4926a0db1394a" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="69cdb24c55805aa4591cc21ac714d0d6e28ba3d2" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="1aa16058d3929beb7dbd8d8c72276f64452f85ab" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="0c9b56092424c370eff748b25d49caceb9a18dab" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="0878f6ef0b0187c8f38d7dbef3a4783db9a6b23b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="262f49ab9054bd5363569eb7e115d9e1d7e0b719" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="d4d9d4cc86de09d41832c28d806bc27f2a42be1f" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="a05230fdb9e4bf4e6a8d268a4faf06dfcf5ba24d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="5a656849c7d2b0d0ddbe0ac6d300c1e2fada0bb4" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="0280326e5bd212fcfbe3696e113730045debae74" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="11d7510c0889aeff1eadbda1a9c83d9b493f69fe" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/imageloader" path="src/platform/imageloader" revision="a2f81a7dadb8b7405bb40792a4029ebeb0fef70c" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="9ca671261791cc8d4099175f4acee20dafd1a4f1" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ae0b15dc322bab9bf6d7c4fcd5f77d488766a275" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="a8c3932d01fabc008b139dea8628e36ece910d19" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="9f7a1961eb4726211e18abd147d5a11a4ea86744" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="3c7204287bbc8f4341f546857216389bdff58e51" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="c746dca555369056a6a74924bba576e904f0b38d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="5e128777e549fe64edfe9eb5f663d8f4426fcbea" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="44148fe605b952132644f0d0e5ccea7cfcc6d6c8" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="9efd0e1723cd45709bd0d34e8e7bbfd15967f0d5" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="5a230ee17756dc43ff732932dcb52899c06a4d09" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="cf870c647c94090e2a427106b63e3fcc33170db9" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="60b56a7ea3d7c689648357e0c5f444c4f17a573d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="6b0aba12a385f4d3a7a47641a3a919018032f6f8" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="d2d3756fa856794cfaefc963e9227a08a3044fd9" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="75d8f1bfbbb3dfc870fcbc22f53cd16b66ac7f23" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="d2e7d94a834b54511ca57e6359839f9ca86d6d04" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="92dbe8c9e7fcf8acf67805fd5e25e85aa371f673" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="538060c10e33e1da7f657fe6673cdfa6202399d7" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="3007c390f5833329f70695cdfb44cebaf69b78b0" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="30cab56de921f5be2d24c2e83bcd4ad5631b2d9b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="985d0d7edf399fa6214a198b8a15b805f71e95bd" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="75943e128ecf30cc31e7680064517b43772a3d55" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools,labtools" name="chromiumos/repohooks" path="src/repohooks" revision="fdbac8e95ef6153ab23370ea1586a86f462dbe5f" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="40ec4b17c945adab7667121f50eedc57448c4eff" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="a8de89c97461b7cc13a596db8771c30843b06405" upstream="refs/heads/factory-gru-9017.B">
+<annotation name="branch-mode" value="create"/>
+</project>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="buildtools,labtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="ac36effc5a9ee45e8549320ace483160d838a1f3" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="8593a6481601e447f1ee20f5ca3b19fe4b7d846b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="7bcd0328d0eeef6a0539bd0ba80cd9a545e6cf4a" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="cd695eda33299e50362f1096c46f2f5260c49036" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="9ba07035ed0acb28902cce826ea833cf531d57c1" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="7eead48830cd8722fb701067b606ab78108663ea" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="7c7238c2304b3bbd0385ef01884ff4b39a981c46" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="904f49fd770dd559800523edd91c1226e131655d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="caf3f93f753df5ff089df615e465d46122bee123" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="c36685af7ab9976c03f3cc3b389d3ff43959f136" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="a2bc87ab8851051e765d60626a6997f63ddfe00e" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="labtools" name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="d25113ba18e8a491bd1f2f8f702c3ef5544efcc8" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="d6b3c0423de0222cdb4fb2c145c71909b4ea2386" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/hwcplus-drm" path="src/third_party/hwcplus-drm" revision="7376a8da1c961115a61d7a3cb23bb13e4153583d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="827159fc46fdf7793c3cf2509ab8a166da703d65" upstream="refs/heads/factory-gru-9017.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="32c92dfbff199f9af1f813cd6e976996ec71a770" upstream="refs/heads/factory-gru-9017.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="fa8a4fe6a7bc677b6bde6721007eb242d6c000f0" upstream="refs/heads/factory-gru-9017.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="705a26b5505bd84fc6789f2c24c1b203e2b5b4b4" upstream="refs/heads/factory-gru-9017.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="8a97fb18cfdd14c3ee9dd8385436efe80de4950c" upstream="refs/heads/factory-gru-9017.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="bbd199f8f3dc9c2a49cfecfc7956fe7706d9f0e9" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="4914a5a2fdbf04e1fbad9a169ec0a3a490d81917" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="c4e2949edeed01ca3b810729a7af0d265c49629b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="a436c551cf226af66cdb3dd74ee3971d0b1dae04" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="e79d5093d0c93b9072f45415b29e12b2740db25e" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="1c05aa91cccddb7b3d79b0f8da14c93c0c5526f2" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="7df860dd2389c5c9a5b2ed9ac8a7f1d48d6fed03" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="b5d3741d042bde7941284303712c3790ab4e489d" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/arc-mesa" revision="32f6ed28cc097933a0b2cb82992a9cab46d68f80" upstream="refs/heads/factory-gru-9017.B-arc-12.1.0-pre2"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="6ef50efc1079e544d7fe912aba219e8907cb0cbd" upstream="refs/heads/factory-gru-9017.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/factory-gru-9017.B-mesa-img"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="bcc3e2e4246431be511be3959a11cd9733bedd29" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="d759387adb6b4079241f7d1f2a145738acad929b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="b67690aeeb4174b2253db18a9c1b19eeb219a4ef" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="6cf4e4cd968bb72ade54e423e2b97eb3a80c6de9" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="78a898a0b196b4b683a08dfa34128e39bad9c340" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="5e4dd24d2d92ea9b9582388be6ecf4a055605c8b" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="71d4fee1dc6db9bd22f6866571895b753f222ff5" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="cc72f5c47c758892b0f41257b0dd441a506ffdcd" upstream="refs/heads/factory-gru-9017.B-chromeos-v2013.06"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/next" revision="b30f38206f17aa73cda0a2fdaf4dc705527315ba" upstream="refs/heads/factory-gru-9017.B-chromeos-v2015.07-rc1"/>
+<project name="chromiumos/third_party/whining" path="src/third_party/whining" revision="bcf721d62d6a4c4c162c63714371fa4349df53bc" upstream="refs/heads/factory-gru-9017.B"/>
+<project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="30370e9dbf7ba0e457ee7de297d2ad6c269a00be" upstream="refs/heads/factory-gru-9017.B"/>
+<project groups="minilayout,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="715861067a7cc8d20d2d629b6d76d796c004feb4"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="3f6478ac95edf86cd3da300c2c0d34a438f5dbeb"/>
+<project name="platform/bootable/recovery" path="src/aosp/bootable/recovery" remote="aosp" revision="a511a3c4071d5b119605e9edcddc04a715581955"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="f26b5b670aadde708d3279d1eb153d28b226304c"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="7559dfe9ed16455e03f68d9aa0a5a65747e6a174"/>
+<project name="platform/hardware/libhardware" path="src/platform/libhardware" remote="aosp" revision="a24fcc412f8564f4ae98060724dc338fe51a8398"/>
+<project name="platform/system/bt" path="src/platform/bt" remote="aosp" revision="2e8e9f42132d0297a94c0852a1fbf45c9bc348e5"/>
+<project name="platform/system/core" path="src/platform/core" remote="aosp" revision="16017b3fbbb6ada5cd22ca38e80776981800e036"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="082ed0f10cf59b53381cefda2f90247e2a81015b"/>
+<project name="toolchain/gcc" path="src/aosp/toolchain/gcc" remote="aosp" revision="41f3e25635616c067b9ee272304e6f86ac8ee9db"/>
+<project name="weave/libweave" path="src/weave/libweave" remote="weave" revision="17f710e0eccdb78996c6e3ee65b03d43c18e1d8b"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
