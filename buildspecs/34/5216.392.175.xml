@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="541d94663fc842c6d4e9281d20ff5b0aee53829c">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/firmware-heli-5216.392.B" sync-j="8"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="0680a2d0c4cec58f8163fe115de80cff8852fd8b"/>
+<project groups="minilayout,buildtools" name="chromiumos/chromite" path="chromite" revision="3d3d53e7d5fb3d80eea3937f4ed111db7b734416" upstream="refs/heads/firmware-heli-5216.392.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/manifest" path="manifest" revision="c81653bcc738a5696e960d5e6c4415245002ed9b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="2021ad4e1805816a38f8d9f40922258375539e7e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="e5e14693ea5b88659866d7aa85d986ad88114090" sync-c="true" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="185699e91a8e7b3ba0d7ff53497b933c8d8533bc" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="a0707ce5ccabec59f8e717e1ae3b061c4c558dcf" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="5d00e86c11d2191a7ba71e64cb5a35923375609d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="1c55a4d3426758ffeef1cbd5abceefdb9bc3e4de" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/autox" path="src/platform/autox" revision="0e87afb2d4f6cef2b5ecca593e21117a5e9379a0" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="abf9abf3073363ee5e1fa239aa0280ba8edd5c52" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/bootstat" path="src/platform/bootstat" revision="8e05e0de29e20e5d3b19acc37eb3a947ccb4eff4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="ffa6f74a0edae215fb69981804e2480f493d2969" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/chaps" path="src/platform/chaps" revision="252e932db31fa7d977320262d4c1784f49499151" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="f91b983c430f2e7ce125fda8704d094616d24a0c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/chromiumos-wide-profiling" path="src/platform/chromiumos-wide-profiling" revision="8ffe32abd60de53b9a88c30dc6364710d01c9d62" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/common-mk" path="src/platform/common-mk" revision="0205f87401ad010246312492de7d866af49cfec0" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/crash-reporter" path="src/platform/crash-reporter" revision="d2e8efbd1aea238468d08a7633ee87a1861871b4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/cromo" path="src/platform/cromo" revision="9900adce2c17b436b3f3bcbfef0453bd72619036" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/cros-disks" path="src/platform/cros-disks" revision="30735adae5508d7a7f7c860dc1cb9976e5b3fd18" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/cros_boot_mode" path="src/platform/cros_boot_mode" revision="7994ee5410793ec67e5c5b9dc5c323f1d2bb5927" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/crosh" path="src/platform/crosh" revision="71a3a888329828325787673a2c250ea8b060c57f" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="29111983c9b9010879f8da3e60fa7d8889afdba4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="549f3b5a7176bff5dd6f5728e41ee1e6dbf5d21f" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/cryptohome" path="src/platform/cryptohome" revision="b85b1b1a011c7d20f7e61743dfde325967ad5065" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/dbusfuzz" path="src/platform/dbusfuzz" revision="8335ee2a68070cb19d714cfb4dbd973f4a3e12fa" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/debugd" path="src/platform/debugd" revision="1df10b5e32a007f6b5785115d43105c5ea2b249e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="e5ec9c86877e4fb22c67801fc2f86fb08edb91a4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="f84631a564e1ed288a2118970722d60253d23c18" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/disk_updater" path="src/platform/disk_updater" revision="729e613bee24cb302c557cd8671e8c555614eeba" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="91c81fcf0eb8be225ffb77e05d5442b151228f40" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="bc788218ebab6bd83e7dea9b5160ca1bddfa1dc6" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="6c08f6ca94583e2dab4398a2e03cff947b577269" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/platform/factory-utils" path="src/platform/factory-utils" revision="48cc327c314dcf0778a10fec75682f3f82b1dfdf" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="4bd848d135206f0babcbf6c21a09476f57de6b57" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/factory_test_init" path="src/platform/factory_test_init" revision="62389179a09d15127728024b82a74ccf07db3dfe" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="9aeacf24ef86fb68e40933a26baad93bcf772e91" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="5b3cb409196c1d9293c5910b41ae2180fb0de4ad" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/gobi-cromo-plugin" path="src/platform/gobi-cromo-plugin" revision="fb2addad49c6e5ab5b0287e36c17a269f2933be6" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/platform/google-breakpad" revision="9b11ede1673333f334cda7692b2d418632a86e0b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/image-burner" path="src/platform/image-burner" revision="e9c2f9569d80ffe6392a492ce848ae3dff751f8c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/init" path="src/platform/init" revision="48de3806e85a1a4c15dc4ffd0b58c540f9d91eee" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="74b0711d3cc6f551c27fee71638db4435dd7139d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="346ecb1d4968dddf954eb9cacc76ae98c06d6087" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout" name="chromiumos/platform/installer" path="src/platform/installer" revision="d7158d9f28033588b5e4fe9bb7de27817fa859a4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="961a02f35b555ebc85192650a5f3fb9aa782e204" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/libchromeos" path="src/platform/libchromeos" revision="85ca8a5e66827e07ab467ba844fb70e943bd74dd" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="001c8b4f28a523d296f34541f05d93f6aaa84bab" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/login_manager" path="src/platform/login_manager" revision="2f186392e1b70c69fd37ad26a2287cd3fa496e27" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/lorgnette" path="src/platform/lorgnette" revision="eaa81ea8ccfd0425985fe2e267ed96e09517d7ef" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="ff9fa939470a3c94f79381ad0002b1fc132eeb7b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/metrics" path="src/platform/metrics" revision="ed612f80019d32701c677d0a8b79b0d23cabdd91" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="88f76a7746083aaeff0d714571945306f6f06c2d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/mist" path="src/platform/mist" revision="93e94b1b79c34bc4653962cb5ccc897939fe33c2" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/modem-utilities" path="src/platform/modem-utilities" revision="9bc1faa85e42fa9a3694a9f8586133f983d82978" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="c02c806dfe581dcff530f75f7b73847f7c3dc229" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="69a8be74fcec3a1dec5f56afcdf95c333061bb55" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="5e6caea507b0eeac0cb8c82ef20eba85d874e672" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="fc937f9c78a43e56cda41bdcdc258cd84ddf85fa" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="8f7e932da3d36361a5d5dadcb7a860b4ccc566b7" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/p2p" path="src/platform/p2p" revision="e7b650a78599d0b8314fe687507b640be67d6045" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/permission_broker" path="src/platform/permission_broker" revision="93daee5798e790408904543311b673a9a9376687" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/power_manager" path="src/platform/power_manager" revision="cdc3eb5b4373c53a86ddd0a28e422ba517e66d81" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="9b0b97771af89c9e5bcdd985284a08929e7a2b92" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/pydevi2c" path="src/platform/pydevi2c" revision="066f96845ee36e8ea9f9ffa7c554c5c5044aea5b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/salsa" path="src/platform/salsa" revision="22074a59ff0c214818befe64208359445b2b2a85" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/shill" path="src/platform/shill" revision="0cd95e27bb88d2663961be55e4931746aa600da0" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/smogcheck" path="src/platform/smogcheck" revision="a3633b1f3ba298fc09e64baa64037b62c2918c31" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/speech_synthesis" path="src/platform/speech_synthesis" revision="4f71f3ea09e27358a7f0fa911d0b84a3f81f9ffe" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/spigots" path="src/platform/spigots" revision="00e0bfe49470d3e6344dd9fc18123b6f1df086b1" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/suggest" path="src/platform/suggest" revision="175a1aac77e00370dcb77406d5ac3ab70b269ba6" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="ec126419b66c8061fe2dfd59cd6526a8747ca565" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/theme" path="src/platform/theme" revision="2953d00e3ade5dcf756f93dd3b12875cdf0b5f02" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="148d5507c4fd1475ea98bb29e92d3a46bf22000d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="633b9e49ed1cf129a013faede3f67a3ef0f751db" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="6722a675d50b73da0db07ea25ab41e527883f653" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="42603452484b42cddab0962188b5c4a761e98790" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/tpmd" path="src/platform/tpmd" revision="bed4a930f60860e63d1e51ed941aaa2a4139ca79" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="873e06da4015d0c0bfcb2565f4d5890a3d832145" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/update_engine" path="src/platform/update_engine" revision="fa40450ea1ac5f9f835c6a0823ecb36d7dd09876" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/userfeedback" path="src/platform/userfeedback" revision="55ade0e47b311d8a44c618418352aebf557ecbac" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="3d6a7e4ccd3ef706fe8296e18704a3f05093fa60" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="0e307b1a9c9b1d20e1c68b48b986ed517a85fe17" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/vpn-manager" path="src/platform/vpn-manager" revision="17f76e03fb8b082c1fe071408be593f0195896b5" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/wimax_manager" path="src/platform/wimax_manager" revision="d6228dfa7d39fae9b1abac8dc910bbcbff4a98a8" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="528e3d65c7980aac7d73c37e8339ad612472ffcf" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="dfe53f69fa65ded16abbebd828cc2f2e273a08f0" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="da59dc3399db4dc64d8828a6e62f95c159411a15" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/xnu_quick_test" path="src/platform/xnu_quick_test" revision="5d49db0d1e627a60c3d7de8982281fe5a28272f8" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="6f4f2da10217d1fe8291bb8284338f72756ed548" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="c6c78c5a490d90a60fed5dc5dbb665727a185df8" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="a44ca59057b11c67482bab775d795a813ea1a0e9" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="46166101a52c8879a003c7c1f230b2789cf65c47" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/binutils" path="src/third_party/binutils" revision="9c1580ea72a5a3b15d90a9baf82c2f7707b793c4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="594d7b583de7b49d93f0fb1553d46a43c6b6f8b2" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="5b1f276bfb2ca9fe6eb4b86565a9ec1651490516" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="485132dcca3b34717eb1bf3aa9ffeaf4bc4286c9" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="9c023cf430f680093f64c5946021c04f9c4d40f4" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="be12b2f2dd5be1445df39c48088faf47641d872e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/dhcpcd" path="src/third_party/dhcpcd" revision="3005a7d0ae498240ef6816126d7a1329e61d7c2c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/dtc" path="src/third_party/dtc" revision="414f31046a3ab709edf6e26604c932fd0de22df9" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a5001d2934cd8b6bdbe251339711ddd4d1d9760e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="699e98cf6f69f1b516f07ed45c2b942074775ccc" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="d8a5cfce4bcf83e4e493e5129814e51a190b62b7" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="feea904905b865434fbbabb6d3c7a409144ad242" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="37c9bc3b1a988450c831e788aae25ce6e66b5005" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/glibc" path="src/third_party/glibc" revision="c0da14cdda1fa552262ce3624156194eef43e973" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/glibc-ports" path="src/third_party/glibc-ports" revision="8a70b2dcabbfaae8e027f8aacb3168ffbfcba5d5" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="612090b4d856bda80d5879aa244069fe622d5c56" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="6a9916f514a52ed86c6988be9ea7e4ac7d7ea4db" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="04facec6b8487a9022e37c992704ab359f04608a" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/files" revision="b3603c6bdd5876c6ad8c23206627eb8a8ccba016" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel-next" revision="91e8af6f1b61dc6f32d87823232c9520926820e6" upstream="refs/heads/firmware-heli-5216.392.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/3.10" revision="5dbd56201ab943e2d2a6f1ebd8f96da4c37504d3" upstream="refs/heads/firmware-heli-5216.392.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="b0f9be2cdea655b75d9cadab22f04333ebaf5e9e" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/ktop" path="src/third_party/ktop" revision="52d09bd25a02b3866aba1bb492f36a2d851d6472" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/leveldb" path="src/third_party/leveldb" revision="3d77530aec0e03d7559aa66d31a65fbbe5d84e73" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="f753ff1b9271342abd3f58dbac13174b936406f3" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="5cb8673d56ccc99e48e8eacbfe84d560d2c66e12" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="726ba6fea1b749db1c747138b2a5e221754b9aa3" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="24b6a27c1bf6bc20c0ef00f5d78902b2c3419ab5" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="cebabb9e94fe2b3196b63205fb7b5a56d2feb582" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="2af1d9b0b3c4bc6f055256592848d9a13b671968" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="22bf0f3eb4668044042cdf326ccee29fa44f850a" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="bd92070f6526cb767e9a8865f9d3befc113cd50c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/mobile-broadband-provider-info" path="src/third_party/mobile-broadband-provider-info" revision="25719277f826fbc5014b32817238333dc15924e5" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="ce7f6ba5c0c72a793198c959d6ea4e3bc926338d" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="379b673903399be717fe873629b3f1233e92f15b" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/openssl" path="src/third_party/openssl" revision="35ae2093b3be78810b48681e3f06d46433f68877" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="81eee0ad7b54385f9598a90cbe5e722d6ca77da9" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="dc7812ea479304c309456c08c0f50e26d0e83f6c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="515197db4f204bf942b4d4f57bd994cc2e7e9c0c" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="5bbc06c5df9957fe50fdc1019b87808e86cbb036" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="c8d367010678e1939c1a8fc513df8b299c522d6a" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="c9c7cd50640c2d8882a04f59f1bcb383a88b19e9" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="e748cffd617bdea7c1ca83dfc0c07a57d94e2868" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="f6d255cf9ecc7ef5e38ad0bbaed219da26de49da" upstream="refs/heads/firmware-heli-5216.392.B"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
