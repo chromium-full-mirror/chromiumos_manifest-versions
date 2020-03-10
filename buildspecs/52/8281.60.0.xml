@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="595c559db9c556c5f6f7935918a9e9181f600770">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<remote fetch="https://weave.googlesource.com" name="weave" review="https://weave-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/firmware-gale-8281.B" sync-j="8"/>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="0680a2d0c4cec58f8163fe115de80cff8852fd8b"/>
+<project name="chromium/src/third_party/hwcplus" remote="chromium" revision="e66a31e54e12906e86dc59f95b458889f025c505"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromium/tools/depot_tools" remote="chromium" revision="3add4b62b8fc420ba5a6cc0c8bddcf152c00a970"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/chromite" path="chromite" revision="79b97ec42c99adcb43ab022305d8d322b7945a8b" upstream="refs/heads/firmware-gale-8281.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/manifest" path="manifest" revision="6a6dc1a6aa68866af428d79a1c373fc7a0e4c986" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="fd86658fc3dbb8c02e986c45d34c4fbc51d71825" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="6a5e9236d04c16dbf0eba29fd089e48f5f4ec4a9" sync-c="true" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="3a2c975087dbe6aa72ffabf55133d402f85c09e2" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="bb91541c629d3cf821372f04baceadc73fd80474" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="20544c6751869f4ffdc205927cdc86c4e6404aab" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="6e95482a2a0387dae6a14d9cce25f9c10c4adaee" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="0b7244bfe44d162445ff70a63e7eae6732bcd752" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="1b65449a647c99556511df30b8ab660b98acce7f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="8ce7b3a07e38a391e48dd1c906774f52a15a07b0" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="05ce8d3c59a2d8e765b3beb2e1a69e7fcf59e5ba" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="aeae673cc06d857bf34b35a5a81f07ad8ec877d2" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="c718eee8837a22538992b7ff99087c11b1c49300" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="b88cbbe1bb16343be5076d8b81108815fff5ff45" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="c1613e64381e897d103ec27af70f062e1db16e5c" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="c4df284b32558f631862f79c75fc03af4f5ca68a" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="1fafce87c75ebe003d556978e094ac965881f796" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="25a4f355e8d4ec67faa11241750868c721b448b5" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="project_sdk" name="chromiumos/platform/factory" path="src/platform/factory" revision="6a150ec01e051abab0b1a635a2f574d83ac3e4aa" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="project_sdk" name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="312f06df6f921915f15f976f936eea335c51b236" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="70f79da7a3bd18c942fa65a6b21fea589bbb5516" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="1883c040bfef8304bb6963396de50405564387e1" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="b31cab051b7875c1fe1e4da04cbef83940df701d" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/glbench/images" path="src/platform2/glbench/images" revision="5fd5ce655833f65d46b1950bec4eedeb4e96959b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="0280326e5bd212fcfbe3696e113730045debae74" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="139693446b857a6b11e5255d5db23c50061c4226" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="1a710721263b8b93ab49af6a6f749a778483f3df" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ae0b15dc322bab9bf6d7c4fcd5f77d488766a275" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="5ee665e7c68856d3b6ce8bb0f610d43503e603af" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="61f882f395b9f39478d7164209e7134cccdcb72b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="6998c27e07adba0bd553b0d4f5cf402d86433bb9" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/microbenchmark" path="src/platform/microbenchmark" revision="d5ea30febe406c5b486325dfae926564f3a46efd" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="b26f26d3c683fcc5ab6f0ecf0679a63614cf9b69" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="fe6a5e2ecefbb79c538a8d367f5570abbd1a55ea" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="d5b6d854f8bfd775673341e98cbbd476c8fb42e3" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="9efd0e1723cd45709bd0d34e8e7bbfd15967f0d5" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="5a230ee17756dc43ff732932dcb52899c06a4d09" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="6161461ea6a970853d98d5f8e835610c167ddbe0" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="a9400e80d2577cead7300e926f5ca0715910e9ae" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="6b0aba12a385f4d3a7a47641a3a919018032f6f8" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="bb13d3d374bf896076470f056b05529952bed383" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="7638006e103c860f7f5a4ebe4c5822759600e793" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="d2e7d94a834b54511ca57e6359839f9ca86d6d04" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/trunks" path="src/platform/trunks" revision="92dbe8c9e7fcf8acf67805fd5e25e85aa371f673" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot" path="src/platform/vboot" revision="2d30a2f5b1c81eb61de4bf82180a910d45f22e81" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="8fc5916c7f66627be26203aa4f0d800a266b4b4b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="b2bc97f7c89b0ca5f90aebfb57bc072922b95472" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/wireless_automation" path="src/platform/wireless_automation" revision="d7177dbd464f2952e10309bf1eef56bb31a7f8ad" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/workarounds" path="src/platform/workarounds" revision="76475bb60c7fa2c2522c27e2c63c9dbbe5de73d7" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="8e4423c8089b4a9aa0c7d1a26add2a6314ef76af" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="1f7c938dd96bdab9e278203e2c27b6aec3b44e2d" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/repohooks" path="src/repohooks" revision="272f2e5c2ddab15f30ffdd2c6c17b96d6a23d813" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="0301023f29b05474fa9cde0958aa85a95580ce3e" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="7b4838e4fc4b55522b59fa69ac53c81237458c6e" upstream="refs/heads/firmware-gale-8281.B">
+<annotation name="branch-mode" value="create"/>
+</project>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="buildtools" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="02b41a24c7674c53dbf6f292f7ea34e8c74c2bdb" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="26f079d123a500fe8f1bc1929b9cfc36a42addcf" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="7bcd0328d0eeef6a0539bd0ba80cd9a545e6cf4a" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="9ff56abe09acaaef355ce83282ae32c825bbe5ca" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="9ba07035ed0acb28902cce826ea833cf531d57c1" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="3182aa85c087446e4358370549adc45db21ec124" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="f140c0aa430e1db1c0f31d23d3eb2397d47f209e" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="aaaf66654dba797f152066df4d1dc4144b492c66" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="59543cd1371071a950befaf0a123b2f4f0b807c8" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="2d511e935a49006ef2e3ce505f0639c49d13f501" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="69702c400e274984a24d08fcaefe3952d5dcb36e" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="a3649717db9df6b3a85b559d1316838f177d6d5f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="ed81fec79bb945a813c3ee2c5a85c9651bb3e16c" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/hwcplus-drm" path="src/third_party/hwcplus-drm" revision="7376a8da1c961115a61d7a3cb23bb13e4153583d" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/ibus-chewing" path="src/third_party/ibus-chewing/files" revision="7a9514a0844eb5eb90ab96f62484a6af9e4a0d6d" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/ibus-xkb-layouts" path="src/third_party/ibus-xkb-layouts/files" revision="6af015110aa92dc2eed88a9f704634c3eff53b14" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="1f52e07d94d74c243ea70c14f34f71522d099676" upstream="refs/heads/firmware-gale-8281.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="71449152b7830d3c00425b72976025fb01483436" upstream="refs/heads/firmware-gale-8281.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="f09e40829cd5605996c2cc991d581e9e1b82d13b" upstream="refs/heads/firmware-gale-8281.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="a24d33c674cf6404ef90247e17be112531be6424" upstream="refs/heads/firmware-gale-8281.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="ab7994055bb6ef7220ddb4873b14d368b735d324" upstream="refs/heads/firmware-gale-8281.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="dceee6ef99b968fd11d9c6058448202db835bc0f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="2c25afb719347a151657f8637ad62a5df42e247e" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="c4e2949edeed01ca3b810729a7af0d265c49629b" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="a436c551cf226af66cdb3dd74ee3971d0b1dae04" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="07f7a81118f74a8a7bc4ef5b81ee651aa12b8adb" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="4d3f6fea447ed2cf1c9e4f34507c07059ce64c2d" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="4290bd545748cae9e3abad8113dcf4f6dc82e840" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="f3a48ad1a911ce0bc8110279e314d718e2fa54a8" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="c3b88cc2c15f19e748c9c406e9ab053975adab7e" upstream="refs/heads/firmware-gale-8281.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/firmware-gale-8281.B-mesa-img"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="bcc3e2e4246431be511be3959a11cd9733bedd29" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="73f3de643f78c6644b8577b2690f312d5379a195" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="b67690aeeb4174b2253db18a9c1b19eeb219a4ef" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/ply-image" path="src/third_party/ply-image" revision="6cf4e4cd968bb72ade54e423e2b97eb3a80c6de9" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="project_sdk" name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="5d7d7ff513315abd103d0c95e92ae646c1a7688c" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="0c4b13bf15b8e5773b79e6317121fba5e97a154f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="5c18d72e028eb0aa1ad9487589b495889bb3b905" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="project_sdk" name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="416d30f74a9c1dc08b95b907d8b7e81edf6c9db0" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="cc72f5c47c758892b0f41257b0dd441a506ffdcd" upstream="refs/heads/firmware-gale-8281.B-chromeos-v2013.06"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/next" revision="b30f38206f17aa73cda0a2fdaf4dc705527315ba" upstream="refs/heads/firmware-gale-8281.B-chromeos-v2015.07-rc1"/>
+<project name="chromiumos/third_party/whining" path="src/third_party/whining" revision="9640b0b54ecee905820292fc0a095230b3a58a0f" upstream="refs/heads/firmware-gale-8281.B"/>
+<project name="chromiumos/third_party/xf86-video-armsoc" path="src/third_party/xf86-video-armsoc" revision="30370e9dbf7ba0e457ee7de297d2ad6c269a00be" upstream="refs/heads/firmware-gale-8281.B"/>
+<project groups="minilayout,project_sdk,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="715861067a7cc8d20d2d629b6d76d796c004feb4"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="9292030109847793f7a6689adac1ddafb412fe14"/>
+<project name="platform/bootable/recovery" path="src/aosp/bootable/recovery" remote="aosp" revision="ecd6e2af5060ba3f7d5c978be6d617d1242f231c"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="db7f0c891478b726567611468a65453a14f80559"/>
+<project name="platform/external/dbus-binding-generator" path="src/aosp/external/dbus-binding-generator" remote="aosp" revision="bce0483dd09f592d6f9f989f0e34fc930d206810"/>
+<project name="platform/external/libbrillo" path="src/aosp/external/libbrillo" remote="aosp" revision="ed104e9c878bb5e1441a4a10eb00825270f8bd2e"/>
+<project name="platform/external/libchrome" path="src/aosp/external/libchrome" remote="aosp" revision="fc7fe5e067751426175b585aacf02cff022e9816"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="7a569073b95af7532892dc726c2f33cd40edfb57"/>
+<project name="platform/external/modp_b64" path="src/third_party/modp_b64" remote="aosp" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c"/>
+<project name="platform/hardware/libhardware" path="src/platform/libhardware" remote="aosp" revision="0cf9f2b71449ef849a2cd95dad26c7c919a81cb1"/>
+<project name="platform/system/bt" path="src/platform/bt" remote="aosp" revision="757b1b48d72a917443a6eb48dba45075d0e546c9"/>
+<project name="platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" remote="aosp" revision="57188eeae6e36334e15f2cec96f68fec330b0f34"/>
+<project name="platform/system/connectivity/dhcp_client" path="src/aosp/system/connectivity/dhcp_client" remote="aosp" revision="702e09977646efecbdc26eb348031a4ed583161a"/>
+<project name="platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" remote="aosp" revision="2f8fcfef293524108e5653af3256ec052342abfc"/>
+<project name="platform/system/core" path="src/platform/core" remote="aosp" revision="09167c2f5cfbc75441d34372a1f0cb1b82c32aa2"/>
+<project name="platform/system/firewalld" path="src/aosp/system/firewalld" remote="aosp" revision="3a84e4d300ed4f09dd519c452d8b3d3bd110f442"/>
+<project name="platform/system/tpm" path="src/aosp/system/tpm" remote="aosp" revision="dbcda1a2f60b5f1be10dff53c31ee72d6940e185"/>
+<project name="platform/system/update_engine" path="src/aosp/system/update_engine" remote="aosp" revision="b3fa53bf760bd0a6fd1ef9df28cb425586d733f6"/>
+<project name="platform/system/webservd" path="src/aosp/system/webservd" remote="aosp" revision="b470b41a117a213f5b8cf2d7badcc208da001b72"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="d929cfd50d770364fd652d252abc19598b0cc84c"/>
+<project name="weave/libweave" path="src/weave/libweave" remote="weave" revision="369d2f07313abebfd3db6d541cc15e7e7d770f23"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
