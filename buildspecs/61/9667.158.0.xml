@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="6a82e6fdc37a923905e09df31aaca036a815e421">
+<notice>Your sources have been sync'd successfully.</notice>
+<remote fetch="https://android.googlesource.com" name="aosp" review="https://android-review.googlesource.com"/>
+<remote alias="cros" fetch="https://chromium.googlesource.com/" name="chromium"/>
+<remote fetch="https://chromium.googlesource.com" name="cros" review="https://chromium-review.googlesource.com"/>
+<default remote="cros" revision="refs/heads/factory-eve-9667.B" sync-j="8"/>
+<project name="aosp/platform/external/dbus-binding-generator" path="src/aosp/external/dbus-binding-generator" revision="0f36410cec3fe0c95afa666f17198706c7669656" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/external/libbrillo" path="src/aosp/external/libbrillo" revision="d710b3bbaf7a8253830cbe9d2e720ac8bde16251" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/external/libchrome" path="src/aosp/external/libchrome" revision="8263a04a1e4e6e40ed479f62ac529874eb7675ef" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="99dc13926931cedfd2e4e582c33ef657d0645c5c" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/connectivity/apmanager" path="src/aosp/system/connectivity/apmanager" revision="a9a4938a099d1bf1a87798e021791bbe2e467d00" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/connectivity/shill" path="src/aosp/system/connectivity/shill" revision="7e8cc3a53d98377729aee5a78f919febf6e8f4ea" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="aa6cda6f638bd57d3a024f0d201f723a5c3bb875" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/firewalld" path="src/aosp/system/firewalld" revision="64fc5a23a1ae487409cc585b3fbf261c553acb4e" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/tpm" path="src/aosp/system/tpm" revision="90f1a820f7d6845f63b8582217180ca00e558db1" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="013ebf9cc81b1be2eaef6a0e1d19ff806a8fcdb8" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="aosp/platform/system/webservd" path="src/aosp/system/webservd" revision="8f325b7f28a4b3042753fb006bdbe95db98768cc" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="241945a505becb3adfc84eaf5a4835eb95fc78f0">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromium/deps/libmtp" path="chromium/src/third_party/libmtp" remote="chromium" revision="4a93e2cfc133473ae58f17374c32669eea9a8912"/>
+<project name="chromium/src/third_party/Python-Markdown" remote="chromium" revision="b08af21eb795e522e1b972cb85bff59edb1ae209"/>
+<project name="chromium/src/tools/md_browser" remote="chromium" revision="66e00236a69489c9fe86ea9717f9384f363f966b"/>
+<project groups="minilayout,buildtools,labtools" name="chromium/tools/depot_tools" remote="chromium" revision="5702f0baefc0c1321374d838f8fc27c18d79a2ae"/>
+<project groups="minilayout,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/chromite" path="chromite" revision="950ad0b2ac72b16e5ca41d869bd60edb5e4f1b65" upstream="refs/heads/factory-eve-9667.B">
+<copyfile dest="AUTHORS" src="AUTHORS"/>
+<copyfile dest="LICENSE" src="LICENSE"/>
+</project>
+<project name="chromiumos/docs" path="docs" revision="2e4d46ab32491f64aa29f40cbf6ae03c47cadd06" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/graphyte" path="src/platform/graphyte" revision="1a3a32c0f95a361b0e7584afadc8012cbd405eb7" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/infra/distfiles_updater" path="infra/distfiles_updater" revision="2d1aa33972b2028d19a288baaacee9b2cd8644f7" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="6024a1b8244b5f81e8dc667d7395012cfb989104" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools,chromeos-admin,labtools,sysmon,devserver" name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="704dbb824410432fcd5902ed41509f40735e7fd8" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/manifest" path="manifest" revision="6c935dbd163aa8f3c79edbfc0e1d06767636a6f5" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout" name="chromiumos/overlays/board-overlays" path="src/overlays" revision="a0b3a9ffd4316f9cd8fbde7f453cd496fcfb527c" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="1282c37987ccaec83fd918ebe52a4f4287c5f10e" sync-c="true" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="32535317c22a0479f925fc942963e73c181755e0" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,labtools" name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="6bc3e4681a3a5d9c3b135ece1957d38a4749312b" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/arc-camera" path="src/platform/arc-camera" revision="ee7e16c57d4fdb7e049855be99fcf9942c20f872" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="2aff8a01f36d8c0cbda41bd123f72f5f9645e21f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="a2834cbe4e9cb85356e115afd4f4b2398745cf75" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/battery_updater" path="src/platform/battery_updater" revision="32463c6de8e8c98d4b1711937bc7678afc121a85" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="2f616acb24a31c40b9e47a2d2e001a0a3b6d159e" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/bootcache" path="src/platform/bootcache" revision="ebe3a0995e90026433ffc62b7aeed6cad1f28694" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="1b65449a647c99556511df30b8ab660b98acce7f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="50e26c0020940a88729ac3f2e194c5b5d475d8db" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="2f1ee8448a886ce1abad9c0e8741582244f8ab40" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="ea800d26846cc4bab2d5f3190062779dda49918b" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools,labtools" name="chromiumos/platform/crosutils" path="src/scripts" revision="df30825ec7e871cd958361a6cfbf39312c30088c" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="be4a4c97be4afa6ac4808808841a97bdf5661e04" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="46a4663857093f4c18fc720a93fca02b369679e6" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools,devserver" name="chromiumos/platform/dev-util" path="src/platform/dev" revision="3a9622e6c568753f9683d462de619133d8b96de1" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/dm-verity" path="src/platform/verity" revision="5d5faf68cdb05e477f0637f517f4926a0db1394a" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="326d08f73eef5d9e4ae26d80dab20a4740b01e26" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="a326dc7e458929aeb3968146acd1bd2468b611b7" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="0c9b56092424c370eff748b25d49caceb9a18dab" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="70ae662f0322e82e133097b99baa0a320baefc67" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="ef732c8d5e6973abfbd7d44163505e840db1c236" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="d6d3bc5e9014cec419b8430a840f72a33d336591" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="da55e6cd18a13750b0fc417f8db6a310ad284231" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="8db205eab822637ea75c84a733878a3326196e3b" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="0280326e5bd212fcfbe3696e113730045debae74" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/google-breakpad" path="src/third_party/breakpad" revision="cc1deb44521d41125f5d617940a654c58c794325" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/imageloader" path="src/platform/imageloader" revision="a290471be8063ef1a1173d891e70ee6607d129ac" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="49be52cbc7a3067bb9f41de51dbfda6b0bea2f2a" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="ae0b15dc322bab9bf6d7c4fcd5f77d488766a275" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="8830911158ae632b7626d0ebe33248e66ffaeef3" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="9f7a1961eb4726211e18abd147d5a11a4ea86744" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/memento_softwareupdate" path="src/platform/memento_softwareupdate" revision="c7ff5188fb31541c3c6173e8171155f965760883" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="3c5be5ae2ba591bd9cacfd82476b61734768be89" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/moblab" path="src/platform/moblab" revision="dca599879cab0dba8ed32ef3a5d1b82e26524732" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/monitor_reconfig" path="src/platform/monitor_reconfig" revision="f022d19d84f232290b596beeb26347f62442e7eb" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="f9efb7420e23447f6781695187746e88d467ee31" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/mtpd" path="src/platform/mtpd" revision="17cc088dc198f626513d4154644d57553b69fefd" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/mtplot" path="src/platform/mtplot" revision="5e4f631e633384751f582bd9db5f4d6eb2112494" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="8e83b1936d92fa4992d6597862d10b801fbaa097" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/newblue" path="src/platform/newblue" revision="4f1e106c96d72a1b5ac4b79bc8facf81b9458edb" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/puffin" path="src/platform/puffin" revision="2426ccf4e3558eeca0d2a7e8dd0a900ae09d245f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/punybench" path="src/platform/punybench" revision="c050715684a5dde3a4fc818f3de816a407fdb2de" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/system_api" path="src/platform/system_api" revision="638d4895cdde26daa446099844d0a1cef6d1397d" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="95a5fb7a1e4526ed8c8e641431f66f22f302cddc" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/touch_noise_filter" path="src/platform/touch_noise_filter" revision="f1eb895f7ea70ad99bbe60508fda825923c35af6" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="ee277a11d7e8395190542ca2ab061e239de8c628" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/touchbot" path="src/platform/touchbot" revision="9546ffbb37d5fef191ad1607eeb0b76a6f3a9872" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="4a4e4cd4aae6f8b5fb5ca0f34b8e937835b08f08" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="0cba6cadd1bea1ce3717779201d594c4c9131dc2" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="066c7f963b3ef733716251b666e0af0afd03b4fe" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/uboot-env" path="src/platform/uboot-env" revision="108ebbfac4d13d11e1940216434c368384ee0c0b" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="buildtools" name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="220f36c60471971badcb638586ca6f7062bf2547" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="0ed732a09b5cd199e4741624437aa0a85866e3c2" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/webplot" path="src/platform/webplot" revision="bbd5ea22ef9f8e109e363b26958d9a2fc8921f0f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/xf86-input-cmt" path="src/platform/xf86-input-cmt" revision="3f2ffc921952e57a4343463b0679d90b80b51fc7" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="e2b1fe70d712d2d8f32084ec1ab500e8e74c12f9" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="d323a67cfdc2d95eda76f741d34250d536eb88dc" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools,labtools" name="chromiumos/repohooks" path="src/repohooks" revision="20532baaae557c9c75121bca7bbe93225600c46e" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="a0aab94fc9aaacabb198c01d560d29ac19a89900" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/android_mtdutils" path="src/third_party/android_mtdutils" revision="9bcfc3ee238f16925e9aaa4573129784ebb397e7" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="4fd4af26cb650d34876c058a7142c91233ba5475" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/atheros" path="src/third_party/atheros" revision="52a5bdaa8930c14ee42518354de3e5ec09911c6b" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/atrusctl" path="src/third_party/atrusctl" revision="b7987d6263aed49ab08a3d841dd882604f8347a7" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="buildtools,labtools,devserver" name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="21ba601230aa7a2d2f1e7a93d1ac9f3dd032d6eb" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez" revision="534d81c399fee7b82d5beae4f455e5f1bfb0b466" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="5ac54e8d3d305c2c6c7297e8e54d3cf7e4629b29" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/broadcom" path="src/third_party/broadcom" revision="4070e7161f2f1a1a22027a744eb868500688f0b6" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/chrontel" path="src/third_party/chrontel" revision="7bcd0328d0eeef6a0539bd0ba80cd9a545e6cf4a" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="26fc510b47c28c59dc3a4adf9190893e9656498d" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="9ba07035ed0acb28902cce826ea833cf531d57c1" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="6283eeeaf5ccebcca982d5318b36d49e7b32cb6d" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/cypress-tools" path="src/third_party/cypress-tools" revision="043fba1c35f89cce95f804bf6d4f01cfc23a6c21" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="f21d857fde838f7cb141f81c49070abbdf343fce" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/dbus-cplusplus" path="src/third_party/dbus-c++" revision="904f49fd770dd559800523edd91c1226e131655d" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/dbus-spy" path="src/third_party/dbus-spy" revision="0e04421c73b24536de7fcc1886da469d8b7a2a41" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/displaylink-updater" path="src/third_party/displaylink-updater" revision="a52808b5995fe2ed481269c8f089358d4b451d5c" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/dpkt" path="chromite/third_party/dpkt" revision="f5259728b1294412bee945df9708efba09ea9160">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="0aa39d284043be61b5f1222afdffd39a5abaf3aa" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="6e60dbae5bf62cd0ffffb9fc5ca9ba93e831ee88" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="9108393752ffd93b133037add1f7b484de09bdbc" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="b6e26e656c0696ccd1715a6d2c9acee75ab0c092" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/gcc" path="src/third_party/gcc" revision="a2bc87ab8851051e765d60626a6997f63ddfe00e" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/gdata" path="chromite/third_party/gdata" revision="fe7e5c90a9827feb66ed446b2d297a1618b25272" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/gdmwimax" path="src/third_party/gdmwimax" revision="e8236b4b2d66b1972e4f84955a238134acd7f6a1" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/gobi3k-sdk" path="src/third_party/gobi3k-sdk" revision="5e5d1a65cbf855609e4d7c9c425615090a834704" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/grub2" path="src/third_party/grub2" revision="df6034c59cb2d847f9e780cf2def30c5c9b8305f" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="labtools" name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="879b0b1b115250a532c0f7985bf03640bc3411f2" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="a07f7158fe3af528a2cd2c3fcf9c1011bcd0c09e" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/huddly-updater" path="src/third_party/huddly-updater" revision="58a69e18e4c8cfe8626ddabcbbcd10b268e48d13" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.8" revision="bf4a31fa99ba4a77d4ce7fc23373fae6691735e2" upstream="refs/heads/factory-eve-9667.B-chromeos-3.8"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.10" revision="17b67fc18ff443e8af099506b0a3db4b859b0fd7" upstream="refs/heads/factory-eve-9667.B-chromeos-3.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.14" revision="7a59b114a1da158fee0a3c161e391b98a397376d" upstream="refs/heads/factory-eve-9667.B-chromeos-3.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="d3c861198275a1a974aa8f97a384428c1373cba2" upstream="refs/heads/factory-eve-9667.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="651d3ce7c6e1f9fbdcdd68d1d6e0e4b2ec6e9324" upstream="refs/heads/factory-eve-9667.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="bbd199f8f3dc9c2a49cfecfc7956fe7706d9f0e9" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/kvmtool" path="src/third_party/kvmtool" revision="9dc621e77e7e4f3c045831021b04d19997d3deb5" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libc-bench" path="src/third_party/libc-bench" revision="76793dd4b09191a78a78180012718e72d792717f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="0c7748b56694e9b00537f27bbe9edb11c78ce08f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="44b84986b429c153e6c63d9207639b3f432d5021" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="ddb03e7d818f26bac8a7ff04ba0135ac3e73047b" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libresample" path="src/third_party/libresample" revision="cc9f20f439396b7d45e94b8301edd95d33f26a46" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libscrypt" path="src/third_party/libscrypt" revision="b45c53f9418a6eff2c8ed98703a55f96029304b1" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="e79d5093d0c93b9072f45415b29e12b2740db25e" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="c5281d524ffc9ecd4873e5fc21587dc0f4a350b5" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/ltp" path="src/third_party/ltp" revision="7df860dd2389c5c9a5b2ed9ac8a7f1d48d6fed03" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="b5d3741d042bde7941284303712c3790ab4e489d" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/memtest" path="src/third_party/memtest" revision="3d4be6e3bfd819856e38a82e35c206fec4551851" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/arc-mesa" revision="6f6a1b0463ea19bbc53bdbc4ca48718e5ffa407a" upstream="refs/heads/factory-eve-9667.B-arc-12.1.0-pre2"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="1b03323e17c096000d7c5b6b60cc2fb9fcc9f2d1" upstream="refs/heads/factory-eve-9667.B-master"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="129178893b2260df22db96327c5ca9c2ce7db046" upstream="refs/heads/factory-eve-9667.B-mesa-img"/>
+<project name="chromiumos/third_party/mimo-updater" path="src/third_party/mimo-updater" revision="636fe4d2ce8fdbbaf2d1668e4ddf4824d6837378" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/minifakedns" path="src/third_party/miniFakeDns" revision="6184bea119dea53da539727fe8c2a116f98cef24" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="40bf7e3cab34251e0286831f87923492ea8a4338" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="2c7221537edf60cd01fdf317454fa514f363a3b4" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/nfs-ganesha" path="src/third_party/nfs-ganesha" revision="0ca03501dfd49f8091a04f941c05a71246b24bf4" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/ntirpc" path="src/third_party/ntirpc" revision="9188a4c63881f5c26283ac05132f97a408a67462" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/opencryptoki" path="src/third_party/opencryptoki" revision="b67690aeeb4174b2253db18a9c1b19eeb219a4ef" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="3ccfed9fd25d8e3c01e5be7d737e8d478fb46f70" upstream="refs/heads/factory-eve-9667.B"/>
+<project groups="minilayout,buildtools" name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="19b3e610c86fcadb837d252c794cb5e8008826ae" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/realtek-updater" path="src/third_party/realtek-updater" revision="7e603e12fbf9d2a8aeb67f1075fe43dbfaf52f7f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="b9b8f1de0ab9d4b0e1739d7c0dc4ec232b85a5c3" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="3004147dd3707e600772ec6c5d37beac7f4b8eb4" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/sis-updater" path="src/third_party/sis-updater" revision="793f51c53f7e0c6ff1662c0efcff0bfe1f61e0cd" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/tegra-power-query" path="src/third_party/tegra-power-query" revision="66f1f0d949f4ca4836c1a65b622629205240e37a" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/tegrastats" path="src/third_party/tegrastats" revision="1be161a89525d840e1f6d1f21b3f45645a7dedb3" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="8ccda0f645b65dc82f8676ce321406938a35d0b4" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/toolchain-utils" path="src/third_party/toolchain-utils" revision="09ce67b14d036f502f3c1ba63c3e89da9247da9f" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/tpm-emulator" path="src/third_party/tpm-emulator" revision="310a21ef24ace14b4d6e8095172445494f54ff25" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="cb2de5a810df1898cd3ae47d517603b8b12371c0" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="31f4933a54cce7b157619eb1dd14ea32bec39279" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="cc72f5c47c758892b0f41257b0dd441a506ffdcd" upstream="refs/heads/factory-eve-9667.B-chromeos-v2013.06"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/next" revision="b30f38206f17aa73cda0a2fdaf4dc705527315ba" upstream="refs/heads/factory-eve-9667.B-chromeos-v2015.07-rc1"/>
+<project name="chromiumos/third_party/whining" path="src/third_party/whining" revision="f6e2acc3f21e8b7c9eec4a8871a65f50381daacf" upstream="refs/heads/factory-eve-9667.B"/>
+<project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="9bcb266cd778f8de9dab4b8c7e5664ddf50e888a"/>
+<project groups="minilayout,buildtools" name="external/swarming.client" path="chromite/third_party/swarming.client" remote="chromium" revision="715861067a7cc8d20d2d629b6d76d796c004feb4"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="3f6478ac95edf86cd3da300c2c0d34a438f5dbeb"/>
+<project name="platform/bootable/recovery" path="src/aosp/bootable/recovery" remote="aosp" revision="5efe2bca2282dd8aa613ae85b267780f6c1d1307"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="61a6197566d4230c9a86a61e6c5f605778ab3733"/>
+<project name="platform/external/libcxx" path="src/aosp/external/libcxx" remote="aosp" revision="0aea6aeca494754446dd1e5fe638fe68da128036"/>
+<project name="platform/external/libcxxabi" path="src/aosp/external/libcxxabi" remote="aosp" revision="c41479a1d7de7fe6e9cfbff9be21382f7b23ace7"/>
+<project name="platform/external/libmojo" path="src/aosp/external/libmojo" remote="aosp" revision="24543f227908c2e949bb9a15b40276f59fcc9a0a"/>
+<project name="platform/external/libunwind_llvm" path="src/aosp/external/libunwind_llvm" remote="aosp" revision="93d99bf31d081198030380a946f4c29e38159b25"/>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="98f4a938cbc4acaff5f06009af50bb4bf19e173b"/>
+<project name="toolchain/binutils" path="src/aosp/toolchain/binutils" remote="aosp" revision="1661a29f471199a57719ff27eed5af7d7714376e"/>
+<project name="toolchain/gcc" path="src/aosp/toolchain/gcc" remote="aosp" revision="32c89c19b042a12b5a1bf0153299154ea5435c03"/>
+<project name="weave/libweave" path="src/weave/libweave" revision="fa29d8f43a37aaf4b47fd2f3c76785050d075a7d"/>
+<repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
+</manifest>
