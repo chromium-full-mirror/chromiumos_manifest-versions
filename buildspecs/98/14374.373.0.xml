@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="a2c5b4a8dd6bb825e8246859b94b2451a94a2012">
+<remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com">
+<annotation name="public" value="true"/>
+</remote>
+<remote name="chromium" fetch="https://chromium.googlesource.com/" alias="cros">
+<annotation name="public" value="true"/>
+</remote>
+<remote name="cros" fetch="https://chromium.googlesource.com" review="https://chromium-review.googlesource.com">
+<annotation name="public" value="true"/>
+</remote>
+<default remote="cros" sync-j="8"/>
+<project name="aosp/platform/external/libchrome" path="src/aosp/external/libchrome" revision="2d4c8c67beba580210ee9a2aeef72456ffd7445c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/external/libutf" path="src/aosp/external/libutf" revision="c17bb435be940edf1aff81469215bb6a071f3c38" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="269b6fb8401617b85e2dff7ae8a7b0f97613e2cd" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/frameworks/ml" path="src/aosp/frameworks/ml" revision="26ad8609940b61cf91bc2caac9091eb1aa7d1f47" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/frameworks/native" path="src/aosp/frameworks/native" revision="8300206169b81cf8f6600886bc1f5a86e62ace98" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/frameworks/proto_logging" path="src/aosp/frameworks/proto_logging" revision="06ed9cf72897e1f8b54a8d74f4aed932a4996662" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="aosp/platform/hardware/interfaces/neuralnetworks" path="src/aosp/hardware/interfaces/neuralnetworks" revision="eee167fa829d108a5678624050425899b348a252" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/local" revision="630827051e888165351b9dae19fdb8c785d828c4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,bluetooth"/>
+<project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/upstream" revision="aab6cbc573e6e02975d142dcc96af1a3f0ba9174" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="aosp/platform/system/bt" path="src/aosp/system/bt/bringup" revision="48b28b8680caa31da7b5c4d3d44425a221b0c3ee" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,bluetooth"/>
+<project name="aosp/platform/system/bt" path="src/aosp/system/bt/upstream" revision="6971b2f3155cf5dee48a990ff410df57f989fe5a" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="aosp/platform/system/core/base" path="src/aosp/system/core/base" revision="8cf6479cfd925657da51da04902a68dfe7e84632" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/core/libbacktrace" path="src/aosp/system/core/libbacktrace" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/core/libcutils" path="src/aosp/system/core/libcutils" revision="e50a8af67660544144c9e572d563c0c6ae8a8ddf" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/core/liblog" path="src/aosp/system/core/liblog" revision="9cca7081cb7d158034bffec841f227af52cca401" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="2069472e9e66b3b7d6fa7800a1f91c0e9290b4c2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/core/libutils" path="src/aosp/system/core/libutils" revision="02110e5625e05439f6008a01ba40e812cf1c03df" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/libbase" path="src/aosp/system/libbase" revision="2cba90a13babf861385364d191710eadab30a50d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/libfmq" path="src/aosp/system/libfmq" revision="88e224a8203eea9ed9fa38a0e4c0260ecd9b69e7" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/libhidl" path="src/aosp/system/libhidl" revision="471609b486435ebb3b1136dfe24fca24a48c74ff" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/logging" path="src/aosp/system/logging" revision="47a22f5a8ab194749f2e4faedff997dab344534f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="5ba53862e79b401645e3a35b217916ab2e1d6d3a" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="52879f15908c17bff0989eb0e3e3fd0ec9c06041">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="breakpad/breakpad" path="src/third_party/breakpad" revision="bc7ddae23425cee8999e4e8ed61f77a62f058cbf"/>
+<project name="chromium/llvm-project/cfe/tools/clang-format" path="src/chromium/src/buildtools/clang_format/script" remote="chromium" revision="bb994c6f067340c1135eb43eed84f4b33cfa7397" groups="minilayout,buildtools,labtools"/>
+<project name="chromium/src/buildtools" path="src/chromium/src/buildtools" remote="chromium" revision="075dd7e22837a69189003e4fa84499acf63188cf" groups="minilayout,buildtools,labtools"/>
+<project name="chromium/src/components/policy" path="src/chromium/src/components/policy" remote="chromium" revision="a7e5d6901cb4744fd224c0e33708ab8710752dda"/>
+<project name="chromium/src/media/midi" path="src/chromium/src/media/midi" remote="chromium" revision="06a8cf268baf9530267c9581801b8f8749ec9312"/>
+<project name="chromium/src/net/tools/testserver" path="src/chromium/src/net/tools/testserver" remote="chromium" revision="8599944a086c503a4e31a95e226e967f5db560f7"/>
+<project name="chromium/src/third_party/Python-Markdown" path="src/chromium/src/third_party/Python-Markdown" remote="chromium" revision="6a8f3a278159f387dc0f1f95e122f3fc29f95577"/>
+<project name="chromium/src/third_party/private_membership" path="src/chromium/src/third_party/private_membership" remote="chromium" revision="dd7f8ad1e3ee47c4baffdab73521862a18f55508"/>
+<project name="chromium/src/third_party/shell-encryption" path="src/chromium/src/third_party/shell-encryption" remote="chromium" revision="ee74da4528c53f8482b70716afd83861bfdb29c3"/>
+<project name="chromium/src/third_party/tlslite" path="src/chromium/src/third_party/tlslite" remote="chromium" revision="05d9f22315757117685ad2f5265148f900f18034"/>
+<project name="chromium/src/tools/md_browser" path="src/chromium/src/tools/md_browser" remote="chromium" revision="b61dc90769e67070c2b0a17392be1359b0af3195"/>
+<project name="chromium/tools/depot_tools" path="src/chromium/depot_tools" remote="chromium" revision="5c9e8b474f47653bcc6da5195f4b1b4e4437bf25" groups="minilayout,firmware,buildtools,labtools"/>
+<project name="chromiumos/chromite" path="chromite" revision="6badd12fdf7c0eeb8ff5cfe31758962f3e784209" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm">
+<copyfile src="AUTHORS" dest="AUTHORS"/>
+<copyfile src="LICENSE" dest="LICENSE"/>
+</project>
+<project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="0c0617fd0903c94dd3b0440b5200de00041c99b6" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/config" path="src/config" revision="451a4c07e6da142465a4dae5152d4719685cc625" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="config,partner-config"/>
+<project name="chromiumos/containers/cros-container-guest-tools" path="src/platform/container-guest-tools" revision="97e01201f96ef7dcaa8764dc7350e3732a0f424c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/docs" path="docs" revision="b68a453770c9b6ed98760f5796c27aaa672bfa9c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/graphyte" path="src/platform/graphyte" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/infra/autotest-drone" path="infra/autotest-drone" revision="aea8ccce360d5dd940e3a0fa80bb5d991dcd1e2e" upstream="refs/heads/main" dest-branch="refs/heads/main">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/build/drydock" path="infra/build/drydock" revision="35f0c8980f2c695e5e694bccdae4510bb3583afa" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="notdefault,infra-tools">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/build/empty-project" path="src/platform/empty-project" revision="e8d0ce9c4326f0e57235f1acead1fcbc1ba2d0b9" groups="minilayout,firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/infra/ci_results_archiver" path="infra/ci_results_archiver" revision="9c3ecc4f4cfbd4bddb4e454e4cde68022372a191" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/go" path="infra/go" revision="8f53fa831d621d5d9541f1921ed00d6bcaea49ae" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/lucifer" path="infra/lucifer" revision="12e9e6bde527c0bf97ff68c1d5f70385e15d1e58" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/infra/proto" path="chromite/infra/proto" revision="80eca34969989b8dea9a1e003dcef3ad7b2f061f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/infra/proto" path="infra/proto" revision="5cb17e69dc83e034b28d4df9fc7feefbe20a8d5b" upstream="refs/heads/main" dest-branch="refs/heads/main">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/recipes" path="infra/recipes" revision="5ca1f16635bf468e4aedad692ab6884e6e47a860" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/suite_scheduler" path="infra/suite_scheduler" revision="457633d98503bd75ea99bf400c4734a0eba9a13d" upstream="refs/heads/main" dest-branch="refs/heads/main">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/infra/tnull" path="infra/tnull" revision="cd73092111d0cc708e5957759bc75afb702fdd3c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="cab8a95f2961561eb56a95d6f2bfc685686db75a" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver"/>
+<project name="chromiumos/manifest" path="manifest" revision="54a861fa52d43eb8c9ce78c8231cf374b013bb97" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="0acec255884fa8b03d27ee574e6d32af63a8716c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware"/>
+<project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="0655ed55edaaa4e9dfdf48cbfc8f96bc7caba51c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,labtools" sync-c="true"/>
+<project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="8410be9e272a2dd721157a60ff57dfd899461462" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,labtools"/>
+<project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="eb64ad5697d578c05bf8ee4cd296a1a9866c1d6a" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,labtools"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="3f8d39f13d447a12d7766572b8d272d0d4164d68" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="fdeceeaecbb22db53205052eb97d0a7336a239a1" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="5c5963ddb89b6bfd35b5d91d0e9fe448dd9c14ed" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="d1682ce7627db22d6268360497c0573e6b561370" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="d62683402aa9338300fd18c8670abb614dccd7f3" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/camera" path="src/platform/camera" revision="fcd1cfe7ef4ab7174481eeb20f0784562ff7d62f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/cbor" path="src/platform/cbor" revision="c08a8294142177b6ab622a019ec62fa46e72fc80" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/cfm-device-monitor" path="src/platform/cfm-device-monitor" revision="38f9ca829340aa080625ce26d5bdcca6060248e9" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="0f700c3c2af27bbcc978122aa610d331c2442ba5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="5037962d61e241aecbd1ba695cc984cd64a8fff7" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/cobble" path="src/platform/cobble" revision="4ab43f1f86b7099b8ad75cf9615ea1fa155bbd7d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/croscomp" path="src/platform/croscomp" revision="314bf41e855c835bc9376b2bce59247aa850085b" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="603955f5ecc57d9bf74495033d1d50c7fc0a82d2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools"/>
+<project name="chromiumos/platform/crosutils" path="src/scripts" revision="7cc6dab53711ec65c3e11eb1d398e2339f1e8ba8" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools,labtools"/>
+<project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="b3f4433512860ec095fd26e32b2adf8c458860b0" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="c5a3c0fbc4ae03da34181ccfadf40f53d5285a25" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/platform/dev-util" path="src/platform/dev" revision="0a36f4372da44359fa2312634007d8629825cff3" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools,devserver"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="51f6fcd13c7fb3f63cb11f24af4cf3a39038f691" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/cr50" revision="a6b008b3aa19a48e1f769bb88e11aee1d64591f6" upstream="refs/heads/factory-kukui-14374.B-cr50_stab" dest-branch="refs/heads/factory-kukui-14374.B-cr50_stab" groups="firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="3e87d882a28737dc76ce2257b931af528f353552" upstream="refs/heads/factory-kukui-14374.B-main" dest-branch="refs/heads/factory-kukui-14374.B-main" groups="firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/ish" revision="252457d4b21f46889eebad61d4c0a65331919cec" upstream="refs/heads/factory-kukui-14374.B-ish" dest-branch="refs/heads/factory-kukui-14374.B-ish" groups="firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-bloonchipper" revision="87ebfe5f6aee4f88a58851f0cda5ef4f8fab53ed" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-dartmonkey" revision="eecc138183ae7ef8545e9871ff5e6c5c41862dcc" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-nami" revision="eecc138183ae7ef8545e9871ff5e6c5c41862dcc" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-nocturne" revision="eecc138183ae7ef8545e9871ff5e6c5c41862dcc" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="2927fce20adf74b0c9a32a61e3edff894221f283" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="420f01a301e3de37005d7e174115dce22052da20" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="9035a5406ec897663a3c7e6c2aad3730dc35f627" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="5442f3ca890143dd608a39a848a375ce0b5eff94" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="db3923aa9569c82277f8756af3ba1c2f2b049330" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/fw-testing-configs" path="src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs" revision="6b50ea4edc680377946ef81bba099f9526a9727c" upstream="refs/heads/factory-kukui-14374.B-main" dest-branch="refs/heads/factory-kukui-14374.B-main" groups="buildtools,labtools,devserver,firmware"/>
+<project name="chromiumos/platform/fw-testing-configs" path="src/third_party/autotest/files/server/cros/faft/fw-testing-configs" revision="6b50ea4edc680377946ef81bba099f9526a9727c" upstream="refs/heads/factory-kukui-14374.B-main" dest-branch="refs/heads/factory-kukui-14374.B-main" groups="buildtools,labtools,devserver,firmware"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="27ce736bf43486c3707f902e9204785548ef18ef" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/glbench" path="src/platform/glbench" revision="7b11d2e63e1c19b68e9e45dbe4285258dc1fbd3d" upstream="refs/heads/factory-kukui-14374.B-main" dest-branch="refs/heads/factory-kukui-14374.B-main"/>
+<project name="chromiumos/platform/glbench" path="src/platform/glbench-debian" revision="bc4b2c91f8d51ec636dc5f8c6feeec607412b30a" upstream="refs/heads/factory-kukui-14374.B-debian" dest-branch="refs/heads/factory-kukui-14374.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/platform/go-seccomp" path="src/platform/go-seccomp" revision="9d14f8b297985ec80f05d14afd6378e3350e2c41" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/graphics" path="src/platform/graphics" revision="a26fc6d36c2634ee3e1d8d4dcd82e4281963120c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/hps-firmware" path="src/platform/hps-firmware2" revision="78a1cbc420a2485fb4d2c48d12dd0eefa6d68e54" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/hps-firmware-images" path="src/platform/hps-firmware-images" revision="86153731793792337026c7f69d8c5902ff8a5ea5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="67446503cc086eac3d2645ed1eb5b0c633888ae2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="6c9fd34b4a6231efc189c530e2f05d908b55185e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="233d517d2904912b207d273794b0ec5343e48010" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="8d00f789df9bd4efce783a46f30d75d742d3e8d4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/libva-fake-driver" path="src/platform/libva-fake-driver" revision="7754dd6e00355bb0d7bb5f597b482b6d5ff5cab5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/lithium" path="src/platform/lithium" revision="1b54b0fa69bb183ed19945a79b72bc17145eafe4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="beefcc767427751cf1343c1a944c5dbce7aabfa2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="65d4bf34e0b82e57f07480fc11ee90bcf718d257" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/platform/moblab" path="src/platform/moblab" revision="a3731e3f438e3f3e643a6c48cf68167fa375336f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,moblab"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="fcb2ea79c69a810659c7b02406dbe4f27c65a890" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="957a434f10b7663bbafc85fb19afe1a3318c0a10" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/pinweaver" path="src/platform/pinweaver" revision="71a12656858f452af4b5410cee156526b9f65c62" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/satlab" path="src/platform/satlab" revision="6919237e3e4bf0d13548d53f7cc07725e8e23a2f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,satlab"/>
+<project name="chromiumos/platform/tast" path="src/platform/tast" revision="1715317dc25f532219ea74c8938d3a4f0c6fa032" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="7c1ecdf06dd96900edb84f30f9684346533e9580" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/tauto" path="src/platform/tauto" revision="cd2b0e21d5a7e00caa6d8e3dc9e5398abd120698" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="2385881e6a19a904687ced52f27541b716e8168c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="86a57d927a49ce9fe9ffc181ed3bc0acfbff6299" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="4c32bef9592024fe76fb0b8c913add3b1421e2d6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="421593a8cea1083288d5d047b0c43f85c92fe069" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="dd6ae9f3a223c0a8a89a2e4c10600f7700354a53" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/tremplin" path="src/platform/tremplin" revision="8f95436e889add099dab8f0c2ff7b16372ee6fc3" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/usi-test" path="src/platform/usi-test" revision="ca7b4b66c18c97e1d7e21b36a9c76239ea0530ef" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="afd4e0ae05efda36347a406f429ceb4952faf0a0" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware,buildtools"/>
+<project name="chromiumos/platform/vkbench" path="src/platform/vkbench" revision="96811b97cb9e532d6149f2c0bd5c18987cef3eef" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="ea4ece04cb84d426c1ddf1b6a06dd5ba22115871" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform/xolabs-common-core" path="src/platform/xolabs-common-core" revision="e942d479eb8700b79281b3ef36e656c5c6ff0c8d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,xolabs"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="ee3127f4803ac14e3dd695d98f922567de70a28e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="5d92289cd06deab31edec768e62322e7e4cb9928" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/project" path="src/project_public" revision="447788cd1b9cf81aed66eae1d54faeeb9711c3b2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="partner-config"/>
+<project name="chromiumos/repohooks" path="src/repohooks" revision="d350f923cf43116e769b14f812cff7a21385bdf0" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools,labtools,crosvm"/>
+<project name="chromiumos/third_party/Wi-FiTestSuite-Linux-DUT" path="src/third_party/Wi-FiTestSuite-Linux-DUT" revision="afe5b18c1b33f03169779851369c8c4ab0bb941d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="4a72953d9cc1f38959566c1ab83aa3959f8221fd" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/third_party/apitrace" path="src/third_party/apitrace" revision="34921b26ab9eb6b05bdc1ea57c31acaaaac99c12" upstream="refs/heads/factory-kukui-14374.B-master" dest-branch="refs/heads/factory-kukui-14374.B-master"/>
+<project name="chromiumos/third_party/apitrace" path="src/third_party/apitrace-debian" revision="989c29adcfdbc48ee95fe41475bc667a5c77292e" upstream="refs/heads/factory-kukui-14374.B-debian" dest-branch="refs/heads/factory-kukui-14374.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="0a712819f2fb70a67e23602c8b7aa13ec6e939cc" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/atrusctl" path="src/third_party/atrusctl" revision="24930066fb77f8af643b40059de08c6b51eb7039" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="24511b8facc63940ead164622ad59faf24b37af7" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="buildtools,labtools,devserver"/>
+<project name="chromiumos/third_party/aver-updater" path="src/third_party/aver-updater" revision="6418ac5d86c720d234f961513021a5ff0a2bf3d8" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/current" revision="1e65a385a5e1f99ce92544ae98cdb2d1bcb3e9e9" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.54" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.54"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/next" revision="1e65a385a5e1f99ce92544ae98cdb2d1bcb3e9e9" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.54" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.54"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/upstream" revision="aa361e22164aeb8a161a75e7704ea265eeae7472">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="076cb8e624d2f9d8ab75fc07f614e3c1288e0b2e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/chre" path="src/third_party/chre" revision="a0c8f2b97d65f33bd0269213fe905cb5a7743b02" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/clspv" path="src/third_party/clspv" revision="b8f94af8fd3d95770fdb5b90f387786d8d15c2fb" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/clvk" path="src/third_party/clvk" revision="865ae225a630bfbdc3e9eae44999cd19bef0f337" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="14131e30ed9bb3cbea0672f3caeb28399db0aee2" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/amd_blobs" path="src/third_party/coreboot/3rdparty/amd_blobs" revision="87ff88e5ff7eefa5d1b895ff7be115ae5f0fc55f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="0cec0e15838d856efd98e1afbebeef2d68a36fcc" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/intel-microcode" path="src/third_party/coreboot/3rdparty/intel-microcode" revision="ee319ae7bc59e88b60142f40a9ec1b46656de4db" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/qc_blobs" path="src/third_party/coreboot/3rdparty/qc_blobs" revision="ddf67d1d36a2e05eff5f6b495652064b35f57f31" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/cros-adapta" path="src/third_party/cros-adapta" revision="eb6d8c1832b9181926df107faf41a80887fd982c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="3830fffbc5c5205bb8fb1b9f366fe44559923592" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/cups" path="src/third_party/cups" revision="cbe86e20382bbc3350089ab0a183052dac8704ee" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="4b0c966fb6a35eabd6f06633a5c48ecff27ce2a5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/amd-firmware/binarypi/picasso-edk2" revision="e2fc5e5879135d2c7e638a83ca066b2a08e134d5" upstream="refs/heads/factory-kukui-14374.B-pco" dest-branch="refs/heads/factory-kukui-14374.B-pco" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="d1d1cd9db3718d0f54a60725b9e893bc4e601ba5" upstream="refs/heads/factory-kukui-14374.B-chromeos-2017.08" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-2017.08" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/cml/edk2/branch1" revision="4de539eb3f1bcc304ac2ea88c3a8d4b5cc76a5d6" upstream="refs/heads/factory-kukui-14374.B-chromeos-cml-branch1" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-cml-branch1" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/cnl/edk2" revision="995dede2362e4947c91f631069444552a1d2eeff" upstream="refs/heads/factory-kukui-14374.B-chromeos-cnl" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-cnl" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/glk/edk2" revision="f84e90881271300af73761bbd6a6fa8b8f82c266" upstream="refs/heads/factory-kukui-14374.B-chromeos-glk" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-glk" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/amd-fsp/cezanne-edk2" revision="f9b15f7120b2ea5045bf03a63ed1c56b21edbe1b" upstream="refs/heads/factory-kukui-14374.B-chromeos-czn" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-czn" groups="firmware"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="62df8620590cb363f6c283a84ac8c1cdd80b29ce" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/fastrpc" path="src/third_party/fastrpc" revision="c2d1cdc0fb781ee673077c5d4b243eb239c73bb5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="9c71c8331ad52a11d29496ffb10cbdb1a51e2ccb" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="886b6214b01ffcf5698698e16ebbda153f41e1a5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/fwupd" path="src/third_party/fwupd" revision="308dc26140c3e163b21c5733131542456ae69d0a" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="5e564a4c9bf184e368ee633f924c28a62d6dbfdd" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="labtools"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="c297db6ffd38d6694fe5f8b04b55aa74e00e9c77" upstream="refs/heads/factory-kukui-14374.B-master" dest-branch="refs/heads/factory-kukui-14374.B-master"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-cros/current" revision="3c0231c71233cd0f529540e153141bdd97bd2b96" upstream="refs/heads/factory-kukui-14374.B-wpa_supplicant-2.9.1" dest-branch="refs/heads/factory-kukui-14374.B-wpa_supplicant-2.9.1"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-cros/next" revision="3c0231c71233cd0f529540e153141bdd97bd2b96" upstream="refs/heads/factory-kukui-14374.B-wpa_supplicant-2.9.1" dest-branch="refs/heads/factory-kukui-14374.B-wpa_supplicant-2.9.1"/>
+<project name="chromiumos/third_party/huddly-updater" path="src/third_party/huddly-updater" revision="cf6a1b2ded4b3a8fe0855eefc127c35b7912b5ac" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/igt-gpu-tools" path="src/third_party/igt-gpu-tools" revision="93e3cdbea55741ddbd92c54ffbe07d40c743483e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/intel-wifi-fw-dump" path="src/third_party/intel-wifi-fw-dump" revision="c37a35ed64538beeb8240c19db85bce29ef6e534" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/upstream" revision="6be711548944d311c3798ea47ac6c3f07bc304d0">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v3.18" revision="48d3d74ca8dbbdf3a241609a2ccb6e6599b4d95f" upstream="refs/heads/factory-kukui-14374.B-chromeos-3.18" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-3.18"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="66878b4d6ce6f8a41498043591af68294605ec96" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.4" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.14" revision="4d0259c0b30a88c2257661c00a5d6092e4fd42d0" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.14" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.14-gw" revision="68c7ebdddd6cef95a45b561579efa1e3eb906f97" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.14-gw" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.14-gw"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.19" revision="f453d01f1daf33e64b1110c8fc94bf43c364fb53" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.19" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.19"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.19-ht" revision="9543f0d71bd43440bfa9743caab48b5a0f22dc7e" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.19-ht" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.19-ht"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.19-manatee" revision="877798830f4e7a86ad0ad850c1b65abddad01197" upstream="refs/heads/factory-kukui-14374.B-chromeos-4.19-manatee" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-4.19-manatee"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4" revision="efbb2921b0c2d8d6113c2b631502bc0e1da7bc1d" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.4" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4-arcvm" revision="eab5110be12c10dcc78905cc569e26b0847b90b2" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.4-arcvm" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.4-arcvm"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4-manatee" revision="b0fcb811fd9c0bee9feadccfda27ff80049a6534" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.4-manatee" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.4-manatee"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10" revision="5e29325a5b19c19b2f128df10ed733053f14d4de" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.10" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10-arcvm" revision="eeb3cd3715972782ab22c256cdb625e3e073e7aa" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.10-arcvm" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.10-arcvm"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.15" revision="eaec5aec85e7dd92653dc76fced02229be1f501f" upstream="refs/heads/factory-kukui-14374.B-chromeos-5.15" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-5.15"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/next" revision="46a7c1e64cf1e7c62dba19055b2fdf63defb856c" upstream="refs/heads/chromeos-next" dest-branch="refs/heads/chromeos-next" groups="notdefault,kernel-next">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="c9d952582b74f9609bf68e0402856a2fc1e536c0" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/labpack" path="src/third_party/labpack/files" revision="b19a3719b514a5bd25febe0540afb3627ebe340d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="labtools"/>
+<project name="chromiumos/third_party/lexmark-fax-pnh" path="src/third_party/lexmark-fax-pnh" revision="f131d8f851366e6a2f8e8fa8f3042285d021d6c6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libcamera" path="src/third_party/libcamera" revision="d2cca51965e1d2be41d3ca7276b89d37ee418895" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="728dfa9dbeeb013e5a26c24f4372a16eace99c5e" upstream="refs/heads/factory-kukui-14374.B-master" dest-branch="refs/heads/factory-kukui-14374.B-master"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm-debian" revision="4d213bde7aa0fd6a913c1dfe7b502e9ff046f13c" upstream="refs/heads/factory-kukui-14374.B-debian" dest-branch="refs/heads/factory-kukui-14374.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/libiio" path="src/third_party/libiio" revision="213eca340c157b96232242da15539e12efb2d5c9" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="58da3e2253afbb77247ae9df2a4774308bd71c59" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="7b64e4ceb4d299dca61317c9379083bc77f3e83c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libqrtr" path="src/third_party/libqrtr" revision="ba87335b33afcc0c1e0860ed41d0a98abc804184" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libqrtr-glib" path="src/third_party/libqrtr-glib" revision="bfe7636083173e84d01257bde5cfb87e5e6103dc" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libtextclassifier" path="src/third_party/libtextclassifier" revision="01652c17e116baa8ebd7083e8cbc3dede513ac9e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="2866baaaeacea6d784b08530bd2b7ec22dd0c7c6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="5246f237d47604c5081615d3c57e48453fb4cacf" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/logitech-updater" path="src/third_party/logitech-updater" revision="5a1d66ae249a6c2db2d9dd5c72fcea8b12402912" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="a1da785c038730d7d900415945688f6fb76175f4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="1ba231fb75be5bffd806cbd09ac285d1f8f15e3d" upstream="refs/heads/factory-kukui-14374.B-upstream-main" dest-branch="refs/heads/factory-kukui-14374.B-upstream-main"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-amd" revision="7edc1b38e44da04acc0607ed3f2f6b2c2763a3dc" upstream="refs/heads/factory-kukui-14374.B-chromeos-amd" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-amd"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-debian" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" upstream="refs/heads/factory-kukui-14374.B-debian" dest-branch="refs/heads/factory-kukui-14374.B-debian"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-freedreno" revision="f6c9afdeb4d87f94dab4e63e1b63c27a455a79d5" upstream="refs/heads/factory-kukui-14374.B-chromeos-freedreno" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-freedreno"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="2e7833ad916c493969d00871cdf56db4407b80eb" upstream="refs/heads/factory-kukui-14374.B-mesa-19.0" dest-branch="refs/heads/factory-kukui-14374.B-mesa-19.0"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-iris" revision="59b07222f47f0dca5af783efb7642e54640a8162" upstream="refs/heads/factory-kukui-14374.B-chromeos-iris" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-iris"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-reven" revision="2bcb6c3b3e6b1efc97c3219fb994b7e164650a46" upstream="refs/heads/factory-kukui-14374.B-chromeos-reven" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-reven"/>
+<project name="chromiumos/third_party/mimo-updater" path="src/third_party/mimo-updater" revision="fb448bbd2986c743f3c37dbc784ae972e24b1a23" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="7be960e2b84b5dfcbec44d3b722fb02d16b9eaf1" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="189c896a64e3f138f5742f23ece7a29e1017c566" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/novatek-tcon-fw-update-tool" path="src/third_party/novatek-tcon-fw-update-tool" revision="a78b7b0ba128471af835e44dc97698d39fd89bbf" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/optofidelity_TPPT" path="src/third_party/optofidelity_TPPT" revision="3cc2cd79fc75e5d9e05b60a6546015e0568df9c6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_TPPT_analysis" path="src/third_party/optofidelity_TPPT_analysis" revision="7e389b340d0ec03962e6a5c36c9d1e40686e0120" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_chrome_touch_client" path="src/third_party/optofidelity_chrome_touch_client" revision="48c85a0c1f2b81a7c831f5e76d4da162b920b3f1" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_chromeos_touch_sender" path="src/third_party/optofidelity_chromeos_touch_sender" revision="c838b13964064dd69d8a835356043b771fa88d04" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_protocols" path="src/third_party/optofidelity_protocols" revision="a5f60b2f9bcd417a71ecbd8f82e93f74adb817eb" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/poly-updater" path="src/third_party/poly-updater" revision="87ad2edeea039892515f68c948bc2b8f94999553" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="a7234abecb67cd9fc9bea72559273ff9a04cc194" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="6fec9f599bef566fe8f6f6ca6c2102508b664792" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout,firmware,buildtools"/>
+<project name="chromiumos/third_party/qemu" path="src/third_party/qemu" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="b2f37be7c25bc83b76f1b7063a4ef38b824dc4ef" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/rust-vmm/vhost" path="src/third_party/rust-vmm/vhost" revision="7c95b4a2c1e378f7328d8bc0510bbb6998f54581" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/third_party/rust_crates" path="src/third_party/rust_crates" revision="fd36c25f2a8c6659c83f07391f95af3a171cb685" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="27b56c6e94fe37e9308392fefd25ba641d8be496" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/shellcheck" path="src/third_party/shellcheck" revision="ed8e64b2a311489fe9854e56d2f61fa67b62eee7" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/sis-updater" path="src/third_party/sis-updater" revision="0e41acf19950b8c60d1e0c46ff7b64a24c51dea1" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/sound-open-firmware" path="src/third_party/sound-open-firmware" revision="35691bd4813b901c78ab938a4ec8bcc7fcb7f35f" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/svunit" path="src/third_party/svunit" revision="76ffd92958212a8e427a8eb6d24956df6ec19dbe" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware"/>
+<project name="chromiumos/third_party/systemd" path="src/third_party/systemd" revision="6b08fdfc2c5ca9adb0e443e19b40a910c777de64" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="677864213888d39b3326ad4c6a3dcb9560c44ca4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/toolchain-utils" path="src/third_party/toolchain-utils" revision="7afc35229485f3a72173a9f11bbb5be56df49dc4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="minilayout"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="bc3bb265b7315a187ea5e5067f7e50c4469416c7" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware,crosvm"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="23b440c5c11fcd588a2c2ac18c5e44e0f06f3119" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="39ce6d27ad29fd324793a8d0c7db8ae712cc027c" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/upstart" path="src/third_party/upstart" revision="7a9bc4fbe5897a8b7f52218f4236bb3af604445b" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/virglrenderer" path="src/third_party/virglrenderer" revision="3a7c0bf6deed91d7ef1993ff5c3366e27d048fcd" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="crosvm"/>
+<project name="chromiumos/third_party/virtual-usb-printer" path="src/third_party/virtual-usb-printer" revision="d34655527ff1936c389a326a41b55cbdb4b11ef6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/webrtc-apm" path="src/third_party/webrtc-apm" revision="1083475701e93d11997aa3e1bb68ac1a0e88bc1d" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B"/>
+<project name="chromiumos/third_party/zephyr" path="src/third_party/zephyr/main/v2.7" revision="99a3296c4ed24e0ed7a9c5f41a9b2724269efc41" upstream="refs/heads/factory-kukui-14374.B-chromeos-v2.7" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-v2.7" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr" path="src/third_party/zephyr/main/v2.8" revision="8099dcdb0c8ddcc0457f71e2f48f1c9c14755377" upstream="refs/heads/factory-kukui-14374.B-chromeos-v2.8" dest-branch="refs/heads/factory-kukui-14374.B-chromeos-v2.8" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/cmsis" path="src/third_party/zephyr/cmsis" revision="bfdc3dda56217570f94e31820b2b3741848f0ce4" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/hal_stm32" path="src/third_party/zephyr/hal_stm32" revision="848d0a0e9583ea199cd145bcb35ad34fb375097e" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/nanopb" path="src/third_party/zephyr/nanopb" revision="32a21483d6586851edfa1d8491beb3df442e90c6" upstream="refs/heads/factory-kukui-14374.B" dest-branch="refs/heads/factory-kukui-14374.B" groups="firmware,zephyr"/>
+<project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="2050356437e3576673ec5ead79ad72eb619f0d72"/>
+<project name="external/github.com/llvm/llvm-project" path="src/third_party/llvm-project" revision="003c9c7457d08888be5deeca7eee84ab5f110bf6" groups="notdefault"/>
+<project name="infra/luci/client-py" path="chromite/third_party/swarming.client" remote="chromium" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" groups="buildtools,chromeos-admin,firmware,labtools,minilayout"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e1e7b0ad8ee99a875b272c8e33e308472e897660"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="f7c65e157b50f599ef328026291c2d4b18fac68f"/>
+<project name="platform/external/marisa-trie" path="src/aosp/external/marisa-trie" remote="aosp" revision="0056347f7d2639919873b39624775f487ecf6875">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="platform/external/minijail" path="src/aosp/external/minijail" remote="aosp" revision="d90a268795d9b0a654ce7d50617447751b4252e3" groups="crosvm"/>
+<project name="platform/external/perfetto" path="src/aosp/external/perfetto" remote="aosp" revision="9296f1edfee55523164a8c3cae7458b21a36dc2d" groups="notdefault"/>
+<project name="platform/external/puffin" path="src/aosp/external/puffin" remote="aosp" revision="0859a5198855b97f07f8931f35ffa311b0a8ac9f"/>
+<project name="platform/system/keymaster" path="src/aosp/system/keymaster" remote="aosp" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293"/>
+<project name="weave/libweave" path="src/weave/libweave" revision="cedcdf40845dd5f04e29e065e434d3a2b4c2d139">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="website" revision="e4636ed3e86ea0d2572c1bc44d613a33b90592ae" upstream="refs/heads/main" dest-branch="refs/heads/main">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload"/>
+</manifest>
