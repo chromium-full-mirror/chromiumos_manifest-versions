@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?><manifest revision="d95b4eaaa7c866682cb0a41ae1273e6d1964b1a6">
+<remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com">
+<annotation name="public" value="true"/>
+</remote>
+<remote name="chromium" fetch="https://chromium.googlesource.com/" alias="cros">
+<annotation name="public" value="true"/>
+</remote>
+<remote name="cros" fetch="https://chromium.googlesource.com" review="https://chromium-review.googlesource.com">
+<annotation name="public" value="true"/>
+</remote>
+<default remote="cros" sync-j="8"/>
+<project name="aosp/platform/external/libutf" path="src/aosp/external/libutf" revision="c17bb435be940edf1aff81469215bb6a071f3c38" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/external/modp_b64" path="src/third_party/modp_b64" revision="5d80a242ce73107648141ae996771e3847f0e4bd" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/external/uwb" path="src/aosp/external/uwb/local" revision="90eb3e6eca88aae53b97338b61b8a79b6080bf40"/>
+<project name="aosp/platform/external/uwb" path="src/aosp/external/uwb/upstream" revision="9f177fd83b124f3baf77a18941a8bdeeb96389dd"/>
+<project name="aosp/platform/frameworks/ml" path="src/aosp/frameworks/ml" revision="9a35b91efc215fca3dbbdda3e4a3511e6ba78a62" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/frameworks/native" path="src/aosp/frameworks/native" revision="5e9a89d06c41edf5cf43da8acf5f26ed104887e6" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/frameworks/proto_logging" path="src/aosp/frameworks/proto_logging" revision="68b356f2e7a8c6103eff9662d1d37d52a0f49305" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="aosp/platform/hardware/interfaces/neuralnetworks" path="src/aosp/hardware/interfaces/neuralnetworks" revision="c1a2213d4dd7f89103213a881c852ebaf4e806af" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/local" revision="4c923ab241a8fc2639b14404796aaeff582c58e3" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,bluetooth"/>
+<project name="aosp/platform/packages/modules/Bluetooth" path="src/aosp/packages/modules/Bluetooth/upstream" revision="3ab0eec7fe24a966e14fe4893f134dfb42980961" groups="notdefault,bluetooth">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="aosp/platform/system/core/base" path="src/aosp/system/core/base" revision="8cf6479cfd925657da51da04902a68dfe7e84632" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/core/libbacktrace" path="src/aosp/system/core/libbacktrace" revision="d67ee5af5ee2790631aa4f7ca125d12c09840436" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/core/libcutils" path="src/aosp/system/core/libcutils" revision="dcc518ef32993d0171d0849bd3677c9d0948f8bb" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/core/liblog" path="src/aosp/system/core/liblog" revision="9cca7081cb7d158034bffec841f227af52cca401" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/core/libsync" path="src/aosp/system/libsync" revision="074e053f159602aa7558cfb2ae2f3c67878d90e0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/core/libutils" path="src/aosp/system/core/libutils" revision="6518555263253e9fdf7e37d26866cbe75bc11e97" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/libbase" path="src/aosp/system/libbase" revision="9537e373c71c26c5495be60d267dff5eb88b180f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen"/>
+<project name="aosp/platform/system/libfmq" path="src/aosp/system/libfmq" revision="1d72513a44e4cb856c1cc70f95f9b1e88b1b4a78" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/libhidl" path="src/aosp/system/libhidl" revision="49005468bfa1d0c3ed69d8a61b8d0fbaafd1e836" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/logging" path="src/aosp/system/logging" revision="2e909ccdf779939e5caa5ab52851f38f22037ae9" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="aosp/platform/system/update_engine" path="src/aosp/system/update_engine" revision="ce5e1112e62782a245fed3ffe03136b10d7797bd" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen"/>
+<project name="apps/libapps" path="src/third_party/libapps" revision="d78374f90247cd1e4643f9a4946400b423d07065">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="breakpad/breakpad" path="src/third_party/breakpad" revision="1f9903c161229c55670ae0f92fcbcca9c5fa6b68"/>
+<project name="chromium/llvm-project/cfe/tools/clang-format" path="src/chromium/src/buildtools/clang_format/script" remote="chromium" revision="bb994c6f067340c1135eb43eed84f4b33cfa7397" groups="minilayout,paygen,buildtools,labtools"/>
+<project name="chromium/src/buildtools" path="src/chromium/src/buildtools" remote="chromium" revision="737c5727e5b5272effd6cf0e87b8c1ce9007c97d" groups="minilayout,paygen,buildtools,labtools"/>
+<project name="chromium/src/components/policy" path="src/chromium/src/components/policy" remote="chromium" revision="a5fe0ae6af7e318f52558bb58349cc69bfb4491f"/>
+<project name="chromium/src/media/midi" path="src/chromium/src/media/midi" remote="chromium" revision="77cc36d72b2a07ce056c6dc57290b2e094db7931"/>
+<project name="chromium/src/net/tools/testserver" path="src/chromium/src/net/tools/testserver" remote="chromium" revision="4496e76d7f5b9814a63000e1daa70b44fd8da245"/>
+<project name="chromium/src/third_party/Python-Markdown" path="src/chromium/src/third_party/Python-Markdown" remote="chromium" revision="4838827d1231be5903916ca442180ccbde1e1cf9"/>
+<project name="chromium/src/third_party/private_membership" path="src/chromium/src/third_party/private_membership" remote="chromium" revision="048727ec9c784c3411099a9153c0f547f3939075"/>
+<project name="chromium/src/third_party/shell-encryption" path="src/chromium/src/third_party/shell-encryption" remote="chromium" revision="50f6a7d2f163796ca07914e25b682c5bef864295"/>
+<project name="chromium/src/third_party/tlslite" path="src/chromium/src/third_party/tlslite" remote="chromium" revision="05d9f22315757117685ad2f5265148f900f18034"/>
+<project name="chromium/src/tools/md_browser" path="src/chromium/src/tools/md_browser" remote="chromium" revision="de79b55b74901acef7fe9f9e5832210ebd0ce8b1"/>
+<project name="chromium/tools/depot_tools" path="src/chromium/depot_tools" remote="chromium" revision="77e64ae61ebda9e20f1eee461149e601c65b0a8f" groups="minilayout,paygen,firmware,buildtools,labtools"/>
+<project name="chromiumos/chromite" path="chromite" revision="b9e67fd360716b2446806c5db2cc0efeb28e8fdd" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools,chromeos-admin,labtools,sysmon,devserver,crosvm">
+<copyfile src="AUTHORS" dest="AUTHORS"/>
+<copyfile src="LICENSE" dest="LICENSE"/>
+</project>
+<project name="chromiumos/chromite" path="infra/chromite-HEAD" revision="eb0307da2151f5c19c57297ab804ae3d8e41cb37" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="buildtools">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/config" path="src/config" revision="ae82b4e2b01d109486978c7cb331df5b28132e00" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen,config,partner-config"/>
+<project name="chromiumos/containers/cros-container-guest-tools" path="src/platform/container-guest-tools" revision="1cd40747ebb3d003b9603bd6a53719850108cc0e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/docs" path="docs" revision="2a96fd1d676751a69a37cd392c5b215cdc78549b" groups="crosvm">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/graphyte" path="src/platform/graphyte" revision="f661990d0379f1030bdaa93c573ef4a50e9c6e66" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/infra/build/empty-project" path="src/platform/empty-project" revision="d2d95e8af89939f893b1443135497c1f5572aebc" groups="minilayout,paygen,firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/infra/go" path="infra/go" revision="8f53fa831d621d5d9541f1921ed00d6bcaea49ae" upstream="refs/heads/main" dest-branch="refs/heads/main" groups="chromeos-admin">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/lucifer" path="infra/lucifer" revision="12e9e6bde527c0bf97ff68c1d5f70385e15d1e58" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/infra/proto" path="chromite/infra/proto" revision="946db99fc76bdd5bd47a969a6cf550af96a6c074" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/infra/proto" path="infra/proto" revision="15ff266117d6110529512757324d9c246b3b70dd" upstream="refs/heads/main" dest-branch="refs/heads/main">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/infra/test_analyzer" path="infra/test_analyzer" revision="14119cc21c146544791fe387f64a4b809c4ea789" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/infra_virtualenv" path="infra_virtualenv" revision="39254f97db8d6ab8b3fdef3d2f7038ac42978b78" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="buildtools,chromeos-admin,labtools,sysmon,devserver"/>
+<project name="chromiumos/manifest" path="manifest" revision="8aa80fbd968760eaf3693142e3fe224cfb92c57b" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/overlays/board-overlays" path="src/overlays" revision="3af32d8823fbc9673787a90a14d1fe95656d7a50" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware"/>
+<project name="chromiumos/overlays/chromiumos-overlay" path="src/third_party/chromiumos-overlay" revision="b183a69f8897e1b9b4ce4da228db8d6991494f4a" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,labtools" sync-c="true"/>
+<project name="chromiumos/overlays/eclass-overlay" path="src/third_party/eclass-overlay" revision="d405ffc9bcab082506290cda05b4d5e89d25e9a0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,labtools"/>
+<project name="chromiumos/overlays/portage-stable" path="src/third_party/portage-stable" revision="78b5dbd255cbaaec7102f01f5480f469a4524b6b" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,labtools"/>
+<project name="chromiumos/platform/assets" path="src/platform/assets" revision="8a2276f22f0678bee89b8ac6c46d9dd597c6d549" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/audiotest" path="src/platform/audiotest" revision="9b4a21b60ed57b490f18702c6015b448f18a89cf" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/bisect-kit" path="src/platform/bisect-kit" revision="b7802d98515a17c9076c3e82faefa4d608499aec" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/bmpblk" path="src/platform/bmpblk" revision="aac4517b0290c109ef56dbab8f7aed1c91cfdc31" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/btsocket" path="src/platform/btsocket" revision="d52a38ffface8988da342133161c8a6b462437a0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/camera" path="src/platform/camera" revision="36eda434192b09ee1e371d0c6d10528f6b129cc5" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/cbor" path="src/platform/cbor" revision="55b123398489027c07a31f4e0fdb3613aef8695d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/cfm-device-monitor" path="src/platform/cfm-device-monitor" revision="57e2c51983363f743c0ca961638c09418c7bac4c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/chameleon" path="src/platform/chameleon" revision="61a8c0f87c4ebf34827cd5d61d64c7fcbe44b53f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/chromiumos-assets" path="src/platform/chromiumos-assets" revision="de6c118f21ef7130feb30d4b7f703cfe2ba2748f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/crdyboot" path="src/platform/crdyboot" revision="d3e5926fea4e051c0f7be0ec94239278f52d57a2" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/croscomp" path="src/platform/croscomp" revision="5846298ea42665c2c0b520d468d79d8fedd4a16f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/crostestutils" path="src/platform/crostestutils" revision="680c51bc5bdb53a25d3e29a765e0dc316fc6097a" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools"/>
+<project name="chromiumos/platform/crosutils" path="src/scripts" revision="245fbb4c98b40ddb4d345f8536628b68498c7069" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools,labtools"/>
+<project name="chromiumos/platform/crosvm" path="src/platform/crosvm" revision="f54e2b51264b2fbd156e8de788aaf6ef34db2ebf" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/platform/depthcharge" path="src/platform/depthcharge" revision="8af9277b54eedc7ff452cb9f5bdb24c95b17f224" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/platform/dev-util" path="src/platform/dev" revision="69a935e188af3ae8205c7050abeac1ad77a5a9fc" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools,devserver"/>
+<project name="chromiumos/platform/drm-tests" path="src/platform/drm-tests" revision="302905ed7ac1353c24f00090dca304f2320011f2" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/ec" path="src/platform/cr50" revision="b08b1eeca736388709381471cebbd80b6e969921" upstream="refs/heads/factory-brya-15231.B-cr50_stab" dest-branch="refs/heads/factory-brya-15231.B-cr50_stab" groups="paygen,firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/ec" revision="39caf07089611bcd1ac01ac33907c77f415b93c5" upstream="refs/heads/factory-brya-15231.B-main" dest-branch="refs/heads/factory-brya-15231.B-main" groups="paygen,firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/ish" revision="dceabef37914104929e3fcb35c8d51a82869f57a" upstream="refs/heads/factory-brya-15231.B-ish" dest-branch="refs/heads/factory-brya-15231.B-ish" groups="firmware"/>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-bloonchipper" revision="2bcf863b492fe7ed8105c853814dba6ed32ba719" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-dartmonkey" revision="c453fd704268ef72de871b0c5ac7a989de662334" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-nami" revision="c453fd704268ef72de871b0c5ac7a989de662334" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/ec" path="src/platform/release-firmware/fpmcu-nocturne" revision="c453fd704268ef72de871b0c5ac7a989de662334" groups="firmware">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/platform/experimental" path="src/platform/experimental" revision="2927fce20adf74b0c9a32a61e3edff894221f283" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/factory" path="src/platform/factory" revision="ea805cf03bac9c2afeb6ba7755522137dd032f80" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/factory_installer" path="src/platform/factory_installer" revision="9d3e9671226790545eca824ec8741fbc36c761ca" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/firmware" path="src/platform/firmware" revision="e4a1f1b12f31cec92b69ac2ba667b7122ee1abcf" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/platform/frecon" path="src/platform/frecon" revision="3c1936a8fab860984b29b168129a4df6223141ed" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/fw-testing-configs" path="src/platform/tast-tests/src/chromiumos/tast/remote/firmware/data/fw-testing-configs" revision="4ab4787789f52f81ac33c3386dd496fe8384ac5b" upstream="refs/heads/factory-brya-15231.B-main" dest-branch="refs/heads/factory-brya-15231.B-main" groups="paygen,buildtools,labtools,devserver,firmware"/>
+<project name="chromiumos/platform/fw-testing-configs" path="src/third_party/autotest/files/server/cros/faft/fw-testing-configs" revision="4ab4787789f52f81ac33c3386dd496fe8384ac5b" upstream="refs/heads/factory-brya-15231.B-main" dest-branch="refs/heads/factory-brya-15231.B-main" groups="buildtools,labtools,devserver,firmware"/>
+<project name="chromiumos/platform/gestures" path="src/platform/gestures" revision="0fb1633ce4aa228dcdf417cf03c47e6ee78eae6d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/glbench" path="src/platform/glbench" revision="cc945410df567f5da924247d04b87928ca8926a1" upstream="refs/heads/factory-brya-15231.B-main" dest-branch="refs/heads/factory-brya-15231.B-main"/>
+<project name="chromiumos/platform/glbench" path="src/platform/glbench-debian" revision="bc4b2c91f8d51ec636dc5f8c6feeec607412b30a" upstream="refs/heads/factory-brya-15231.B-debian" dest-branch="refs/heads/factory-brya-15231.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/platform/graphics" path="src/platform/graphics" revision="36598aafc5251046d5926bafb346339a2d43d311" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/hps-firmware" path="src/platform/hps-firmware2" revision="7859f6f082e6c256cd875136f843d9e4dcfaec46" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/hps-firmware-images" path="src/platform/hps-firmware-images" revision="9053c01e6d934bf841a735eb68b2ebf7c5303096" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/initramfs" path="src/platform/initramfs" revision="454b1f29449e197a2eed96e25cdd5d17a757839a" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/inputcontrol" path="src/platform/inputcontrol" revision="b2e50298c1c56bec9e452719798b4dfb9e85c609" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/jabra_vold" path="src/platform/jabra_vold" revision="12f0f0058b96030226951a1bc4986bddc9be669d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/libchrome" path="src/platform/libchrome" revision="b2582767445c425c9333bec05bbf9f3a13b53f41" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/libevdev" path="src/platform/libevdev" revision="c0b4726937bec74b465396f700614e75cd0c8a9a" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/libva-fake-driver" path="src/platform/libva-fake-driver" revision="7754dd6e00355bb0d7bb5f597b482b6d5ff5cab5" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/lithium" path="src/platform/lithium" revision="6c407bb2bb86d66da5677d7196a3390eeb849cc4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/platform/microbenchmarks" path="src/platform/microbenchmarks" revision="3b6eb7fbda4b4c3187239caa78f773b22f93b5a9" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/minigbm" path="src/platform/minigbm" revision="0b46921a79f989b9bbc9d2c7fa795dafd186f2c9" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/platform/minijail" path="src/platform/minijail" revision="98b39a6b5160934bb5199232e21ddd6914b43599" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/platform/moblab" path="src/platform/moblab" revision="d9cb55393161645f6a74fbb25a1290f54c46d83c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,moblab"/>
+<project name="chromiumos/platform/mosys" path="src/platform/mosys" revision="5943e5f852a6cd7c766d764868f30a9bf06530fd" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/mttools" path="src/platform/mttools" revision="3f0345604ece7e1a4aa315bb318a4c86d68cdb27" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/pinweaver" path="src/platform/pinweaver" revision="fc9efb64cc90444dbde4303999a4f4e2da00cc1e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/rules_cros" path="src/platform/rules_cros" revision="c193ad352d1838861dfd481a2aae0456a8f3d18e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/satlab" path="src/platform/satlab" revision="903eed8abef6d9362aaeb361d3e8b34cee3ed26b" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,satlab"/>
+<project name="chromiumos/platform/tast" path="src/platform/tast" revision="b0280625e3161c63caf08a79c1b7ec771569078e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen"/>
+<project name="chromiumos/platform/tast-tests" path="src/platform/tast-tests" revision="8f07cd919894ac00cb4adede509398934c55e74d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen"/>
+<project name="chromiumos/platform/tauto" path="src/platform/tauto" revision="2c088e3efa0b85bf21457b4df3f3b68d682d7a15" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/touch_firmware_test" path="src/platform/touch_firmware_test" revision="b8b2c09a7965e530eeeba1e7adac51ef542264ee" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/platform/touch_updater" path="src/platform/touch_updater" revision="f9b879428169a58c37a9887831f6ddbb9ab020bb" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/touchpad-tests" path="src/platform/touchpad-tests" revision="094c68d21b9d62e429992505cfca3bbb1f874acc" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/tpm" path="src/third_party/tpm" revision="421593a8cea1083288d5d047b0c43f85c92fe069" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/platform/tpm_lite" path="src/platform/tpm_lite" revision="ff8b993e0a65a72c0e3c7b51c02d1048816012a6" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/tremplin" path="src/platform/tremplin" revision="2c83df336659e3eb00a5df1baf4d7c817a2501f3" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/usi-test" path="src/platform/usi-test" revision="36e36575ca053ff30cdd29ee9bce01def40b7c5e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/vboot_reference" path="src/platform/vboot_reference" revision="c7ee78b2c297e13ec6a151cd497e931243ef4c16" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen,firmware,buildtools"/>
+<project name="chromiumos/platform/vkbench" path="src/platform/vkbench" revision="14865e32ecffae289e19a514d52306f7b75daaf5" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/vpd" path="src/platform/vpd" revision="256955cdec97e1fc3b99e8af1723e033690526f4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform/xolabs-common-core" path="src/platform/xolabs-common-core" revision="8efe542fdf5457338cd9e4372333e29335ec69a0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,xolabs"/>
+<project name="chromiumos/platform/xorg-conf" path="src/platform/xorg-conf" revision="46cb928fc9edeaeaef1931a0072859e4b6e5f10e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/platform2" path="src/platform2" revision="4db718f6955903464f02be7b7ca3c18418381485" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,crosvm,config,partner-config"/>
+<project name="chromiumos/project" path="src/project_public" revision="a9a296ce6dd54f08cedab218b316d2ec4c50ba19" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="partner-config"/>
+<project name="chromiumos/repohooks" path="src/repohooks" revision="ac656c4543cf81c081996466697b3510f7c61df4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools,labtools,crosvm"/>
+<project name="chromiumos/third_party/OP-TEE/optee_os" path="src/third_party/optee_os" revision="c209031dffbbd13ae7d8b9b9b9184ffcf040a14d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/Wi-FiTestSuite-Linux-DUT" path="src/third_party/Wi-FiTestSuite-Linux-DUT" revision="afe5b18c1b33f03169779851369c8c4ab0bb941d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/adhd" path="src/third_party/adhd" revision="8e6b93abe4fbe85c2dcbc065e31ed8441b493e30" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/third_party/apitrace" path="src/third_party/apitrace" revision="1090464595110ae95d329f2f7b6220443052c215" upstream="refs/heads/factory-brya-15231.B-master" dest-branch="refs/heads/factory-brya-15231.B-master"/>
+<project name="chromiumos/third_party/apitrace" path="src/third_party/apitrace-debian" revision="989c29adcfdbc48ee95fe41475bc667a5c77292e" upstream="refs/heads/factory-brya-15231.B-debian" dest-branch="refs/heads/factory-brya-15231.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/arm-trusted-firmware" path="src/third_party/arm-trusted-firmware" revision="c45d2febb98058efa77d812b094bd1456a916c29" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/atrusctl" path="src/third_party/atrusctl" revision="4f1d81ecfa86ae7570f951fe6eaac9ab2c1290d7" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/autotest" path="src/third_party/autotest/files" revision="4324b8da9642622a7550261ff4a7a0ba6e662cac" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="buildtools,labtools,devserver"/>
+<project name="chromiumos/third_party/aver-updater" path="src/third_party/aver-updater" revision="6418ac5d86c720d234f961513021a5ff0a2bf3d8" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/current" revision="c9b4b3fa6b893a282243fd5a666145c3c2cd3bd0" upstream="refs/heads/factory-brya-15231.B-chromeos-5.54" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.54"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/next" revision="c9b4b3fa6b893a282243fd5a666145c3c2cd3bd0" upstream="refs/heads/factory-brya-15231.B-chromeos-5.54" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.54"/>
+<project name="chromiumos/third_party/bluez" path="src/third_party/bluez/upstream" revision="f9657b86ddd3008768b3f6fef2c94eec46d976b5">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/bootstub" path="src/third_party/bootstub" revision="076cb8e624d2f9d8ab75fc07f614e3c1288e0b2e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/cbootimage" path="src/third_party/cbootimage" revision="b7d5b2d6a6dd05874d86ee900ff441d261f9034c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/chre" path="src/third_party/chre" revision="5cae813b872cc9f756d4d5a4385cc90c9848ee91" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/clspv" path="src/third_party/clspv" revision="d6540994e62c8a6fa5a1c6813ecb6bbd5f9f40a2" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/clvk" path="src/third_party/clvk" revision="ecb21109f3145af518ae12292634d0e944b62908" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/coreboot" path="src/third_party/coreboot" revision="a1271a2b2916969fe3b3a7b8893372bdd246ac94" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/amd_blobs" path="src/third_party/coreboot/3rdparty/amd_blobs" revision="097a994fa255dee11040a4993c287b72bc7d0151" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/blobs" path="src/third_party/coreboot/3rdparty/blobs" revision="e5d8148c055ec8ed0f23f82eb30f22322d3aa68d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/intel-microcode" path="src/third_party/coreboot/3rdparty/intel-microcode" revision="ee319ae7bc59e88b60142f40a9ec1b46656de4db" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/libgfxinit" path="src/third_party/coreboot/3rdparty/libgfxinit" revision="01151f966469bc94e405bbc41d9be56d72b7d2f7" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/libhwbase" path="src/third_party/coreboot/3rdparty/libhwbase" revision="f63d6d91e3f80de07c7e0a95df27e0fe19b30ac0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/coreboot/qc_blobs" path="src/third_party/coreboot/3rdparty/qc_blobs" revision="33cc4f2fd8d9529c4231564d7a30a00c06b213de" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/cros-adapta" path="src/third_party/cros-adapta" revision="46fd2136aa799bb17dfb1002278f98e6397e5806" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/cryptoc" path="src/third_party/cryptoc" revision="0dd679081b9c8bfa2583d74e3a17a413709ea362" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/cups" path="src/third_party/cups" revision="019b8c8bb4869abc82f7a81437acc4ac31d3b21b" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/daisydog" path="src/third_party/daisydog" revision="01d4fc123b3631b1628bc86f9271e278b0e34634" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/amd-firmware/binarypi/picasso-edk2" revision="e2fc5e5879135d2c7e638a83ca066b2a08e134d5" upstream="refs/heads/factory-brya-15231.B-pco" dest-branch="refs/heads/factory-brya-15231.B-pco" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/edk2" revision="8523e9c995e7204e1067c1660ac04177932d4b1b" upstream="refs/heads/factory-brya-15231.B-chromeos-2017.08" dest-branch="refs/heads/factory-brya-15231.B-chromeos-2017.08" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/cml/edk2/branch1" revision="4de539eb3f1bcc304ac2ea88c3a8d4b5cc76a5d6" upstream="refs/heads/factory-brya-15231.B-chromeos-cml-branch1" dest-branch="refs/heads/factory-brya-15231.B-chromeos-cml-branch1" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/cnl/edk2" revision="995dede2362e4947c91f631069444552a1d2eeff" upstream="refs/heads/factory-brya-15231.B-chromeos-cnl" dest-branch="refs/heads/factory-brya-15231.B-chromeos-cnl" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/fsp/glk/edk2" revision="f84e90881271300af73761bbd6a6fa8b8f82c266" upstream="refs/heads/factory-brya-15231.B-chromeos-glk" dest-branch="refs/heads/factory-brya-15231.B-chromeos-glk" groups="firmware"/>
+<project name="chromiumos/third_party/edk2" path="src/third_party/amd-fsp/cezanne-edk2" revision="5dc601a8f5f08a21667e3fa8f2f1858d5adbb893" upstream="refs/heads/factory-brya-15231.B-chromeos-czn" dest-branch="refs/heads/factory-brya-15231.B-chromeos-czn" groups="firmware"/>
+<project name="chromiumos/third_party/em100" path="src/third_party/em100" revision="a1d938f8b4253c76fb31e69de33266cb71bda141" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/fastrpc" path="src/third_party/fastrpc" revision="c2d1cdc0fb781ee673077c5d4b243eb239c73bb5" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/flashmap" path="src/third_party/flashmap" revision="9c71c8331ad52a11d29496ffb10cbdb1a51e2ccb" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/flashrom" path="src/third_party/flashrom" revision="f66764d06796c0fd7114533cf3d394ca92d956b1" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen,firmware"/>
+<project name="chromiumos/third_party/fwupd" path="src/third_party/fwupd" revision="8e4c52e73d0c50ba76905e317200692dd4e73662" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/hdctools" path="src/third_party/hdctools" revision="26635dd0cc7b62f7a806c9fae121220d42702faa" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="paygen,labtools"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant" revision="f74eae04b7218ca56439757eff4038b9d9f19075" upstream="refs/heads/factory-brya-15231.B-master" dest-branch="refs/heads/factory-brya-15231.B-master"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-cros/current" revision="eabc95dd838ddc3a140e279014c2d74dbacdf401" upstream="refs/heads/factory-brya-15231.B-wpa_supplicant-2.9.1" dest-branch="refs/heads/factory-brya-15231.B-wpa_supplicant-2.9.1"/>
+<project name="chromiumos/third_party/hostap" path="src/third_party/wpa_supplicant-cros/next" revision="eabc95dd838ddc3a140e279014c2d74dbacdf401" upstream="refs/heads/factory-brya-15231.B-wpa_supplicant-2.9.1" dest-branch="refs/heads/factory-brya-15231.B-wpa_supplicant-2.9.1"/>
+<project name="chromiumos/third_party/huddly-updater" path="src/third_party/huddly-updater" revision="a52559a6f2dbfb561817581b52ed7106b7e5755f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/igt-gpu-tools" path="src/third_party/igt-gpu-tools" revision="dbeb6f92720292f8303182a0e649284cea5b11a6" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/intel-wifi-fw-dump" path="src/third_party/intel-wifi-fw-dump" revision="5b054af75c90713bc45b5c9c0375dca2a843f201" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/upstream" revision="7e2e1805ac64785fa928b4aa1806fe0ba647d52f">
+<annotation name="branch-mode" value="pin"/>
+<annotation name="bisection-branch" value="refs/heads/merge/continuous/kernelupstream-bisect-6.0-rc6-6.0"/>
+</project>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/kcam" revision="55e855d54e2d25d1172d5c77c1e2dbee580ece88" upstream="refs/heads/factory-brya-15231.B-kcam" dest-branch="refs/heads/factory-brya-15231.B-kcam" groups="notdefault,kcam"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/pkvm-ia-5.19" revision="1bbe6750f5e3acab1d30a378a2b2a29d4f519825" upstream="refs/heads/factory-brya-15231.B-merge-pkvm-ia-5.19" dest-branch="refs/heads/factory-brya-15231.B-merge-pkvm-ia-5.19"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.4" revision="1ef983c6c9d4773782e80abb90ba7629ac16c3f6" upstream="refs/heads/factory-brya-15231.B-chromeos-4.4" dest-branch="refs/heads/factory-brya-15231.B-chromeos-4.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.14" revision="6cf6a44af98da7c90302e6bc4d7f8f439228509b" upstream="refs/heads/factory-brya-15231.B-chromeos-4.14" dest-branch="refs/heads/factory-brya-15231.B-chromeos-4.14"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v4.19" revision="c5a0d0c214f5af0a6a67061c298a5489053386e0" upstream="refs/heads/factory-brya-15231.B-chromeos-4.19" dest-branch="refs/heads/factory-brya-15231.B-chromeos-4.19"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.4" revision="10a553823e52d50f986ae1fe7592715e502b2006" upstream="refs/heads/factory-brya-15231.B-chromeos-5.4" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.4"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10" revision="d6468deaea81a7f093dba9fc40fe241d0e88a7ee" upstream="refs/heads/factory-brya-15231.B-chromeos-5.10" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.10"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10-arcvm" revision="2d0123ed9cf6ecce373040230e226e5ea1db01e4" upstream="refs/heads/factory-brya-15231.B-chromeos-5.10-arcvm" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.10-arcvm"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.10-manatee" revision="fd30232c9a3e4eb623d5fa942efe1d57cbc5da53" upstream="refs/heads/factory-brya-15231.B-chromeos-5.10-manatee" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.10-manatee"/>
+<project name="chromiumos/third_party/kernel" path="src/third_party/kernel/v5.15" revision="93939db95a5c67ebf9bd7fba51be7171b3f77035" upstream="refs/heads/factory-brya-15231.B-chromeos-5.15" dest-branch="refs/heads/factory-brya-15231.B-chromeos-5.15"/>
+<project name="chromiumos/third_party/kernel-next" path="src/third_party/kernel/next" revision="46a7c1e64cf1e7c62dba19055b2fdf63defb856c" upstream="refs/heads/chromeos-next" dest-branch="refs/heads/chromeos-next" groups="notdefault,kernel-next">
+<annotation name="branch-mode" value="tot"/>
+</project>
+<project name="chromiumos/third_party/khronos" path="src/third_party/khronos" revision="c9d952582b74f9609bf68e0402856a2fc1e536c0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/labpack" path="src/third_party/labpack/files" revision="f36b22fc7d47837b7a3e33ad843a8c874ba0c0e8" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="labtools"/>
+<project name="chromiumos/third_party/lexmark-fax-pnh" path="src/third_party/lexmark-fax-pnh" revision="38526cc0edb7544744aed004a1d2e9e00aa7fa7c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libcamera" path="src/third_party/libcamera" revision="72b6c710d448d5a1ff9407f9f7c7780660ee556a" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm" revision="b9ca37b3134861048986b75896c0915cbf2e97f9" upstream="refs/heads/factory-brya-15231.B-upstream-main" dest-branch="refs/heads/factory-brya-15231.B-upstream-main"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm-debian" revision="4d213bde7aa0fd6a913c1dfe7b502e9ff046f13c" upstream="refs/heads/factory-brya-15231.B-debian" dest-branch="refs/heads/factory-brya-15231.B-debian" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm-debian-bullseye" revision="a8bded5e7b58524406eb210d8683b112ee916ad2" upstream="refs/heads/factory-brya-15231.B-debian-bullseye" dest-branch="refs/heads/factory-brya-15231.B-debian-bullseye" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/libdrm" path="src/third_party/libdrm-debian-buster" revision="bd1f01af8c447f8067ae57b34956fd34f84000ec" upstream="refs/heads/factory-brya-15231.B-debian-buster" dest-branch="refs/heads/factory-brya-15231.B-debian-buster" groups="notdefault,crostini"/>
+<project name="chromiumos/third_party/libiio" path="src/third_party/libiio" revision="213eca340c157b96232242da15539e12efb2d5c9" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libmbim" path="src/third_party/libmbim" revision="e734c940123e50f8b77b900c7fcf7e1dad95f689" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libqmi" path="src/third_party/libqmi" revision="37fd6cd251bfb2b3a657b618f6e3f8bedd2a6271" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libqrtr" path="src/third_party/libqrtr" revision="ba87335b33afcc0c1e0860ed41d0a98abc804184" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libqrtr-glib" path="src/third_party/libqrtr-glib" revision="129e97b215c767740db2f054745eae499c78185b" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libsigrok" path="src/third_party/libsigrok" revision="199fe31115c76231746f5953271795d58679561c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libsigrok-cli" path="src/third_party/sigrok-cli" revision="c9edfa218e5a5972531b6f4a3ece8d33a44ae1b5" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libsigrokdecode" path="src/third_party/libsigrokdecode" revision="3279c2825684c7009775b731d0a9e37815778282" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libtextclassifier" path="src/third_party/libtextclassifier" revision="01652c17e116baa8ebd7083e8cbc3dede513ac9e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/libv4lplugins" path="src/third_party/libv4lplugins" revision="17e182085b6871f8ab84c3e064ce6e37e3dcbfd4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/linux-firmware" path="src/third_party/linux-firmware" revision="962df1d5b3402d276d7fe001a487fc78a0747f31" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/logitech-updater" path="src/third_party/logitech-updater" revision="c67ff350528863dc40afef97808bf4bbcfcab4cf" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/marvell" path="src/third_party/marvell" revision="a1da785c038730d7d900415945688f6fb76175f4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa" revision="7753e80219c7afa932f7f7466e682a89a0562607" upstream="refs/heads/factory-brya-15231.B-upstream-main" dest-branch="refs/heads/factory-brya-15231.B-upstream-main"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-amd" revision="3f2f2f3bb8dd4395be2ee7b3d9f755f1479efcea" upstream="refs/heads/factory-brya-15231.B-chromeos-amd" dest-branch="refs/heads/factory-brya-15231.B-chromeos-amd"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-arcvm" revision="e3743d96c9bd047f31c002b65029e72ea461f5e7" upstream="refs/heads/factory-brya-15231.B-chromeos-arcvm" dest-branch="refs/heads/factory-brya-15231.B-chromeos-arcvm"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-debian" revision="c36b89b82bcd270e1f9ee7d0824c9e265a39e95b" upstream="refs/heads/factory-brya-15231.B-debian" dest-branch="refs/heads/factory-brya-15231.B-debian"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-debian-bullseye" revision="73e5b58cca35336edd19c6a6907af26e7ddcd17f" upstream="refs/heads/factory-brya-15231.B-debian-bullseye" dest-branch="refs/heads/factory-brya-15231.B-debian-bullseye"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-debian-buster" revision="08f0c29ee9fcb6bd7d81faa90c1c981e09a84d76" upstream="refs/heads/factory-brya-15231.B-debian-buster" dest-branch="refs/heads/factory-brya-15231.B-debian-buster"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-freedreno" revision="bcc7c0faca6b03e59f4b7bf192772e1a0fc62a46" upstream="refs/heads/factory-brya-15231.B-chromeos-freedreno" dest-branch="refs/heads/factory-brya-15231.B-chromeos-freedreno"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-img" revision="2e7833ad916c493969d00871cdf56db4407b80eb" upstream="refs/heads/factory-brya-15231.B-mesa-19.0" dest-branch="refs/heads/factory-brya-15231.B-mesa-19.0"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-iris" revision="83a247b0d6abedd345c2472f89a50c8eb68c3d51" upstream="refs/heads/factory-brya-15231.B-chromeos-iris" dest-branch="refs/heads/factory-brya-15231.B-chromeos-iris"/>
+<project name="chromiumos/third_party/mesa" path="src/third_party/mesa-reven" revision="b45a1e8a3f2cf39d6fdd8de8585ad44573d78205" upstream="refs/heads/factory-brya-15231.B-chromeos-reven" dest-branch="refs/heads/factory-brya-15231.B-chromeos-reven"/>
+<project name="chromiumos/third_party/mimo-updater" path="src/third_party/mimo-updater" revision="fb448bbd2986c743f3c37dbc784ae972e24b1a23" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/mmc-utils" path="src/third_party/mmc-utils" revision="7be960e2b84b5dfcbec44d3b722fb02d16b9eaf1" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/modemmanager-next" path="src/third_party/modemmanager-next" revision="ec5ef5bc5d183e8e08ee37e05bcd88d8acac1ae9" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/novatek-tcon-fw-update-tool" path="src/third_party/novatek-tcon-fw-update-tool" revision="a78b7b0ba128471af835e44dc97698d39fd89bbf" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/optofidelity_TPPT" path="src/third_party/optofidelity_TPPT" revision="456c49e672339bc42410d80c57f250e1846eae50" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_TPPT_analysis" path="src/third_party/optofidelity_TPPT_analysis" revision="5b9bb3cb07261b868f681584fbc448a7ea76559d" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_chrome_touch_client" path="src/third_party/optofidelity_chrome_touch_client" revision="48c85a0c1f2b81a7c831f5e76d4da162b920b3f1" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_chromeos_touch_sender" path="src/third_party/optofidelity_chromeos_touch_sender" revision="b8db0f7792e2dc8c31a3371051492380f4861a9e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/optofidelity_protocols" path="src/third_party/optofidelity_protocols" revision="d525e89d54be818850b559392a4630c4df949b34" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="notdefault,touch-firmware-tests"/>
+<project name="chromiumos/third_party/poly-updater" path="src/third_party/poly-updater" revision="87ad2edeea039892515f68c948bc2b8f94999553" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/portage_tool" path="src/third_party/portage_tool" revision="0df08e1c78c6819d1035f2a838e828c61bb1a2d3" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/pyelftools" path="chromite/third_party/pyelftools" revision="6fec9f599bef566fe8f6f6ca6c2102508b664792" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen,firmware,buildtools"/>
+<project name="chromiumos/third_party/qemu" path="src/third_party/qemu" revision="fdd76fecdde1ad444ff4deb7f1c4f7e4a1ef97d6" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/rootdev" path="src/third_party/rootdev" revision="7082cbf0ae51eb1044fe1a0749245e97e4fcfc89" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/rust-vmm/vhost" path="src/third_party/rust-vmm/vhost" revision="7c95b4a2c1e378f7328d8bc0510bbb6998f54581" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/third_party/rust_crates" path="src/third_party/rust_crates" revision="b16816a4e9067a2dd384112aa739a4513201eca7">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="chromiumos/third_party/seabios" path="src/third_party/seabios" revision="27b56c6e94fe37e9308392fefd25ba641d8be496" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/shellcheck" path="src/third_party/shellcheck" revision="63336aa5fba2ff736773fe91f3c7af6710601a73" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/sis-updater" path="src/third_party/sis-updater" revision="0e41acf19950b8c60d1e0c46ff7b64a24c51dea1" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/sound-open-firmware" path="src/third_party/sound-open-firmware" revision="35691bd4813b901c78ab938a4ec8bcc7fcb7f35f" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/svunit" path="src/third_party/svunit" revision="76ffd92958212a8e427a8eb6d24956df6ec19dbe" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/sysbios" path="src/third_party/sysbios" revision="33e1db34b8162de72a5e9bbbc44e6bce38978396" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware"/>
+<project name="chromiumos/third_party/systemd" path="src/third_party/systemd" revision="58d3fbc2d946d741887b2300d4c70dbe9cddcc7c" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/tlsdate" path="src/third_party/tlsdate" revision="cf13bc4fd99a3ef6d696307649299ac9badfb7e2" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/toolchain-utils" path="src/third_party/toolchain-utils" revision="da86b3e9aec025cfb008d0e39361d1b54278b928" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="minilayout,paygen"/>
+<project name="chromiumos/third_party/tpm2" path="src/third_party/tpm2" revision="2de0a64491451f72c7ffe5eb92301f4da509d0ad" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware,crosvm"/>
+<project name="chromiumos/third_party/trousers" path="src/third_party/trousers" revision="0ae53566c87c2d02476fe0e22b2862abbd42da15" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/u-boot" path="src/third_party/u-boot/files" revision="2c933c4ed374e7f16ae351bd7a6880c20db41e85" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/upstart" path="src/third_party/upstart" revision="0642575392d27a16a55260cc7edcae4da3e84fd0" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/virglrenderer" path="src/third_party/virglrenderer" revision="dc5060c0105410b7b3355063c0e0aade5b3ec6a2" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="crosvm"/>
+<project name="chromiumos/third_party/virtual-usb-printer" path="src/third_party/virtual-usb-printer" revision="57191328fc16d7e1d18f1cb2d368a24270ef842e" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/webrtc-apm" path="src/third_party/webrtc-apm" revision="28e676db71081305e336a7014500be64a5960517" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B"/>
+<project name="chromiumos/third_party/zephyr" path="src/third_party/zephyr/main" revision="5039a0a47daff30150b42c76a9f2ae67f7918d78" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/cmsis" path="src/third_party/zephyr/cmsis" revision="c399a99704a564b9999825703b580fd77417a272" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/hal_stm32" path="src/third_party/zephyr/hal_stm32" revision="3605f065a846d97d97cde45544ddcdb641699484" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware,zephyr"/>
+<project name="chromiumos/third_party/zephyr/nanopb" path="src/third_party/zephyr/nanopb" revision="0cdcea9140d23ce6f739850f93dcf3a2f4f6e4d4" upstream="refs/heads/factory-brya-15231.B" dest-branch="refs/heads/factory-brya-15231.B" groups="firmware,zephyr"/>
+<project name="external/git.kernel.org/fs/xfs/xfstests-dev" path="src/third_party/xfstests" revision="a75c5f50584e03ca7862ad51f48efd2d524d1dc5"/>
+<project name="external/github.com/include-what-you-use/include-what-you-use" path="src/third_party/include-what-you-use" revision="6d416d5f90755dd76d55c0f33f9ac0de6dd27b5f"/>
+<project name="external/github.com/llvm/llvm-project" path="src/third_party/llvm-project" revision="ad980b570217b6906e08c7cfbc67f5ee0ec35714" groups="notdefault"/>
+<project name="external/github.com/memfault/memfault-firmware-sdk" path="src/third_party/memfault/memfault-firmware-sdk" remote="chromium" revision="315d643ad85c265aef41ef6120d5438690079e07" groups="firmware"/>
+<project name="external/gitlab.com/libeigen/eigen" path="src/third_party/eigen3" revision="4be6a458acc129b10faf88aeb2fc32f0444eefb1" groups="firmware"/>
+<project name="external/pigweed/pigweed/pigweed" path="src/third_party/pigweed" revision="f1680c2f39968f03c28de119a247e92d9b4abae3"/>
+<project name="infra/luci/client-py" path="chromite/third_party/swarming.client" remote="chromium" revision="34b20305c7a69eb89e1abd5e2a94708db999f0a9" groups="buildtools,chromeos-admin,firmware,labtools,minilayout,paygen"/>
+<project name="linux-syscall-support" path="src/third_party/breakpad/src/third_party/lss" revision="e1e7b0ad8ee99a875b272c8e33e308472e897660"/>
+<project name="platform/external/bsdiff" path="src/aosp/external/bsdiff" remote="aosp" revision="60e2a9b62a69784088406b31d711c3c74e79a866" groups="paygen"/>
+<project name="platform/external/marisa-trie" path="src/aosp/external/marisa-trie" remote="aosp" revision="c90fe3d1e4f69b3aebd24764868797e76f12dba4">
+<annotation name="branch-mode" value="pin"/>
+</project>
+<project name="platform/external/perfetto" path="src/aosp/external/perfetto" remote="aosp" revision="63f50e3ed70a0365fac58d4d1dc8c2542c3beef1" groups="paygen,notdefault"/>
+<project name="platform/external/puffin" path="src/aosp/external/puffin" remote="aosp" revision="9932c5ede55e8a273ea21c5505a5d7ee141125e6" groups="paygen"/>
+<project name="platform/system/keymaster" path="src/aosp/system/keymaster" remote="aosp" revision="49dfc58d6c4c66f5d0b0d06f0161da4e602a1293"/>
+<repo-hooks in-project="chromiumos/repohooks" enabled-list="pre-upload"/>
+</manifest>
